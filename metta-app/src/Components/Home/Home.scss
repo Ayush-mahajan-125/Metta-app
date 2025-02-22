@@ -29,7 +29,6 @@
         background-size: cover;
         animation: animatedBackground 60s linear infinite alternate;
         padding: 0px 25px;
-
     }
 
     @media (max-width: 768px) {
@@ -460,7 +459,9 @@ textarea {
         background: #00000070;
     }
 }
-
+.modal-content .form-container form{
+    max-width:100%;
+}
 // /Brochure form and contact form ---------------------------------------------
 
 // Faq section
@@ -669,6 +670,7 @@ textarea {
     display: flex;
     align-items: center;
     overflow: hidden;
+    z-index: 999;
 
     &::before {
         content: '';
@@ -681,6 +683,7 @@ textarea {
         animation: white-liine 2s infinite linear;
     }
 }
+
 .msm-whatsapp-icon {
     margin-right: 6px;
     font-size: 30px;
@@ -695,9 +698,61 @@ textarea {
         left: 100%;
     }
 }
+
 // /whatsapp connect btn ----------------------------------------------------------------------------
 
-.msm-call-to-action-section{
+.msm-call-to-action-section {
     background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
     padding: 8rem 16px;
 }
+
+// EnrollmentPage
+
+.msm-enrollment-page-block {
+    position: relative;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 178px 540px rgb(0 0 0 / 72%);
+    padding: 12rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// /EnrollmentPage ----------------------------------------------------------------------------
+
+// EnrollmentForm
+
+.msm-enroll-form-container {
+    background: #0000000f;
+    backdrop-filter: blur(15px);
+    padding: 35px;
+    max-width: 100%;
+    border-radius: 10px;
+    border-bottom: 3px solid white;
+
+    .msm-success-message {
+        color: green;
+        background-color: #d4edda;
+        border: 1px solid #c3e6cb;
+        padding: 6px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+.msm-container-block {
+    padding: 5rem 16px;
+}
+
+.msm-enroll-content-section-block{
+    padding: 8rem 16px;
+
+    .image-enroll{
+        width: 80%;
+    }
+}
+// /EnrollmentForm ----------------------------------------------------------------------------

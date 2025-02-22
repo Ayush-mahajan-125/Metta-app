@@ -59,7 +59,7 @@ import Testimonial from './Components/Testimonial/Testimonial';
 import Error from './Components/Error/Error';
 import ScrollToTop from './ScrollToTop';
 import RefundPolicy from './Components/RefundPolicy';
-
+import EnrollmentPage from './Components/Home/EnrollmentPage';
 import './App.scss';
 
 const LanguageSelector = () => {
@@ -80,9 +80,7 @@ const App = () => {
       <Router>
         <div className="app">
           <div className="wrapper">
-            
             <Navbar />
-           
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about-us" element={<About />} />
@@ -90,6 +88,7 @@ const App = () => {
               <Route path="/testimonial" element={<Testimonial />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/refund-policy" element={<RefundPolicy />} />
+              <Route path="/enrollment-form" element={<EnrollmentPage />} />
               <Route path="*" element={<Error />} />
             </Routes>
             <ScrollToTop />

@@ -70,7 +70,7 @@ const HeroSection = () => {
 
               {/* button */}
               <div className="lw-msm-button">
-                <a class="btn-primary" href="#">Get Started</a>
+                <a class="btn-primary" href="/enrollment-form">Enroll Now</a>
               </div>
               {/* /button */}
             </div>

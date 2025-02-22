@@ -36,7 +36,7 @@ const Navbar = () => {
 
             {/* Contact us */}
             <li className="nav-item ">
-              <NavLink className="nav-link" to="/contact-us">{translate('About us')}</NavLink>
+              <NavLink className="nav-link" to="/contact-us">{translate('Contact us')}</NavLink>
             </li>
             {/* /Contact us */}
 
