@@ -41,10 +41,10 @@ const Accordion = () => {
     };
 
     return (
-        <div className="container msm-faq-section">
+        <div className="container msm-faq-section" id="faq">
             <div className="text-center mb-5">
                 <h1 class="display-6 fw-bold text-white">Discover the Beauty of Every Moment</h1>
-                <p class=" text-light fw-normal">Explore a gallery filled with energy, creativity, and breathtaking compositions.</p>
+                <p class=" text-secondary fw-normal">Explore a gallery filled with energy, creativity, and breathtaking compositions.</p>
             </div>
             <div className="wrapper">
                 {faqs.map((faq, index) => (

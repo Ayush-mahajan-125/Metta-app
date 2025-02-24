@@ -51,10 +51,10 @@ const TestimonialSlider = () => {
     // testimonial
     <div className="msm-testimonial-slider-block">
       <div className="container">
-        <div class="wrap-content pb-4">
-          <h1 class="display-6 fw-bold text-white">Discover the Beauty of Every Moment</h1>
-          <p class=" text-light fw-normal">Explore a gallery filled with energy, creativity, and breathtaking compositions.</p>
-
+        <div class="wrap-content pb-4 text-center">
+          <h1 class="display-6 fw-bold text-white">Learn. Trade. Succeed.</h1>
+          <h5 className="fw-bold text-white ">Stories That Inspire</h5>
+          <p class=" text-secondary fw-normal mb-2">Our students’ testimonials highlight their journeys from complete beginners to confident <br /> traders, proving that with the right guidance, success is within reach.</p>
         </div>
         <div className="testimonial-slider">
           <Swiper

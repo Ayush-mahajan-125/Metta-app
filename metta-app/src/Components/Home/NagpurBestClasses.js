@@ -51,7 +51,7 @@ const NagpurBestClasses = () => {
             </div>
 
             {/* Learning Highlights */}
-            <div className="container pt-5 mt-5">
+            <div className="container pt-5 mt-5" id="learning-highlights">
                 <h1 className="fs-3 fw-bold text-warning text-center">Learning Highlights</h1>
                 <div className="row msm-top-spacing">
                     {/*  */}

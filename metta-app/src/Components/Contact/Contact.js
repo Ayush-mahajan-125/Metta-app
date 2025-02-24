@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faStopwatch } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
@@ -37,7 +38,7 @@ const ContactForm = () => {
       return;
     }
 
-    const whatsappNumber = "917030126683"; // Replace with your actual WhatsApp number in international format
+    const whatsappNumber = "919834888821"; // Replace with your actual WhatsApp number in international format
     const whatsappMessage = `*Contact Form Submission*\n\nFull Name: ${FullName}\nEmail: ${Email}\nPhone: ${Phone}\nSubject: ${Subject}\nMessage: ${Message}\nAddress: ${Address}\nCity: ${City}`;
 
     const encodedMessage = encodeURIComponent(whatsappMessage);
@@ -62,16 +63,16 @@ const ContactForm = () => {
             {/* social icons */}
             <ul class="social-menu mb-5">
               <li class="social-btn facebook" tooltip="Facebook">
-                <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
+                <a href="https://m.facebook.com/sharemarketmetta/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
               </li>
               <li class="social-btn instagram" tooltip="Instagram">
-                <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="http://instagram.com/mettasharemarket" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
               </li>
               <li class="social-btn whatsapp" tooltip="WhatsApp">
-                <a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                <a href="https://chat.whatsapp.com/FrE5T06HAZjEEqGFLMbQRA" target="_blank"><FontAwesomeIcon icon={faWhatsapp} /></a>
               </li>
               <li class="social-btn telegram" tooltip="Telegram">
-                <a href="#"><FontAwesomeIcon icon={faTelegram} /></a>
+                <a href="https://t.me/joinchat/HrYYVxCqEvLAN3hc" target="_blank"><FontAwesomeIcon icon={faTelegram} /></a>
               </li>
             </ul>
             {/* /social icons */}
@@ -81,6 +82,13 @@ const ContactForm = () => {
             <h6 class="nav-item text-light fw-normal mb-5 msm-font-size"><span><FontAwesomeIcon icon={faEnvelope} className='pe-2 ' /></span>
               swapnilkhare3@gmail.com</h6>
             {/* /email address */}
+
+            {/* time */}
+            <h5 class="text-white">Our Timing</h5>
+            <h6 class="nav-item text-light fw-normal mb-5 msm-font-size"><span><FontAwesomeIcon icon={faStopwatch} className='pe-2 ' /></span>
+            Mon - Sat : 07:00 AM - 10:00 PM <br></br>
+            Sun : Closed</h6>
+            {/* /time */}
 
             {/* Call Us */}
             <h5 class="text-white">Call Us</h5>
@@ -98,11 +106,9 @@ const ContactForm = () => {
             {/* /Address */}
 
             <div className="row">
-              <div className="col-12"> <a href="#" target="_blank" className="btn btn-success mb-3">Give me feedback </a></div>
-              <div className="col-12"><a href="#" target="_blank" className="btn btn-danger mb-5">Google map Location </a></div>
+              <div className="col-12"> <a href="https://g.page/r/CV9yiife7Cz9EB0/review" target="_blank" className="btn btn-success mb-3">Give me feedback </a></div>
+              <div className="col-12"><a href="https://goo.gl/maps/hnmrbQDteCWyCzPb8" target="_blank" className="btn btn-danger mb-5">Google map Location </a></div>
             </div>
-
-
           </div>
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
 

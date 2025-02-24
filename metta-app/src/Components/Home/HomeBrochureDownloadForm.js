@@ -13,7 +13,7 @@ import BrochureDownloadForm from './BrochureDownloadForm';
 const HomeBrochureDownloadForm = () => {
     return (
 
-        <section className="msm-mt-5 msm-contact-page-block" id="faq">
+        <section className="msm-mt-5 msm-contact-page-block" id="download-brochure">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">

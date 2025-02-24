@@ -17,7 +17,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 const About = () => {
 
   const { t } = useTranslation();
-  
+
   return (
     <>
       {/* hero About bg block */}
@@ -157,17 +157,17 @@ const About = () => {
 
               {/* social icons */}
               <ul className="social-menu">
-                <li className="social-btn facebook" tooltip="Facebook">
-                  <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
+                <li class="social-btn facebook" tooltip="Facebook">
+                  <a href="https://m.facebook.com/sharemarketmetta/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
                 </li>
-                <li className="social-btn instagram" tooltip="Instagram">
-                  <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+                <li class="social-btn instagram" tooltip="Instagram">
+                  <a href="http://instagram.com/mettasharemarket" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
                 </li>
-                <li className="social-btn whatsapp" tooltip="WhatsApp">
-                  <a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                <li class="social-btn whatsapp" tooltip="WhatsApp">
+                  <a href="https://chat.whatsapp.com/FrE5T06HAZjEEqGFLMbQRA" target="_blank"><FontAwesomeIcon icon={faWhatsapp} /></a>
                 </li>
-                <li className="social-btn telegram" tooltip="Telegram">
-                  <a href="#"><FontAwesomeIcon icon={faTelegram} /></a>
+                <li class="social-btn telegram" tooltip="Telegram">
+                  <a href="https://t.me/joinchat/HrYYVxCqEvLAN3hc" target="_blank"><FontAwesomeIcon icon={faTelegram} /></a>
                 </li>
               </ul>
               {/* /social icons */}

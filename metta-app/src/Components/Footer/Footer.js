@@ -34,16 +34,39 @@ const Footer = () => {
                 <li className="nav-item mb-2"><a href="/gallery" className="nav-link p-0 text-secondary">Gallery</a></li>
               </ul>
               <ul className="nav flex-column">
-                <li className="nav-item mb-2"><a href="/#feature" className="nav-link p-0 text-secondary">Features</a></li>
-                <li className="nav-item mb-2"><a href="/#faq" className="nav-link p-0 text-secondary">FAQ</a></li>
+
+                {/* Learning Highlights */}
+                <li className="nav-item mb-2">
+                  <Link
+                    to="/"
+                    className="nav-link p-0 text-secondary nav-item"
+                    onClick={() => setTimeout(() => window.location.hash = "learning-highlights", 100)}
+                  >
+                    Learning Highlights
+                  </Link>
+                </li>
+                {/* /Learning Highlights */}
+
+                {/* FAQ */}
+                <li className="nav-item mb-2">
+                  <Link
+                    to="/"
+                    className="nav-link p-0 text-secondary nav-item"
+                    onClick={() => setTimeout(() => window.location.hash = "faq", 100)}
+                  >
+                    FAQ
+                  </Link>
+                </li>
+                {/* /FAQ */}
+
                 <li className="nav-item mb-2"><a href="/refund-policy" className="nav-link p-0 text-secondary">Refund Policy</a></li>
 
                 {/* Download Brochure */}
                 <li className="nav-item mb-2">
                   <Link
                     to="/"
-                    className="nav-link p-0 text-secondary nav-item mb-2"
-                    onClick={() => setTimeout(() => window.location.hash = "faq", 100)}
+                    className="nav-link p-0 text-secondary nav-item"
+                    onClick={() => setTimeout(() => window.location.hash = "download-brochure", 100)}
                   >
                     Download Brochure
                   </Link>

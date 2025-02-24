@@ -41,7 +41,7 @@ const HomeWhyChoose = () => {
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 msm-content">
                         <h1 class="display-6 fw-bold text-green">Who We Are & What We Do</h1>
-                        <p class="text-light fw-normal">At MeTta Financial Investment & Trading Training Institute, we are committed to sparking interest in the Indian stock market. We help individuals, especially the youth, explore its possibilities and build a strong foundation in trading. Our goal is to provide the best stock market training in Nagpur, always striving to deliver excellence in financial education.
+                        <p class="text-secondary fw-normal">At MeTta Financial Investment & Trading Training Institute, we are committed to sparking interest in the Indian stock market. We help individuals, especially the youth, explore its possibilities and build a strong foundation in trading. Our goal is to provide the best stock market training in Nagpur, always striving to deliver excellence in financial education.
                         </p>
                     </div>
 

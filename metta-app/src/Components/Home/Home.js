@@ -99,7 +99,7 @@ const Home = () => {
       {/* /call to action */}
 
       {/* whatsapp */}
-      <a className="msm-whatsapp-btn" href="#" target="_blank"> <FontAwesomeIcon icon={faWhatsapp} className="msm-whatsapp-icon" />Connect Now!</a>
+      <a className="msm-whatsapp-btn" href="https://chat.whatsapp.com/FrE5T06HAZjEEqGFLMbQRA" target="_blank"> <FontAwesomeIcon icon={faWhatsapp} className="msm-whatsapp-icon" />Connect Now!</a>
       {/* /whatsapp */}
     </div>
   );
