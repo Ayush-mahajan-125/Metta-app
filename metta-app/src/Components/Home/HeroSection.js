@@ -57,8 +57,7 @@ const HeroSection = () => {
                 Welcome to
               </p>
               <h1 className="display-5 fw-bold mb-3 text-white">
-                <span className="msm-text-success">Me</span>
-                <span className="msm-text-danger">Tta</span> Financial Investment & Trading Training Institute
+               Metta Financial Investment & Trading Training Institute
               </h1>
               {/* /heading */}
 
