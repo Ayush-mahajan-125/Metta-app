@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import './Modules.scss';
-import { Collapse } from 'react-bootstrap';
-
+import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 const Configurations = () => {
-    const [open, setOpen] = useState(null);
+    // const [open, setOpen] = useState(null);
 
-    const handleToggle = (id) => {
-        setOpen(open === id ? null : id);
-    };
+    // const handleToggle = (id) => {
+    //     setOpen(open === id ? null : id);
+    // };
 
     return (
-        <div className="msm-mt-5 container">
+        <div className="msm-mt-5 container pb-5 msm-module-page-block">
 
             {/* heading */}
             <div className="text-center py-5">
@@ -23,84 +22,117 @@ const Configurations = () => {
             </div>
             {/* /heading */}
 
-            <div className="config-item ">
-                <button
-                    className="btn-toggle-collapse"
-                    onClick={() => handleToggle(1)}
-                    aria-controls="config-collapse-text-1"
-                    aria-expanded={open === 1}
-                >
-                    Module 1
-                </button>
-                <Collapse in={open === 1}>
-                    <div id="config-collapse-text-1" className="collapse-content mb-4">
-                        <div className="custom-card">
-                            <div className="custom-card-body">
-                            Fundamental Analysis 
-                            </div>
+            <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Module 1 - Technical Analysis
+            </button>
+
+
+
+            <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                Module 2 - Fundamental Analysis
+            </button>
+
+            <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                Module 3 -   Future and Option
+            </button>
+
+            <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                Module 4 - Currency market and Commodity market
+            </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel"> Basic To Advanced Technical Analysis</h1>
+                            <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                        </div>
+                        <div class="modal-body text-light">
+
+                            <h4 className='mb-4 mt-3 text-green'>Core Concepts</h4>
+                            <p>1. Introduction to Dow theory</p>
+                            <p>2. Introduction to Elliott wave theory</p>
+                            <p>3. Candlestick Formation</p>
+                            <p>4. Candlestick Pattern</p>
+                            <p>5. Basic Price Action </p>
+                            <p>6. Advanced Price Action</p>
+                            <p>7. How to Draw Trend line</p>
+                            <p>8. How to use Volume  </p>
+                            <p>9. Types of Indicator</p>
+                            <p>10. Strategy</p>
+
+                            <h4 className='my-4 text-green'>Advanced Techniques</h4>
+                            <p>1. Moving Averages</p>
+                            <p>2. Relative Strength Index (RSI)</p>
+                            <p>3. MACD (Moving Average Convergence Divergence) </p>
+                            <p>4. Bollinger Bands </p>
+                            <p>5. Fibonacci Retracement</p>
+
+                            <h5 className='my-4 text-green'>Practical Applications</h5>
+                            <p>1. Developing Trading Strategies </p>
+                            <p>2. Identifying Entry and Exit Points</p>
+                            <p>3. Managing Risk and Profits</p>
                         </div>
                     </div>
-                </Collapse>
+                </div>
             </div>
 
-            <div className="config-item">
-                <button
-                    className="btn-toggle-collapse"
-                    onClick={() => handleToggle(2)}
-                    aria-controls="config-collapse-text-2"
-                    aria-expanded={open === 2}
-                >
-                    Module 2
-                </button>
-                <Collapse in={open === 2}>
-                    <div id="config-collapse-text-2" className="collapse-content mb-4">
-                        <div className="custom-card">
-                            <div className="custom-card-body">
-                            Technical Analysis
-                            </div>
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Fundamental Analysis & Long Term Investment</h1>
+                            <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                        </div>
+                        <div class="modal-body text-light">
+                            <p>1. Company Analysis</p>
+                            <p>2. Industry Analysis</p>
+                            <p>3. Economic Analysis</p>
+                            <p>4. Valuation Techniques </p>
                         </div>
                     </div>
-                </Collapse>
+                </div>
             </div>
 
-            <div className="config-item">
-                <button
-                    className="btn-toggle-collapse"
-                    onClick={() => handleToggle(3)}
-                    aria-controls="config-collapse-text-3"
-                    aria-expanded={open === 3}
-                >
-                     Module 3
-                </button>
-                <Collapse in={open === 3}>
-                    <div id="config-collapse-text-3" className="collapse-content mb-4">
-                        <div className="custom-card">
-                            <div className="custom-card-body">
-                            Future and Option
-                            </div>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Derivative And Future & Option’s</h1>
+                            <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                        </div>
+                        <div class="modal-body text-light">
+                            <p>1. When to Buy Call Option</p>
+                            <p>2. When to Buy Put Option </p>
+                            <p>3. Option Greeks (Delta, Gamma, Vega, Theta, Rho)</p>
+                            <p>4. How to Select Strike Price</p>
+                            <p>5. Types of Strike Prices</p>
+                            <p>6. What is an Option Chain</p>
+                            <p>7. What is India VIX </p>
+                            <p>8. What is a Future Contract</p>
+                            <p>9. Strategy</p>
+                            <p>10. How to Use Hedging Strategy</p>
+                            <p>11. Build Strategy</p>
                         </div>
                     </div>
-                </Collapse>
+                </div>
             </div>
 
-            <div className="config-item">
-                <button
-                    className="btn-toggle-collapse"
-                    onClick={() => handleToggle(4)}
-                    aria-controls="config-collapse-text-4"
-                    aria-expanded={open === 4}
-                >
-                    Module 4
-                </button>
-                <Collapse in={open === 4}>
-                    <div id="config-collapse-text-4" className="collapse-content mb-4">
-                        <div className="custom-card">
-                            <div className="custom-card-body">
-                            Currency market and Commodity market
-                            </div>
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Module 4</h1>
+                            <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                        </div>
+                        <div class="modal-body text-light">
+                            <p>1. Currency Market</p>
+                            <p>2. Commodity Market</p>
+                            <p>3. Crypto Currency</p>
+                            <p>4. Forex Market</p>
                         </div>
                     </div>
-                </Collapse>
+                </div>
             </div>
         </div>
     );
