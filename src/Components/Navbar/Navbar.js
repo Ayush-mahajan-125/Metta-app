@@ -28,6 +28,14 @@ const Navbar = () => {
             </li>
             {/* /Home */}
 
+            {/* Course Modules */}
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/course-modules" aria-current="page">
+                Course Modules
+              </NavLink>
+            </li>
+            {/* /Course Modules */}
+
             {/* About Us */}
             <li className="nav-item">
               <NavLink className="nav-link" to="/about-us">{translate('About us')}</NavLink>

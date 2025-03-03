@@ -57,6 +57,7 @@ import Contact from './Components/Contact/Contact';
 import Gallery from './Components/Gallery/Gallery';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Error from './Components/Error/Error';
+import Modules from './Components/Modules/Modules';
 import ScrollToTop from './ScrollToTop';
 import RefundPolicy from './Components/RefundPolicy';
 import EnrollmentPage from './Components/Home/EnrollmentPage';
@@ -83,6 +84,7 @@ const App = () => {
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/course-modules" element={<Modules  />} />
               <Route path="/about-us" element={<About />} />
               <Route path="/contact-us" element={<Contact />} />
               <Route path="/testimonial" element={<Testimonial />} />
