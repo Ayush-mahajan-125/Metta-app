@@ -18,21 +18,21 @@ const NagpurBestClasses = () => {
 
                         {/* heading */}
                         <p className="text-secondary">#MeTta #MeTtaNagpur #BestShareMarketTraining  #MeTtaFinancial </p>
-                        <h1 class="display-6 fw-bold text-white">Master the Stock Market with the Best Training in <span className="msm-highlight text-warning">Nagpur</span></h1>
-                        <p class="text-light">Looking to gain expertise in the stock market? You’re in the right place! MeTta Financial Investment & Trading Training Institute is a trusted name in stock market education, offering expert-led online and offline training to help individuals navigate the complexities of trading and investing.
+                        <h1 class="display-6 fw-bold">Master the Stock Market with the Best Training in <span className="msm-highlight">Nagpur</span></h1>
+                        <p class="text-dark">Looking to gain expertise in the stock market? You’re in the right place! MeTta Financial Investment & Trading Training Institute is a trusted name in stock market education, offering expert-led online and offline training to help individuals navigate the complexities of trading and investing.
                             <br /> <br />
                             Every year, many individuals step into the stock market, but only a few achieve success. The difference? The right knowledge, skills, and strategy. That’s where we come in!
                             <br /><br />
                             At MeTta Financial, we focus on:
                         </p>
 
-                        <li className="text-light fw-normal my-2">✅ Stock Market Fundamentals & Strategies</li>
+                        <li className="text-dark fw-normal my-2">✅ Stock Market Fundamentals & Strategies</li>
 
-                        <li className="text-light fw-normal my-2">✅ Risk Management & Smart Investing</li>
-                        <li className="text-light fw-normal my-2">✅ Technical & Fundamental Analysis</li>
-                        <li className="text-light fw-normal my-2">✅ Trading Psychology & Market Trends</li>
+                        <li className="text-dark fw-normal my-2">✅ Risk Management & Smart Investing</li>
+                        <li className="text-dark fw-normal my-2">✅ Technical & Fundamental Analysis</li>
+                        <li className="text-dark fw-normal my-2">✅ Trading Psychology & Market Trends</li>
 
-                        <p className="text-light fw-normal my-4">With a commitment to practical learning and real-world application, we provide personalized guidance to help you make informed trading and investment decisions.
+                        <p className="text-dark fw-normal my-4">With a commitment to practical learning and real-world application, we provide personalized guidance to help you make informed trading and investment decisions.
                             <br /><br />
                             🚀 Start Your Stock Market Journey Today!
                         </p>
@@ -52,7 +52,7 @@ const NagpurBestClasses = () => {
 
             {/* Learning Highlights */}
             <div className="container pt-5 mt-5" id="learning-highlights">
-                <h1 className="fs-3 fw-bold text-warning text-center">Learning Highlights</h1>
+                <h1 className="fs-3 fw-bold text-dark text-center">Learning Highlights</h1>
                 <div className="row msm-top-spacing">
                     {/*  */}
                     <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
@@ -147,7 +147,7 @@ const NagpurBestClasses = () => {
 
             {/* /Benefits */}
             <div className="container pt-5 mt-5">
-                <h1 className="fs-3 fw-bold text-warning text-center">Benefits</h1>
+                <h1 className="fs-3 fw-bold text-dark text-center">Benefits</h1>
                 <div className="row msm-top-spacing justify-content-center">
                     <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
                         <div className="card text-center">

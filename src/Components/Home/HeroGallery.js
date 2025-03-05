@@ -67,8 +67,8 @@ const HeroGallery = () => {
                     </div>
                 </div>
                 <div class="wrap-content">
-                    <h1 class="display-6 fw-bold text-white">Discover the Beauty of Every Moment</h1>
-                    <p class=" text-secondary fw-normal">Explore a gallery filled with energy, creativity, and breathtaking compositions.</p>
+                    <h1 class="display-6 fw-bold text-dark">Discover the Beauty of Every Moment</h1>
+                    <p class=" text-dark fw-normal">Explore a gallery filled with energy, creativity, and breathtaking compositions.</p>
                     <a class="btn-primary" href="/gallery">View Gallery</a>
                 </div>
             </section>

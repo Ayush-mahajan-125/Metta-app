@@ -72,7 +72,7 @@
 // typing animation 
 .msm-quotes {
     // background: linear-gradient(253deg, #1b5183 -45.94%, #061327 87.99%);
-    background: linear-gradient(to bottom, #302b63, #24243e);
+    background: #FCEDE6;
     height: 7rem;
     display: flex;
     align-items: center;
@@ -86,8 +86,7 @@
         font-weight: 800;
         font-size: 45px;
         line-height: 25px;
-        color: #fff200;
-        text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.506);
+        color: #ff0a0a;
 
         @media (max-width: 768px) {
             line-height: 50px;
@@ -102,7 +101,6 @@
     padding: 8rem 16px;
     display: flex;
     flex-direction: column;
-    background-color: #111116;
     justify-content: center;
     position: relative;
     gap: 24px;
@@ -112,10 +110,11 @@
     }
 }
 
-.msm-hero-section-mobile-view p{
+.msm-hero-section-mobile-view p {
     font-size: 20px;
     font-weight: 600;
 }
+
 .wrap-images {
     overflow: hidden;
     display: none;
@@ -131,14 +130,14 @@
         height: 100%;
     }
 
-    &::before {
-        background: linear-gradient(-90deg, rgba(19, 19, 32, 0.00) 6.38%, #131320 100%);
-    }
+    // &::before {
+    //     background: linear-gradient(-90deg, rgb(255 255 255 / 0%) 6.38%, #ffffff 100%);
+    // }
 
-    &::after {
-        right: 0;
-        background: linear-gradient(90deg, rgba(19, 19, 32, 0.00) 6.38%, #131320 100%);
-    }
+    // &::after {
+    //     right: 0;
+    //     background: linear-gradient(90deg, rgba(19, 19, 32, 0) 6.38%, #ffffff 100%);
+    // }
 
     &:hover {
         .row-images {
@@ -157,7 +156,7 @@
     img {
         height: 150px;
         border-radius: 8px;
-        opacity: 0.8;
+        // opacity: 0.8;
 
         &:first-child {
             margin-left: 16px;
@@ -176,26 +175,31 @@
     }
 }
 
+.lw-msm-button-p {
+    margin-top: 30px !important;
+}
+.lw-msm-button{
+    margin-top: 30px;
+}
 .btn-primary {
-    display: flex;
-    padding: 16px 24px;
-    justify-content: center;
-    color: #000000;
-    border-radius: 32px;
+    background: linear-gradient(140.14deg, #ec540e 15.05%, #d6361f 114.99%) padding-box,
+        linear-gradient(142.51deg, #ff9465 8.65%, #af1905 88.82%) border-box;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    text-shadow: 1px 1px 1px #00000040;
+    box-shadow: 8px 8px 20px 0px #45090059;
+    padding: 10px 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
     font-size: 17px;
-    line-height: 130%;
-    font-weight: 600;
-    background-image: linear-gradient(90deg, #00ffc2, #42ff00);
-    background-size: 200% 200%;
-    animation: bg-btn 3s linear alternate infinite;
+    font-weight: 500;
     text-decoration: none;
-    width: fit-content;
 
     &:hover {
-        transform: scale(0.98);
-        box-shadow: 1px 1px #ffffff inset,
-            -1px -1px #ffffff inset;
-        transition: 0.5s ease-in-out;
+        box-shadow: none;
+        opacity: 80%;
     }
 }
 
@@ -210,30 +214,30 @@
     }
 }
 
-@keyframes increase-size {
-    from {
-        transform: scale(1);
-    }
+// @keyframes increase-size {
+//     from {
+//         transform: scale(1);
+//     }
 
-    to {
-        transform: scale(2);
-    }
-}
+//     to {
+//         transform: scale(2);
+//     }
+// }
 
 // btn animation
-@keyframes bg-btn {
-    0% {
-        background-position: 10% 0%;
-    }
+// @keyframes bg-btn {
+//     0% {
+//         background-position: 10% 0%;
+//     }
 
-    50% {
-        background-position: 91% 100%;
-    }
+//     50% {
+//         background-position: 91% 100%;
+//     }
 
-    100% {
-        background-position: 10% 0%;
-    }
-}
+//     100% {
+//         background-position: 10% 0%;
+//     }
+// }
 
 // Media Queries
 @media screen and (min-height: 540px) {
@@ -258,23 +262,23 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .btn-primary {
-        align-self: center;
-        padding-left: 64px;
-        padding-right: 64px;
-    }
+// @media screen and (min-width: 768px) {
+//     .btn-primary {
+//         align-self: center;
+//         padding-left: 64px;
+//         padding-right: 64px;
+//     }
 
-}
+// }
 
-@media (max-width: 768px) {
-    .btn-primary {
-        align-self: center;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: 16px;
-    }
-}
+// @media (max-width: 768px) {
+//     .btn-primary {
+//         align-self: center;
+//         padding-left: 50px;
+//         padding-right: 50px;
+//         font-size: 16px;
+//     }
+// }
 
 @media screen and (min-width: 1024px) {
     .wrap-images {
@@ -463,9 +467,11 @@ textarea {
         background: #00000070;
     }
 }
-.modal-content .form-container form{
-    max-width:100%;
+
+.modal-content .form-container form {
+    max-width: 100%;
 }
+
 // /Brochure form and contact form ---------------------------------------------
 
 // Faq section
@@ -519,13 +525,13 @@ textarea {
 // why choose section 
 .msm-why-choose-section {
     padding: 9rem 16px;
-    background-color: #111116;
+    // background-color: #111116;
 
     .card {
         padding: 40px 25px;
         border-radius: 15px;
-        border: 1px solid #23d366;
-        background-color: #00000036;
+        border: 1px solid #ff0a0a;
+        background-color: #ffffff36;
         text-align: left;
     }
 
@@ -556,24 +562,10 @@ textarea {
 .msm-nagpur-best-classes-section {
     padding: 8rem 16px;
     padding-bottom: 5rem;
-    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    background: #FCEDE6;
 
     .msm-highlight {
-        position: relative;
-        display: inline-block;
-        font-weight: bold;
-        color: #E65100;
-
-        &::after {
-            content: "";
-            position: absolute;
-            left: -5px;
-            right: -5px;
-            top: -5px;
-            bottom: -5px;
-            border-radius: 50%;
-            border: 3px solid #ffa500;
-        }
+        color: #ff0a0a;
     }
 
     li {
@@ -598,7 +590,6 @@ textarea {
             cursor: pointer;
             border-radius: 8px;
             transition: all 0.5s;
-            border: 1px solid #373737;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -624,27 +615,28 @@ textarea {
     .card {
         padding: 2rem 1rem;
         border-radius: 1rem;
-        box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
+        box-shadow: 0px 1rem 1.5rem -0.9rem #6e6e6ee1;
         height: 100%;
         // background-color: #111116;
-        background-image: linear-gradient(1deg, #101010, #1b1b24);
+        background: white;
         transition: transform 0.5s ease-in-out;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 3px solid #ff0a0a !important;
+        border: none;
 
         h6,
         .msm-text-dark {
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             font-weight: 400;
         }
 
         &:hover {
-            background-image: linear-gradient(90deg, #00ffc2, #42ff00);
+            background: #ff0a0a;
             transition: transform 0.5s ease-in-out;
             transform: scale(1.1);
 
             h6,
             .msm-text-dark {
-                color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
                 font-weight: 500;
             }
         }
@@ -752,11 +744,12 @@ textarea {
     padding: 5rem 16px;
 }
 
-.msm-enroll-content-section-block{
+.msm-enroll-content-section-block {
     padding: 8rem 16px;
 
-    .image-enroll{
+    .image-enroll {
         width: 80%;
     }
 }
+
 // /EnrollmentForm ----------------------------------------------------------------------------
