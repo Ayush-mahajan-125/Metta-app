@@ -52,9 +52,9 @@ const TestimonialSlider = () => {
     <div className="msm-testimonial-slider-block">
       <div className="container">
         <div class="wrap-content pb-4 text-center">
-          <h1 class="display-6 fw-bold text-white">Learn. Trade. Succeed.</h1>
-          <h5 className="fw-bold text-white ">Stories That Inspire</h5>
-          <p class=" text-secondary fw-normal mb-2">Our students’ testimonials highlight their journeys from complete beginners to confident <br /> traders, proving that with the right guidance, success is within reach.</p>
+          <h1 class="display-6 fw-bold text-dark">Learn. Trade. Succeed.</h1>
+          <h5 className="fw-bold text-dark ">Stories That Inspire</h5>
+          <p class=" text-dark fw-normal mb-2">Our students’ testimonials highlight their journeys from complete beginners to confident <br /> traders, proving that with the right guidance, success is within reach.</p>
         </div>
         <div className="testimonial-slider">
           <Swiper
@@ -76,7 +76,7 @@ const TestimonialSlider = () => {
                   {/* customer feedback */}
                   <p className="text-secondary">{testimonial.feedback}</p>
                   {/* customer name */}
-                  <h6 className='text-white'>{testimonial.name} </h6>
+                  <h6 className='text-dark'>{testimonial.name} </h6>
                 </div>
               </SwiperSlide>
             ))}

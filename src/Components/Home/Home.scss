@@ -185,7 +185,6 @@
     background: linear-gradient(140.14deg, #ec540e 15.05%, #d6361f 114.99%) padding-box,
         linear-gradient(142.51deg, #ff9465 8.65%, #af1905 88.82%) border-box;
     border-radius: 10px;
-    border: 2px solid transparent;
     text-shadow: 1px 1px 1px #00000040;
     box-shadow: 8px 8px 20px 0px #45090059;
     padding: 10px 30px;
@@ -359,8 +358,9 @@
         .testimonial-card {
             padding: 25px 20px;
             border-radius: 15px;
-            border: 1px solid #b3a4a40d;
-            background-color: #00000036;
+            border: 1px solid #ddd;
+            background-color: #ffffff;
+           
 
             h6 {
                 color: #ffbd00;
@@ -375,7 +375,7 @@
         }
 
         .swiper-pagination-bullet {
-            background: white;
+            background: rgb(0, 0, 0);
         }
     }
 }
@@ -390,7 +390,7 @@
     }
 
     .msm-contact-page-block {
-        background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+        background: #FCEDE6;
     }
 }
 
@@ -653,7 +653,8 @@ textarea {
 
 // whatsapp connect btn
 .msm-whatsapp-btn {
-    padding: 12px 20px;
+    width: 60px;
+    height: 60px;
     border-radius: 58px;
     font-size: 17px;
     text-decoration: none;
@@ -667,6 +668,7 @@ textarea {
     align-items: center;
     overflow: hidden;
     z-index: 999;
+    padding-left: 1rem;
 
     &::before {
         content: '';
@@ -682,7 +684,7 @@ textarea {
 
 .msm-whatsapp-icon {
     margin-right: 6px;
-    font-size: 30px;
+    font-size: 34px;
 }
 
 @keyframes white-liine {
