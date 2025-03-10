@@ -58,6 +58,7 @@ import Gallery from './Components/Gallery/Gallery';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Error from './Components/Error/Error';
 import Modules from './Components/Modules/Modules';
+import Resources from './Components/Resources/Resources';
 import ScrollToTop from './ScrollToTop';
 import RefundPolicy from './Components/RefundPolicy';
 import EnrollmentPage from './Components/Home/EnrollmentPage';
@@ -91,6 +92,7 @@ const App = () => {
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/refund-policy" element={<RefundPolicy />} />
               <Route path="/enrollment-form" element={<EnrollmentPage />} />
+              <Route path="/resources" element={<Resources />} />
               <Route path="*" element={<Error />} />
             </Routes>
             <ScrollToTop />

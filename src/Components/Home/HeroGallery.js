@@ -25,6 +25,11 @@ const HeroGallery = () => {
     return (
         <div className="container">
             <section class="msm-hero">
+            <div class="wrap-content">
+                    <h1 class="display-6 fw-normal text-dark">Discover the Beauty of Every Moment</h1>
+                    <p class=" text-dark fw-normal">Explore a gallery filled with energy, creativity, and breathtaking compositions.</p>
+                    <a class="btn-primary mb-5" href="/gallery">View Gallery</a>
+                </div>
                 <div class="wrap-images">
                     <div class="row-images">
                         <img src={heroGalleryOne} loading="lazy" />
@@ -65,11 +70,6 @@ const HeroGallery = () => {
                         <img src={heroGallerySixteen} loading="lazy" />
                         <img src={heroGalleryseventeen} loading="lazy" />
                     </div>
-                </div>
-                <div class="wrap-content">
-                    <h1 class="display-6 fw-bold text-dark">Discover the Beauty of Every Moment</h1>
-                    <p class=" text-dark fw-normal">Explore a gallery filled with energy, creativity, and breathtaking compositions.</p>
-                    <a class="btn-primary" href="/gallery">View Gallery</a>
                 </div>
             </section>
 

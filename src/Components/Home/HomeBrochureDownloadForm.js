@@ -19,8 +19,8 @@ const HomeBrochureDownloadForm = () => {
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
 
                         {/* heading */}
-                        <h1 class="display-6 fw-bold text-dark">Get Your Brochure</h1>
-                        <p class=" text-dark fw-normal mb-5 ">Submit the form to download the brochure and have our Academic Counselor reach out to you.</p>
+                        <h1 class="display-6 fw-normal text-dark">Get Your Brochure</h1>
+                        <p class=" text-dark mb-5 ">Submit the form to download the brochure and have our Academic Counselor reach out to you.</p>
                         {/* /heading */}
 
                         <h5 class="mb-4 text-dark">Connect with Us</h5>
@@ -43,7 +43,7 @@ const HomeBrochureDownloadForm = () => {
 
                         {/* email address */}
                         <h5 class="text-dark">Email Address :</h5>
-                        <h6 class="nav-item text-secondary fw-normal mb-5 msm-font-size"><span><FontAwesomeIcon icon={faEnvelope} className='pe-2 ' /></span>
+                        <h6 class="nav-item text-dark mb-5 msm-font-size"><span><FontAwesomeIcon icon={faEnvelope} className='pe-2 ' /></span>
                             swapnilkhare3@gmail.com</h6>
                         {/* /email address */}
 
@@ -59,7 +59,7 @@ const HomeBrochureDownloadForm = () => {
 
                         {/* Address */}
                         <h5 class="text-dark">Our Office Address</h5>
-                        <p class="text-secondary fw-normal mb-5 msm-font-size"> <FontAwesomeIcon icon={faLocationDot} className='pe-2 ' />Flat No 101, Aqua habitat, shatabdi sq, Badil Kheda, Nagpur, Maharashtra 440027</p>
+                        <p class="text-dark mb-5 msm-font-size"> <FontAwesomeIcon icon={faLocationDot} className='pe-2 ' />Flat No 101, Aqua habitat, shatabdi sq, Badil Kheda, Nagpur, Maharashtra 440027</p>
                         {/* /Address */}
 
                         <div className="row">

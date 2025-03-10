@@ -1,22 +1,15 @@
 import React, { useState } from 'react';
 import './Modules.scss';
-import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 const Configurations = () => {
-    // const [open, setOpen] = useState(null);
-
-    // const handleToggle = (id) => {
-    //     setOpen(open === id ? null : id);
-    // };
-
     return (
         <div className="msm-mt-5 container pb-5 msm-module-page-block">
 
             {/* heading */}
             <div className="text-center py-5">
-                <h1 className="display-6  fw-bold mb-3 text-white">
+                <h1 className="display-6 fw-normal mb-3">
                     COURSE MODULES
                 </h1>
-                <p className="lead msm-text-secondary fs-6">
+                <p className="lead text-secondary fs-6">
                     AVAILABLE ONLINE AND OFFLINE
                 </p>
             </div>

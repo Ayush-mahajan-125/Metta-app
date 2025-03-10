@@ -66,11 +66,11 @@ const Gallery = () => {
         <main className="container">
           <h1 className="display-6 fw-bold mb-5 text-white"><span className="msm-text-success">Me</span>
             <span className="msm-text-danger">Tta</span> - A Visual Journey</h1>
-          <div className="row">
+          <div className="msm-image-conatiner">
 
             {/* random image call */}
             {imageList.map((src, index) => (
-              <div className="col-sm-6 col-md-4 col-lg-3 col-xl-2 p-0">
+              <div className="">
 
                 {/* card image */}
                 <button key={index} onClick={() => openDialog(index)} className='w-100'>

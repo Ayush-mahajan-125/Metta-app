@@ -20,7 +20,7 @@ const HomeWhyChoose = () => {
                                 <div className="card mb-4">
                                     <FontAwesomeIcon icon={faM} className="text-ornage fs-2 me-auto mb-3" />
                                     <h6 className='text-ornage'>What is MeTta Financial?</h6>
-                                    <p className="text-dark fs-6 m-0">MeTta Financial Investment & Trading Training Institute is a well-established stock market training institute, founded and led by <span className="text-white">Mr. Swapnil Khaire</span></p>
+                                    <p className="text-dark fs-6 m-0">MeTta Financial Investment & Trading Training Institute is a well-established stock market training institute, founded and led by <span className="text-dark fw-normal">Mr. Swapnil Khaire</span></p>
                                 </div>
                             </div>
                             {/*  */}
@@ -40,8 +40,8 @@ const HomeWhyChoose = () => {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 msm-content">
-                        <h1 class="display-6 fw-bold text-ornage">Who We Are & What We Do</h1>
-                        <p class="text-dark fw-normal">At MeTta Financial Investment & Trading Training Institute, we are committed to sparking interest in the Indian stock market. We help individuals, especially the youth, explore its possibilities and build a strong foundation in trading. Our goal is to provide the best stock market training in Nagpur, always striving to deliver excellence in financial education.
+                        <h1 class="display-6 fw-normal text-ornage">Who We Are & What We Do</h1>
+                        <p class="text-dark">At MeTta Financial Investment & Trading Training Institute, we are committed to sparking interest in the Indian stock market. We help individuals, especially the youth, explore its possibilities and build a strong foundation in trading. Our goal is to provide the best stock market training in Nagpur, always striving to deliver excellence in financial education.
                         </p>
                     </div>
 

@@ -11,7 +11,7 @@ const HomeAbout = () => {
                 <div className="row align-items-center">
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 msm-text-align">
                         {/* heading */}
-                        <h1 className="display-6 fw-bold mb-3">
+                        <h1 className="display-6 fw-normal mb-3">
                             About MeTta
                         </h1>
                         {/* /heading */}

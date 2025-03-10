@@ -61,6 +61,16 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 className="nav-link"
+                to="/resources"
+                onClick={() => setIsNavCollapsed(true)}
+              >
+                {translate("Resources")}
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
                 to="/about-us"
                 onClick={() => setIsNavCollapsed(true)}
               >

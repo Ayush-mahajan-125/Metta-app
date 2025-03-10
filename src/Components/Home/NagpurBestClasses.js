@@ -18,7 +18,7 @@ const NagpurBestClasses = () => {
 
                         {/* heading */}
                         <p className="text-secondary">#MeTta #MeTtaNagpur #BestShareMarketTraining  #MeTtaFinancial </p>
-                        <h1 class="display-6 fw-bold">Master the Stock Market with the Best Training in <span className="msm-highlight">Nagpur</span></h1>
+                        <h1 class="display-6 fw-normal">Master the Stock Market with the Best Training in <span className="msm-highlight">Nagpur</span></h1>
                         <p class="text-dark">Looking to gain expertise in the stock market? You’re in the right place! MeTta Financial Investment & Trading Training Institute is a trusted name in stock market education, offering expert-led online and offline training to help individuals navigate the complexities of trading and investing.
                             <br /> <br />
                             Every year, many individuals step into the stock market, but only a few achieve success. The difference? The right knowledge, skills, and strategy. That’s where we come in!
@@ -52,7 +52,7 @@ const NagpurBestClasses = () => {
 
             {/* Learning Highlights */}
             <div className="container pt-5 mt-5" id="learning-highlights">
-                <h1 className="fs-3 fw-bold text-dark text-center">Learning Highlights</h1>
+                <h1 className="fs-3 fw-normal text-dark text-center">Learning Highlights</h1>
                 <div className="row msm-top-spacing">
                     {/*  */}
                     <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
@@ -147,7 +147,7 @@ const NagpurBestClasses = () => {
 
             {/* /Benefits */}
             <div className="container pt-5 mt-5">
-                <h1 className="fs-3 fw-bold text-dark text-center">Benefits</h1>
+                <h1 className="fs-3 fw-normal text-dark text-center">Benefits</h1>
                 <div className="row msm-top-spacing justify-content-center">
                     <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
                         <div className="card text-center">
