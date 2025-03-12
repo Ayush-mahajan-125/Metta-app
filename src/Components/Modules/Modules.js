@@ -19,12 +19,12 @@ const Configurations = () => {
                 Module 1 - Technical Analysis
             </button>
 
-            <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                Module 2 - Fundamental Analysis
+            <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                Module 2 -   Future and Option
             </button>
 
-            <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                Module 3 -   Future and Option
+            <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                Module 3 - Fundamental Analysis
             </button>
 
             <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal4">

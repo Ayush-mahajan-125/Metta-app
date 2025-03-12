@@ -1,38 +1,25 @@
 // hero section
 .msm-masthead-header {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: 105%;
-    box-shadow: inset 0px 0px 178px 540px rgb(0 0 0 / 83%);
     height: 100vh;
-    animation: animatedBackground 17s linear infinite alternate;
-    animation-range-start: normal;
-    animation-range-end: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    background-image: url("/assets/img/bg-hero-homr.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     .msm-hero-image {
         width: 80%;
         margin: auto;
         display: flex;
-        animation: movetopbounce 9s linear infinite;
+        box-shadow: 0 1px 17px rgb(206 206 206);
 
         @media (max-width: 768px) {
             margin-top: 3rem;
             width: 100%;
         }
-    }
-
-    @media (max-width: 1292px) {
-        background-size: cover;
-        animation: animatedBackground 60s linear infinite alternate;
-        padding: 0px 25px;
-    }
-
-    @media (max-width: 768px) {
-        height: 59rem;
     }
 
     @media (max-width: 768px) {
@@ -52,27 +39,12 @@
     }
 }
 
-@keyframes movetopbounce {
-    0% {
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: translateY(20px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
-
 // hero section --------------------------------
 
 
 // typing animation 
 .msm-quotes {
-    // background: linear-gradient(253deg, #1b5183 -45.94%, #061327 87.99%);
-    background: #FCEDE6;
+    background: #ff0a0a;
     height: 7rem;
     display: flex;
     align-items: center;
@@ -86,7 +58,7 @@
         font-weight: 800;
         font-size: 45px;
         line-height: 25px;
-        color: #ff0a0a;
+        color: #ffffff;
 
         @media (max-width: 768px) {
             line-height: 50px;
@@ -168,9 +140,11 @@
 .lw-msm-button-p {
     margin-top: 30px !important;
 }
-.lw-msm-button{
+
+.lw-msm-button {
     margin-top: 30px;
 }
+
 .btn-primary {
     background: linear-gradient(140.14deg, #ec540e 15.05%, #d6361f 114.99%) padding-box,
         linear-gradient(142.51deg, #ff9465 8.65%, #af1905 88.82%) border-box;
@@ -308,7 +282,7 @@
             border-radius: 15px;
             border: 1px solid #ddd;
             background-color: #ffffff;
-           
+
 
             h6 {
                 color: #ffbd00;
@@ -627,6 +601,7 @@ textarea {
         left: -100px;
         animation: white-liine 2s infinite linear;
     }
+
     @media (max-width: 768px) {
         top: 75%;
     }
@@ -650,7 +625,7 @@ textarea {
 // /whatsapp connect btn ----------------------------------------------------------------------------
 
 .msm-call-to-action-section {
-    background:#FCEDE6;
+    background: #FCEDE6;
     padding: 8rem 16px;
 }
 

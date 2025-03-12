@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js'; // Import Typed.js
 import './Home.scss';
 import profileImage from '../../assets/img/IMG_1359.JPG';
@@ -6,29 +6,6 @@ import profileImage from '../../assets/img/IMG_1359.JPG';
 
 const HeroSection = () => {
   const typingRef = useRef(null); // Reference for the typing effect
-
-  // call random image
-  // Manually list all images
-  const images = [
-    require('../../assets/randomFolder1/image1.jpg'),
-    require('../../assets/randomFolder1/image2.jpg'),
-    require('../../assets/randomFolder1/image3.jpg'),
-    require('../../assets/randomFolder1/image5.jpg'),
-    require('../../assets/randomFolder1/image6.jpg'),
-    require('../../assets/randomFolder1/image7.jpg'),
-    require('../../assets/randomFolder1/image8.jpg'),
-    require('../../assets/randomFolder1/image9.jpg'),
-    require('../../assets/randomFolder1/image10.jpg'),
-    require('../../assets/randomFolder1/image11.jpg'),
-  ];
-
-  // Select a random image on reload
-  const [randomImage, setRandomImage] = useState('');
-
-  useEffect(() => {
-    const randomIndex = Math.floor(Math.random() * images.length);
-    setRandomImage(images[randomIndex]);
-  }, []);
 
   // Typing effect
   useEffect(() => {
@@ -48,21 +25,21 @@ const HeroSection = () => {
   return (
     <>
       {/* hero section */}
-      <div className="msm-masthead-header" style={{ backgroundImage: `url(${randomImage})` }}>
+      <div className="msm-masthead-header">
         <div className="container col-12">
           <div className="row align-items-center">
             <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 msm-hero-section-mobile-view">
               {/* heading */}
-              <h1 className="lead text-white mb-3">
+              <h1 className="lead fw-normal text-dark mb-3">
                 Welcome to
               </h1>
-              <h1 className="display-5 fw-bold mb-3 text-white">
+              <h1 className="display-5 fw-bold mb-3 text-dark">
                Metta Financial Investment & Trading Training Institute
               </h1>
               {/* /heading */}
 
               {/* description */}
-              <p className="lead msm-text-secondary fs-6">
+              <p className="lead text-dark fs-6">
                 Unlock the secrets of smart investing and trading with expert-led training. Gain the skills to navigate financial markets and build lasting wealth!
               </p>
               {/* /description */}
