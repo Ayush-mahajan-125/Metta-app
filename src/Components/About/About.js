@@ -47,7 +47,7 @@ const About = () => {
       {/* What We Offer */}
       <div className="container msm-what-we-offer-section">
 
-        <h1 className="display-6 fw-bold text-orange mb-5 text-center"> What We Offer</h1>
+        <h1 className="display-6 fw-normal text-orange mb-5 text-center"> What We Offer</h1>
 
         <div className="row">
           {/*  */}

@@ -55,11 +55,11 @@ const ContactForm = () => {
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
 
             {/* heading */}
-            <h1 class="display-6 fw-bold text-white">Connect with Us</h1>
-            <p class=" text-light fw-normal mb-5 ">Have questions or need assistance? Our team at Metta Share Market is ready to help. Contact us today!</p>
+            <h1 class="display-6 fw-normal text-orange">Connect with Us</h1>
+            <p class=" text-secondary mb-5 ">Have questions or need assistance? Our team at Metta Share Market is ready to help. Contact us today!</p>
             {/* /heading */}
 
-            <h5 class="mb-4 text-white">Connect with Us</h5>
+            <h5 class="mb-4 text-dark">Connect with Us</h5>
             {/* social icons */}
             <ul class="social-menu mb-5">
               <li class="social-btn facebook" tooltip="Facebook">
@@ -78,31 +78,31 @@ const ContactForm = () => {
             {/* /social icons */}
 
             {/* email address */}
-            <h5 class="text-white">Email Address :</h5>
-            <h6 class="nav-item text-light fw-normal mb-5 msm-font-size"><span><FontAwesomeIcon icon={faEnvelope} className='pe-2 ' /></span>
+            <h5 class="text-dark">Email Address :</h5>
+            <h6 class="nav-item text-secondary mb-5 msm-font-size"><span><FontAwesomeIcon icon={faEnvelope} className='pe-2 ' /></span>
               swapnilkhare3@gmail.com</h6>
             {/* /email address */}
 
             {/* time */}
-            <h5 class="text-white">Our Timing</h5>
-            <h6 class="nav-item text-light fw-normal mb-5 msm-font-size"><span><FontAwesomeIcon icon={faStopwatch} className='pe-2 ' /></span>
+            <h5 class="text-dark">Our Timing</h5>
+            <h6 class="nav-item text-secondary mb-5 msm-font-size"><span><FontAwesomeIcon icon={faStopwatch} className='pe-2 ' /></span>
             Mon - Sat : 07:00 AM - 10:00 PM <br></br>
             Sun : Closed</h6>
             {/* /time */}
 
             {/* Call Us */}
-            <h5 class="text-white">Call Us</h5>
-            <h6 class="nav-item mb-2 text-light msm-font-size">  <span><FontAwesomeIcon icon={faPhone} className='pe-2  ' /></span>
+            <h5 class="text-dark">Call Us</h5>
+            <h6 class="nav-item mb-2 text-secondary msm-font-size">  <span><FontAwesomeIcon icon={faPhone} className='pe-2  ' /></span>
               +91-9834888821</h6>
 
-            <h6 class="nav-item mb-2 text-light mb-5 msm-font-size"><span><FontAwesomeIcon icon={faPhone} className='pe-2' /></span>
+            <h6 class="nav-item mb-2 text-secondary mb-5 msm-font-size"><span><FontAwesomeIcon icon={faPhone} className='pe-2' /></span>
               +91-9970500727</h6>
 
             {/* /Call Us */}
 
             {/* Address */}
-            <h5 class="text-white">Our Office Address</h5>
-            <p class=" text-light fw-normal mb-5 msm-font-size"> <FontAwesomeIcon icon={faLocationDot} className='pe-2 ' />Flat No 101, Aqua habitat, shatabdi sq, Badil Kheda, Nagpur, Maharashtra 440027</p>
+            <h5 class="text-dark">Our Office Address</h5>
+            <p class=" text-secondary mb-5 msm-font-size"> <FontAwesomeIcon icon={faLocationDot} className='pe-2 ' />Flat No 101, Aqua habitat, shatabdi sq, Badil Kheda, Nagpur, Maharashtra 440027</p>
             {/* /Address */}
 
             <div className="row">
