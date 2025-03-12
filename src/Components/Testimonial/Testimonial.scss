@@ -19,14 +19,16 @@
 }
 
 .msm-testimonial-cards-blocks {
-    background-color: #111116;
+    // background-color: #111116;
     padding: 5rem 0rem;
 
     .card {
         padding: 25px 20px;
         border-radius: 15px;
-        border: 1px solid #b3a4a40d;
-        background-color: #00000036;
+        // border: 1px solid #b3a4a40d;
+        background-color: #ffffff;
+        // box-shadow: 0 1px 17px rgb(206 206 206);
+        border: 1px solid #ddd;
 
         .msm-google-image {
             width: 25px;

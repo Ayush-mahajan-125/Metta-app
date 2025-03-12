@@ -97,7 +97,7 @@ const BrochureDownloadForm = () => {
         {/* /option 2 */}
 
         {/* Contact time */}
-        <label className="text-white">Preferable Time to Contact</label>
+        <label className="text-dark">Preferable Time to Contact</label>
         <motion.input type="time" name="contact_time" placeholder="" className="bg-white text-dark" required />
         {/* /Contact time */}
 

@@ -187,7 +187,7 @@ const About = () => {
       {/* call to action */}
       <div className="msm-about-section">
         <div className="container text-center">
-          <h1 className="display-6 fw-bold text-orange mb-4">Join the Metta Share Market Community!</h1>
+          <h1 className="display-6 fw-normal text-orange mb-4">Join the Metta Share Market Community!</h1>
 
           <p className='text-dark fw-normal'>Whether you're starting your trading journey or looking to refine your investment strategies, <br />Metta Share Market provides the knowledge and tools to help you succeed.</p>
 

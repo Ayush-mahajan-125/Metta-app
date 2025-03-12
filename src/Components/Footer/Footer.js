@@ -84,13 +84,13 @@ const Footer = () => {
             <h5 className='text-white mb-4'>Contact Us</h5>
             <ul class="nav flex-column">
 
-              <li className="nav-item mb-2 text-secondary"><span><FontAwesomeIcon icon={faEnvelope} className='pe-2 text-warning' /></span>
+              <li className="nav-item mb-2 text-secondary"><span><FontAwesomeIcon icon={faEnvelope} className='pe-2 text-orange' /></span>
                 swapnilkhare3@gmail.com</li>
 
-              <li className="nav-item mb-2 text-secondary">  <span><FontAwesomeIcon icon={faPhone} className='pe-2 text-warning' /></span>
+              <li className="nav-item mb-2 text-secondary">  <span><FontAwesomeIcon icon={faPhone} className='pe-2 text-orange' /></span>
                 +91-9834888821</li>
 
-              <li className="nav-item mb-2 text-secondary"><span><FontAwesomeIcon icon={faPhone} className='pe-2 text-warning' /></span>
+              <li className="nav-item mb-2 text-secondary"><span><FontAwesomeIcon icon={faPhone} className='pe-2 text-orange' /></span>
                 +91-9970500727</li>
             </ul>
           </div>

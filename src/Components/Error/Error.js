@@ -15,9 +15,9 @@ const Error = () => {
               <div className="eye__pupil eye__pupil--right"></div>
             </div>
           </div>
-          <h1 className="display-1 fw-bold mb-3 text-white">404</h1>
-          <p className="lead msm-text-secondary fs-6">Oops! The page you're looking for doesn't exist.</p>
-          <a className="btn btn-primary border-0 text-dark" href="/">Back to Home</a>
+          <h1 className="display-1 fw-normal mb-3 text-dark">404</h1>
+          <p className="lead text-secondary fs-6">Oops! The page you're looking for doesn't exist.</p>
+          <a className="btn btn-primary border-0" href="/">Back to Home</a>
         </div>
       </div>
     </div>

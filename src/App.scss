@@ -40,16 +40,16 @@
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    border: 1px solid #23d366;
+    border: 1px solid #ff0a0a;
     bottom: 40px;
-    color: #23d366;
+    color: #ff0a0a;
     font-size: 16px;
     background-color: #23d3660f;
     line-height: 10px;
 
     &:hover {
-        color: #000000;
-        background-image: linear-gradient(90deg, #00ffc2, #42ff00);
+        color: hsl(0, 0%, 100%);
+        background: #ff0a0a;
     }
 }
 
@@ -66,4 +66,7 @@
     .text-light {
         color: white !important;
     }
+}
+hr{
+    border-top: 1px solid #666363;
 }

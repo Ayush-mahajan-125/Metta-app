@@ -64,7 +64,7 @@ const Gallery = () => {
       {/* image preview content */}
       <div className="msm-photo-gallery-block-container">
         <main className="container">
-          <h1 className="display-6 fw-bold mb-5 text-white"><span className="msm-text-success">Me</span>
+          <h1 className="display-6 fw-normal mb-5 text-dark"><span className="msm-text-success">Me</span>
             <span className="msm-text-danger">Tta</span> - A Visual Journey</h1>
           <div className="msm-image-conatiner">
 
