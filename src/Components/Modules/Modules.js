@@ -6,11 +6,11 @@ const Configurations = () => {
 
             {/* heading */}
             <div className="text-center py-5">
-                <h1 className="display-6 fw-normal mb-3">
-                    COURSE MODULES
+                <h1 className="display-6 fw-normal mb-3 text-orange">
+                     Course Modules
                 </h1>
-                <p className="lead text-secondary fs-6">
-                    AVAILABLE ONLINE AND OFFLINE
+                <p className="lead text-dark h6 fw-normal">
+                   Available Online and Offline
                 </p>
             </div>
             {/* /heading */}
@@ -18,8 +18,6 @@ const Configurations = () => {
             <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Module 1 - Technical Analysis
             </button>
-
-
 
             <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                 Module 2 - Fundamental Analysis
@@ -37,10 +35,10 @@ const Configurations = () => {
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel"> Basic To Advanced Technical Analysis</h1>
+                            <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel"> Basic To Advanced Technical Analysis</h1>
                             <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                         </div>
-                        <div class="modal-body text-light">
+                        <div class="modal-body text-dark">
 
                             <h4 className='mb-4 mt-3 text-green'>Core Concepts</h4>
                             <p>1. Introduction to Dow theory</p>
@@ -74,10 +72,10 @@ const Configurations = () => {
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Fundamental Analysis & Long Term Investment</h1>
+                            <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Fundamental Analysis & Long Term Investment</h1>
                             <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                         </div>
-                        <div class="modal-body text-light">
+                        <div class="modal-body text-dark">
                             <p>1. Company Analysis</p>
                             <p>2. Industry Analysis</p>
                             <p>3. Economic Analysis</p>
@@ -91,10 +89,10 @@ const Configurations = () => {
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Derivative And Future & Option’s</h1>
+                            <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Derivative And Future & Option’s</h1>
                             <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                         </div>
-                        <div class="modal-body text-light">
+                        <div class="modal-body text-dark">
                             <p>1. When to Buy Call Option</p>
                             <p>2. When to Buy Put Option </p>
                             <p>3. Option Greeks (Delta, Gamma, Vega, Theta, Rho)</p>
@@ -115,10 +113,10 @@ const Configurations = () => {
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Module 4</h1>
+                            <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Currency market and Commodity market</h1>
                             <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                         </div>
-                        <div class="modal-body text-light">
+                        <div class="modal-body text-dark">
                             <p>1. Currency Market</p>
                             <p>2. Commodity Market</p>
                             <p>3. Crypto Currency</p>

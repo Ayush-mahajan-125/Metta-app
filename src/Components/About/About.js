@@ -47,40 +47,40 @@ const About = () => {
       {/* What We Offer */}
       <div className="container msm-what-we-offer-section">
 
-        <h1 className="display-6 fw-bold text-white my-5 text-center"> What We Offer</h1>
+        <h1 className="display-6 fw-bold text-orange mb-5 text-center"> What We Offer</h1>
 
         <div className="row">
           {/*  */}
           <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-4">
             <div className="msm-block text-center">
               <h1 className='mb-3'>📈</h1>
-              <h4 className='fw-bold text-white mb-3'>Stock Market Education & Strategies</h4>
-              <h6 className='text-white fw-normal'>Beginner to Advanced Training</h6>
-              <h6 className='text-white fw-normal'>Intraday & Swing Trading</h6>
-              <h6 className='text-white fw-normal'>Futures & Options (F&O) Training</h6>
-              <h6 className='text-white fw-normal'>Price Action & Technical Indicators</h6>
+              <h4 className='fw-normal text-dark mb-3'>Stock Market Education & Strategies</h4>
+              <h6 className='text-secondary fw-normal'>Beginner to Advanced Training</h6>
+              <h6 className='text-secondary fw-normal'>Intraday & Swing Trading</h6>
+              <h6 className='text-secondary fw-normal'>Futures & Options (F&O) Training</h6>
+              <h6 className='text-secondary fw-normal'>Price Action & Technical Indicators</h6>
             </div>
           </div>
           {/*  */}
           <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-4">
             <div className="msm-block text-center">
               <h1 className='mb-3'>📊</h1>
-              <h4 className='fw-bold text-white mb-3'>Investment & Risk Management</h4>
-              <h6 className='text-white fw-normal'>Portfolio Management Techniques</h6>
-              <h6 className='text-white fw-normal'>Fundamental & Technical Analysis</h6>
-              <h6 className='text-white fw-normal'>Wealth-Building Strategies</h6>
-              <h6 className='text-white fw-normal'>Risk Management & Trading Psychology</h6>
+              <h4 className='fw-normal text-dark mb-3'>Investment & Risk Management</h4>
+              <h6 className='text-secondary fw-normal'>Portfolio Management Techniques</h6>
+              <h6 className='text-secondary fw-normal'>Fundamental & Technical Analysis</h6>
+              <h6 className='text-secondary fw-normal'>Wealth-Building Strategies</h6>
+              <h6 className='text-secondary fw-normal'>Risk Management & Trading Psychology</h6>
             </div>
           </div>
           {/*  */}
           <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-4">
             <div className="msm-block text-center">
               <h1 className='mb-3 '>⚡</h1>
-              <h4 className='fw-bold text-white mb-3'>Market Tools & Insights</h4>
-              <h6 className='text-white fw-normal'>Live Market Trading Sessions</h6>
-              <h6 className='text-white fw-normal'>Charting Software Training</h6>
-              <h6 className='text-white fw-normal'>Market News & Daily Analysis</h6>
-              <h6 className='text-white fw-normal'>Technical Indicators & Trend Analysis</h6>
+              <h4 className='fw-normal text-dark mb-3'>Market Tools & Insights</h4>
+              <h6 className='text-secondary fw-normal'>Live Market Trading Sessions</h6>
+              <h6 className='text-secondary fw-normal'>Charting Software Training</h6>
+              <h6 className='text-secondary fw-normal'>Market News & Daily Analysis</h6>
+              <h6 className='text-secondary fw-normal'>Technical Indicators & Trend Analysis</h6>
             </div>
           </div>
           {/*  */}
@@ -95,21 +95,21 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
 
-            <h4 className="fw-bold text-white mb-3">Why Choose Us?</h4>
+            <h4 className="fw-normal text-dark mb-3">Why Choose Us?</h4>
 
-            <p className="msm-text-color mb-3"> <span className='text-green'>✔</span> <strong className='text-white'>Expert-Led Training – </strong>Learn from experienced traders and market professionals.
+            <p className="text-dark mb-3"> <span className='text-green'>✔</span> <strong className='text-dark fw-normal'>Expert-Led Training – </strong>Learn from experienced traders and market professionals.
             </p>
 
-            <p className="msm-text-color mb-3"> <span className='text-green'>✔</span> <strong className='text-white'>Practical Learning Approach – </strong>Hands-on exercises with real market examples.
+            <p className="text-dark mb-3"> <span className='text-green'>✔</span> <strong className='text-dark fw-normal'>Practical Learning Approach – </strong>Hands-on exercises with real market examples.
             </p>
 
-            <p className="msm-text-color mb-3"> <span className='text-green'>✔</span> <strong className='text-white'>Comprehensive Curriculum – </strong>Covers stocks, derivatives, and investment planning.
+            <p className="text-dark mb-3"> <span className='text-green'>✔</span> <strong className='text-dark fw-normal'>Comprehensive Curriculum – </strong>Covers stocks, derivatives, and investment planning.
             </p>
 
-            <p className="msm-text-color mb-3"> <span className='text-green'>✔</span> <strong className='text-white'>Market-Proven Strategies – </strong>Learn techniques used by successful investors.
+            <p className="text-dark mb-3"> <span className='text-green'>✔</span> <strong className='text-dark fw-normal'>Market-Proven Strategies – </strong>Learn techniques used by successful investors.
             </p>
 
-            <p className="msm-text-color mb-3"> <span className='text-green'>✔</span> <strong className='text-white'>Flexible Learning Options – </strong>Online & offline classes to suit your schedule.
+            <p className="text-dark mb-3"> <span className='text-green'>✔</span> <strong className='text-dark fw-normal'>Flexible Learning Options – </strong>Online & offline classes to suit your schedule.
             </p>
 
           </div>
@@ -134,26 +134,26 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-sm-12 col-md-12 col-lg-6">
 
-              <h4 className="fw-bold text-white mb-3">Empower Your Future with Metta Financial Training</h4>
+              <h4 className="fw-bold text-dark mb-3">Empower Your Future with Metta Financial Training</h4>
 
-              <p className="msm-text-color mb-3">At Metta Financial Investment & Trading Training Institute, we believe that financial knowledge is the foundation of independence. Our mission is to shape aspiring traders and investors into confident market professionals through world-class education, hands-on training, and expert mentorship.
+              <p className="text-dark mb-3">At Metta Financial Investment & Trading Training Institute, we believe that financial knowledge is the foundation of independence. Our mission is to shape aspiring traders and investors into confident market professionals through world-class education, hands-on training, and expert mentorship.
               </p>
 
-              <li className="msm-text-color mb-2">✅ <strong className='text-light'>12+ Years of Real-Market Expertise</strong> – Learn from seasoned traders who have successfully navigated the highs and lows of stock trading, forex, derivatives, and investment strategies.</li>
+              <li className="text-dark mb-2">✅ <strong className='text-dark'>12+ Years of Real-Market Expertise</strong> – Learn from seasoned traders who have successfully navigated the highs and lows of stock trading, forex, derivatives, and investment strategies.</li>
 
-              <li className="msm-text-color mb-2">✅ <strong className='text-light'>Practical Learning Approach</strong> – We focus on live market training, real-world strategies, and a mentorship-driven experience to ensure you gain actionable skills, not just theoretical knowledge.</li>
+              <li className="text-dark mb-2">✅ <strong className='text-dark'>Practical Learning Approach</strong> – We focus on live market training, real-world strategies, and a mentorship-driven experience to ensure you gain actionable skills, not just theoretical knowledge.</li>
 
-              <li className="msm-text-color mb-2">✅ <strong className='text-light'>For All Skill Levels</strong> – Whether you're a beginner looking to start your trading journey or an experienced trader aiming to refine your strategy, Metta Financial equips you with the tools to succeed.</li>
+              <li className="text-dark mb-2">✅ <strong className='text-dark'>For All Skill Levels</strong> – Whether you're a beginner looking to start your trading journey or an experienced trader aiming to refine your strategy, Metta Financial equips you with the tools to succeed.</li>
 
-              <p className="msm-text-color mb-3">Join us and take control of your financial future—because the best investment you can make is in yourself..</p>
+              <p className="text-dark mb-3">Join us and take control of your financial future—because the best investment you can make is in yourself..</p>
 
-              <h5 className='fw-bold text-warning mb-1'>Meet Your Mentor</h5>
+              <h5 className='fw-bold text-orange mb-1'>Meet Your Mentor</h5>
 
-              <p className='text-light fw-normal mb-3'>Mr. Swapnil Khaire</p>
+              <p className='text-dark fw-normal mb-3'>Mr. Swapnil Khaire</p>
 
-              <p className='msm-text-color mb-3'>A seasoned market expert with over 12 years of trading and investment experience, dedicated to guiding aspiring traders toward financial success.</p>
+              <p className='text-dark mb-3'>A seasoned market expert with over 12 years of trading and investment experience, dedicated to guiding aspiring traders toward financial success.</p>
 
-              <h6 className='text-warning fw-normal fw-bold'>Connect with him</h6>
+              <h6 className='text-orange fw-normal fw-bold'>Connect with him</h6>
 
               {/* social icons */}
               <ul className="social-menu">
@@ -187,11 +187,11 @@ const About = () => {
       {/* call to action */}
       <div className="msm-about-section">
         <div className="container text-center">
-          <h1 className="display-6 fw-bold text-white mb-4">Join the Metta Share Market Community!</h1>
+          <h1 className="display-6 fw-bold text-orange mb-4">Join the Metta Share Market Community!</h1>
 
-          <p className='text-light fw-normal'>Whether you're starting your trading journey or looking to refine your investment strategies, Metta Share Market provides the knowledge and tools to help you succeed.</p>
+          <p className='text-dark fw-normal'>Whether you're starting your trading journey or looking to refine your investment strategies, <br />Metta Share Market provides the knowledge and tools to help you succeed.</p>
 
-          <p className='text-light fw-normal mb-3'>🚀 Learn. Trade. Grow. Start your financial journey with us today!</p>
+          <p className='text-dark fw-normal mb-3'>🚀 Learn. Trade. Grow. Start your financial journey with us today!</p>
 
           <div className="d-flex justify-content-center"> <a href="#" className='btn-primary'>Contact Us</a></div>
         </div>

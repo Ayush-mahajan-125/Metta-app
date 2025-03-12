@@ -1,30 +1,18 @@
 .msm-module-page-block {
     .btn-toggle-collapse {
-        background-color: #292929;
-        color: white;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
         border: none;
         padding: 18px 20px;
         cursor: pointer;
         text-align: cebter;
         width: 90%;
         border-radius: 12px;
-        border-right: 3px solid rgb(88, 88, 88);
+        border-right: 4px solid var(--primary-color);
         margin: auto auto 30px auto;
         display: flex;
         justify-content: center;
-    }
-
-    .modal-content {
-        background-color: #292929;
-    }
-
-    .modal-header {
-        color: white;
-        border-bottom: 1px solid #424242;
-    }
-
-    .modal-footer {
-        border-top: 1px solid #424242;
+        box-shadow: 0 1px 5px rgba(0,0,0,.25);
     }
 
     .msm-modal-para p {

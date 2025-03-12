@@ -91,7 +91,7 @@ const Home = () => {
       {/* Bootstrap Modal */}
 
       {/* FAQ */}
-      <Accordion />
+      <Accordion/>
       {/* /FAQ */}
 
       {/* call to action */}

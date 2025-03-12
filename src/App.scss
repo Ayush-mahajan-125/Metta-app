@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #ff0a0a;
+}
+
 .msm-text-danger {
     color: #E11F25 !important;
 }
@@ -18,8 +22,8 @@
     font-weight: 600 !important;
 }
 
-.text-ornage {
-    color: #ff0a0a !important;
+.text-orange {
+    color: var(--primary-color) !important;
 }
 
 @media (max-width: 992px) {
