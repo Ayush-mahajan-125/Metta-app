@@ -13,7 +13,7 @@ const Navbar = () => {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar navbar-expand-lg msm-navmenu-bar py-3 fixed-top bg-white">
+    <nav className="navbar navbar-expand-lg msm-navmenu-bar py-3 fixed-top bg-primary-color">
       <div className="container">
         <NavLink className="navbar-brand text-success" to="/">
           <img
