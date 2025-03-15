@@ -64,16 +64,16 @@ const EnrollmentPage = () => {
 
                     {/* /heading */}
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <h1 class="display-6 fw-bold text-white">Take Control of Your Financial Future</h1>
-                        <p class="text-light">Imagine having the confidence to navigate the share market with ease. With our expert resources and dedicated support, you’ll unlock the skills to make informed decisions and maximize your investments. Whether you're a beginner or an experienced trader, we empower you to achieve your financial goals.
+                        <h1 class="display-6 fw-normal text-dark">Take Control of Your Financial Future</h1>
+                        <p class="text-dark">Imagine having the confidence to navigate the share market with ease. With our expert resources and dedicated support, you’ll unlock the skills to make informed decisions and maximize your investments. Whether you're a beginner or an experienced trader, we empower you to achieve your financial goals.
                         </p>
 
-                        <h3 className='fw-bold text-white mt-5 mb-4'>Here’s What Awaits You:</h3>
+                        <h3 className='fw-normal text-dark mt-5 mb-4'>Here’s What Awaits You:</h3>
 
-                        <li className="text-light fw-normal my-2">Access to in-depth market research and insights.</li>
-                        <li className="text-light fw-normal my-2">Customized trading plans designed for your success.</li>
-                        <li className="text-light fw-normal my-2">Ongoing guidance to help you stay ahead of market trends.</li>
-                        <li className="text-light fw-normal my-2">A vibrant community of like-minded investors to collaborate with.</li>
+                        <li className="text-dark fw-normal my-2">Access to in-depth market research and insights.</li>
+                        <li className="text-dark fw-normal my-2">Customized trading plans designed for your success.</li>
+                        <li className="text-dark fw-normal my-2">Ongoing guidance to help you stay ahead of market trends.</li>
+                        <li className="text-dark fw-normal my-2">A vibrant community of like-minded investors to collaborate with.</li>
                     </div>
                     {/* /heading */}
 
@@ -89,8 +89,8 @@ const EnrollmentPage = () => {
             
             {/* contact us */}
             <div className="msm-container-block">
-                <div className="container text-white text-center">
-                    <h3 className='fw-bold'>Need help? Contact our support team anytime at</h3>
+                <div className="container text-dark text-center">
+                    <h3 className='fw-normal'>Need help? Contact our support team anytime at</h3>
                     <p className='text-green mb-4'>swapnilkhare3@gmail.com</p>
                     <div className="d-flex justify-content-center">
                         <a href="/contact-us" target="_blank" className='btn-primary'>Contact Us</a>
