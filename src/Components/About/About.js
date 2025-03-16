@@ -193,7 +193,7 @@ const About = () => {
 
           <p className='text-dark fw-normal mb-3'>🚀 Learn. Trade. Grow. Start your financial journey with us today!</p>
 
-          <div className="d-flex justify-content-center"> <a href="#" className='btn-primary'>Contact Us</a></div>
+          <div className="d-flex justify-content-center"> <a href="/contact-us" className='btn-primary'>Contact Us</a></div>
         </div>
       </div>
       {/* /call to action */}
