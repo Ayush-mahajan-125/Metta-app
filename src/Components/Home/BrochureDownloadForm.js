@@ -79,10 +79,10 @@ const BrochureDownloadForm = () => {
         {/* option 1 */}
         <motion.select name="capital" required className="bg-white text-dark ">
           <option value="">How much capital you are planning to trade with?</option>
-          <option value="less_than_500">Less than $500</option>
-          <option value="500-1000">$500 - $1,000</option>
-          <option value="1000-5000">$1,000 - $5,000</option>
-          <option value="more_than_5000">More than $5,000</option>
+          <option value="less_than_500">Less than ₹500</option>
+          <option value="500-1000">₹500 - ₹1,000</option>
+          <option value="1000-5000">₹1,000 - ₹5,000</option>
+          <option value="more_than_5000">More than ₹5,000</option>
         </motion.select>
         {/* /option 1 */}
 

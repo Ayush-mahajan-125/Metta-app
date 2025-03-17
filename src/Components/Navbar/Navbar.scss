@@ -14,7 +14,9 @@
 // }
 
 .navbar-toggler {
-    background: #ffc107 !important;
+    background: #ffffff !important;
+    border: none;
+    outline: none;
 }
 
 @media (max-width: 991px) {
@@ -24,6 +26,6 @@
         border-radius: 10px;
     }
 }
-.bg-primary-color{
+.bg-primary-color, .navbar-nav{
     background-color: #180a4a;
 }
