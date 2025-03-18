@@ -49,7 +49,9 @@
 // typing animation 
 .msm-quotes {
     // background: #ff0a0a;
-    background: #180a4a;
+    // background: #180a4a;
+    background: rgb(17,11,124);
+    background: linear-gradient(90deg, #04012d 9%, rgb(171, 11, 21) 23%, rgb(247, 16, 14) 31%, rgb(247, 8, 8) 67%, rgb(142, 9, 23) 77%, #04012d 90%);
     height: 7rem;
     display: flex;
     align-items: center;
