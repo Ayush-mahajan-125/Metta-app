@@ -100,7 +100,7 @@ const Footer = () => {
           <div className="col-12 col-md-12 my-4">
             <hr className='msm-border-top py-3' />
             <div className="msm-image">
-              <a target="_blank" href="https://g.co/kgs/YtHMjr4"> <img src={GoogleRating} className="img-fluid google-rating" alt="GoogleRating" loading="lazy" /></a>
+              <a target="_blank" href="https://g.page/r/CV9yiife7Cz9EA0"> <img src={GoogleRating} className="img-fluid google-rating" alt="GoogleRating" loading="lazy" /></a>
               <a href="https://jsdl.in/DT-45YGFGEEKHF" target="_blank"><img src={JustDialRating} className="img-fluid google-rating" alt="GoogleRating" loading="lazy" /></a>
             </div>
 
