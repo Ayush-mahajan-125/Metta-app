@@ -1,12 +1,23 @@
-.msm-resources-conatiner{
-    img{
+.msm-resources-conatiner {
+    img {
         width: 200px;
+        height: 200px;
+        object-fit: contain;
     }
-    a{
+
+    .msm-upstox {
+        height: auto;
+    }
+
+    a {
         text-decoration: none;
     }
-    h6{
+
+    h6 {
         color: #ffbd00;
     }
-    
+
+}
+.rpv-core__inner-pages.rpv-core__inner-pages--vertical{
+    overflow:hidden;
 }

@@ -62,6 +62,7 @@ import Resources from './Components/Resources/Resources';
 import ScrollToTop from './ScrollToTop';
 import RefundPolicy from './Components/RefundPolicy';
 import EnrollmentPage from './Components/Home/EnrollmentPage';
+import Calculator from './Components/Calculator/Calculator';
 import './App.scss';
 
 const LanguageSelector = () => {
@@ -85,7 +86,7 @@ const App = () => {
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/course-modules" element={<Modules  />} />
+              <Route path="/course-modules" element={<Modules />} />
               <Route path="/about-us" element={<About />} />
               <Route path="/contact-us" element={<Contact />} />
               <Route path="/testimonial" element={<Testimonial />} />
@@ -93,6 +94,7 @@ const App = () => {
               <Route path="/refund-policy" element={<RefundPolicy />} />
               <Route path="/enrollment-form" element={<EnrollmentPage />} />
               <Route path="/resources" element={<Resources />} />
+              <Route path="/sip-calculator" element={<Calculator />} />
               <Route path="*" element={<Error />} />
             </Routes>
             <ScrollToTop />

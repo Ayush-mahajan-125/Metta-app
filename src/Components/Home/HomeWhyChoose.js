@@ -1,7 +1,5 @@
 import React from "react";
 import "./Home.scss";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationArrow , faM , faFile , faMoneyBill} from '@fortawesome/free-solid-svg-icons';
 
 const HomeWhyChoose = () => {
     return (
