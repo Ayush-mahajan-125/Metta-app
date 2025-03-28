@@ -17,6 +17,9 @@
         padding: 10px;
         border-radius: 10px;
     }
+    .msm-mobile-view{
+        width: 100% !important;
+    }
 }
 
 .bg-primary-color,
@@ -25,6 +28,10 @@
 }
 .nav-link.msm-text-dark-color{
     color: rgb(39, 39, 39) !important;
+    font-weight: 600;
+}
+.nav-link.msm-text-blue{
+    color: blue !important;
     font-weight: 600;
 }
 

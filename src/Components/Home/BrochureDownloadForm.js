@@ -16,7 +16,7 @@ const BrochureDownloadForm = () => {
 
     // email access key
     const formData = new FormData(event.target);
-    formData.append("access_key", "c54a1f85-90db-4a5f-b3e8-bccc51b28487");
+    formData.append("access_key", "ce4f0829-83e2-43ff-9e0e-1662f17955d1");
 
     // email post api
     const response = await fetch("https://api.web3forms.com/submit", {

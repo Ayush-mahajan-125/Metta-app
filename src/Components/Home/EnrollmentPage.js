@@ -91,7 +91,7 @@ const EnrollmentPage = () => {
             <div className="msm-container-block">
                 <div className="container text-dark text-center">
                     <h3 className='fw-normal'>Need help? Contact our support team anytime at</h3>
-                    <p className='text-green mb-4'>swapnilkhare3@gmail.com</p>
+                    <p className='text-orange mb-2'>nagpurmettasharemarket@gmail.com</p>
                     <div className="d-flex justify-content-center">
                         <a href="/contact-us" target="_blank" className='btn-primary'>Contact Us</a>
                     </div>

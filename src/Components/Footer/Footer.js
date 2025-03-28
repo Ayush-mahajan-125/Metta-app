@@ -85,7 +85,7 @@ const Footer = () => {
             <ul class="nav flex-column">
 
               <li className="nav-item mb-2 text-secondary"><span><FontAwesomeIcon icon={faEnvelope} className='pe-2 text-orange' /></span>
-                swapnilkhare3@gmail.com</li>
+              nagpurmettasharemarket@gmail.com</li>
 
               <li className="nav-item mb-2 text-secondary">  <span><FontAwesomeIcon icon={faPhone} className='pe-2 text-orange' /></span>
                 +91-9834888821</li>

@@ -86,18 +86,6 @@ const Navbar = () => {
                 </li>
                 {/* /Resources */}
 
-                {/* Calculator */}
-                <li className="nav-item px-2 d-none">
-                  <NavLink
-                    className="nav-link"
-                    to="/sip-calculator"
-                    onClick={() => setIsNavCollapsed(true)}
-                  >
-                    {translate("SIP Calculator")}
-                  </NavLink>
-                </li>
-                {/* /Calculator */}
-
                 {/* Contact us */}
                 <li className="nav-item px-2">
                   <NavLink
@@ -126,11 +114,11 @@ const Navbar = () => {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 10 }}
                         transition={{ duration: 0.2 }}
-                        className="position-absolute bg-white shadow-lg px-3 py-2 rounded-3 gap-3 justify-content-start"
+                        className="position-absolute bg-white shadow-lg px-3 py-2 rounded-3 gap-3 justify-content-start msm-mobile-view"
                         style={{
                           top: "100%",
                           left: "0",
-                          width: "250px",
+                          width: "200px",
                           zIndex: "1000",
                         }}
                       >
@@ -163,6 +151,18 @@ const Navbar = () => {
                           {translate("Testimonial")}
                         </NavLink>
                         {/* /Testimonials */}
+
+                        {/* Calculator */}
+                        <li className="nav-item">
+                          <NavLink
+                            className="nav-link msm-text-blue"
+                            to="/sip-calculator"
+                            onClick={() => setIsNavCollapsed(true)}
+                          >
+                            {translate("SIP Calculator")}
+                          </NavLink>
+                        </li>
+                        {/* /Calculator */}
 
                       </motion.div>
                     )}
