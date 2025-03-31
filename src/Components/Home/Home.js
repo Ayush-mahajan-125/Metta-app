@@ -13,6 +13,8 @@ import HomeWhyChoose from './HomeWhyChoose';
 import Accordion from './Accordion';
 import NagpurBestClasses from './NagpurBestClasses';
 import CallToAction from './CallToAction';
+import EmailSubscriptionForm from './EmailSubscriptionForm';
+
 // font awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -97,6 +99,8 @@ const Home = () => {
       {/* call to action */}
       <CallToAction />
       {/* /call to action */}
+
+      <EmailSubscriptionForm />
 
       {/* whatsapp */}
       <a className="msm-whatsapp-btn" href="https://wa.me/919834888821" target="_blank"> <FontAwesomeIcon icon={faWhatsapp} className="msm-whatsapp-icon" /></a>

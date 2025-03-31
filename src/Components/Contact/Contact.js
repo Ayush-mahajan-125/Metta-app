@@ -80,7 +80,7 @@ const ContactForm = () => {
             {/* email address */}
             <h5 class="text-dark">Email Address :</h5>
             <h6 class="nav-item text-secondary mb-5 msm-font-size"><span><FontAwesomeIcon icon={faEnvelope} className='pe-2 ' /></span>
-              swapnilkhare3@gmail.com</h6>
+              mettasharemarket@gmail.com</h6>
             {/* /email address */}
 
             {/* time */}

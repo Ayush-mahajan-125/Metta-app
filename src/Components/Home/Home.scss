@@ -9,6 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
     @media (max-width: 768px) {
         height: auto;
         padding: 10rem 0;
@@ -50,7 +51,7 @@
 .msm-quotes {
     // background: #ff0a0a;
     // background: #180a4a;
-    background: rgb(17,11,124);
+    background: rgb(17, 11, 124);
     background: linear-gradient(90deg, #04012d 9%, rgb(171, 11, 21) 23%, rgb(247, 16, 14) 31%, rgb(247, 8, 8) 67%, rgb(142, 9, 23) 77%, #04012d 90%);
     height: 7rem;
     display: flex;
@@ -633,7 +634,7 @@ textarea {
 
 .msm-call-to-action-section {
     background: #FCEDE6;
-    padding: 8rem 16px;
+    padding: 3rem 16px;
 }
 
 // EnrollmentPage
@@ -687,3 +688,19 @@ textarea {
 }
 
 // /EnrollmentForm ----------------------------------------------------------------------------
+
+.msm-emaill-form {
+    background: white;
+    padding: 3rem 0;
+
+    .msm-border-form {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0), 0 3px 10px rgba(0, 0, 0, 0.22);
+        border-radius: 8px;
+        padding: 10px;
+
+        input {
+            box-shadow: none !important;
+            transform: none;
+        }
+    }
+}

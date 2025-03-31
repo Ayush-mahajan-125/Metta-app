@@ -44,7 +44,7 @@ const Calculator = () => {
       <div className="text-center msm-ayush-chart">
         <h1 className="fw-bold text-white mb-3">SIP Calculator</h1>
         <h6 className="text-light">Simplify your investments with our SIP Calculator – plan, invest, and grow your wealth effortlessly</h6>
-        <a href="" className="btn btn-dark my-3">Invest Now</a>
+        <a href="https://upstox.com/open-account/?f=JG1348" className="btn btn-dark my-3">Invest Now</a>
       </div>
       {/* /primary section */}
 
