@@ -14,6 +14,8 @@ import Accordion from './Accordion';
 import NagpurBestClasses from './NagpurBestClasses';
 import CallToAction from './CallToAction';
 import EmailSubscriptionForm from './EmailSubscriptionForm';
+import Certification from './Certification';
+
 
 // font awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -42,13 +44,13 @@ const Home = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  
+
   return (
     <div className="home">
       {/* hero */}
       <HeroSection />
       {/* /hero */}
-  
+
       {/* About */}
       <HomeAbout />
       {/* /About */}
@@ -56,6 +58,10 @@ const Home = () => {
       {/* Why choose section */}
       <HomeWhyChoose />
       {/* /Why choose section */}
+
+      {/* Certification */}
+      <Certification />
+      {/* /Certification */}
 
       {/* best nagpur classes */}
       < NagpurBestClasses />
@@ -93,14 +99,16 @@ const Home = () => {
       {/* Bootstrap Modal */}
 
       {/* FAQ */}
-      <Accordion/>
+      <Accordion />
       {/* /FAQ */}
 
       {/* call to action */}
       <CallToAction />
       {/* /call to action */}
 
+      {/* email form */}
       <EmailSubscriptionForm />
+      {/* /email form */}
 
       {/* whatsapp */}
       <a className="msm-whatsapp-btn" href="https://wa.me/919834888821" target="_blank"> <FontAwesomeIcon icon={faWhatsapp} className="msm-whatsapp-icon" /></a>
