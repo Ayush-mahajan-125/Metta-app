@@ -3,7 +3,7 @@ import './Home.scss';
 import HeroAbout from '../../assets/img/WhatsApp Image 2025-03-31 at 17.42.54_ae756fe6.jpg';
 const Certification = () => {
     return (
-        <div className="msm-certification-block bg-primary-color text-white py-5">
+        <div className="msm-certification-block bg-primary-color text-white py-5 px-3">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-sm-12 col-md-12 col-lg-6">

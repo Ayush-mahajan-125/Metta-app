@@ -15,6 +15,13 @@ const NagpurBestClasses = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-sm-12 col-md-12 col-lg-6">
+                        <div class="msm-card">
+                            <p><img src={NagpurBestClassesThree} alt="About image" loading="lazy" /></p>
+                            <p><img src={NagpurBestClassesTwo} alt="About image" loading="lazy" /></p>
+                            <p><img src={NagpurBestClassesOne} alt="About image" loading="lazy" /></p>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-6">
 
                         {/* heading */}
                         <p className="text-secondary">#MeTta #MeTtaNagpur #BestShareMarketTraining  #MeTtaFinancial </p>
@@ -40,13 +47,7 @@ const NagpurBestClasses = () => {
 
                         <a href="/contact-us" className="btn-primary">Contact Us</a>
                     </div>
-                    <div className="col-sm-12 col-md-12 col-lg-6">
-                        <div class="msm-card">
-                            <p><img src={NagpurBestClassesThree} alt="About image" loading="lazy" /></p>
-                            <p><img src={NagpurBestClassesTwo} alt="About image" loading="lazy" /></p>
-                            <p><img src={NagpurBestClassesOne} alt="About image" loading="lazy" /></p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
 

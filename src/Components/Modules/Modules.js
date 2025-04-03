@@ -1,5 +1,8 @@
 import React from 'react';
 import './Modules.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faGaugeHigh, faNoteSticky, faMoneyCheck, faSatelliteDish, faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 const Modules = () => {
     return (
         <div className="msm-mt-5 container pb-5 msm-module-page-block">
@@ -27,7 +30,7 @@ const Modules = () => {
                 Module 3 - Fundamental Analysis
             </button>
 
-            <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+            <button type="button" class="btn-toggle-collapse mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                 Module 4 - Forex, Commodity, and Cryptocurrency Markets
             </button>
 
@@ -549,6 +552,53 @@ const Modules = () => {
                                 <li>How to Use Technical Analysis in Cryptocurrency Trading</li>
                                 <li>Stablecoins and Their Role in the Crypto Ecosystem</li>
                             </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<hr />
+            <div className="container ">
+                <h1 className="fs-1 fw-normal text-dark text-center my-5">Benefits</h1>
+                <div className="row msm-top-spacing justify-content-center">
+                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                        <div className="card text-center">
+                            <FontAwesomeIcon icon={faGaugeHigh} className="msm-text-dark fs-3 m-auto mb-3" />
+                            <h6>Life-Time Support</h6>
+                        </div>
+                    </div>
+                    {/*  */}
+                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                        <div className="card text-center">
+                            <FontAwesomeIcon icon={faSatelliteDish} className="msm-text-dark fs-3 m-auto mb-3" />
+                            <h6>Live Session</h6>
+                        </div>
+                    </div>
+                    {/*  */}
+                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                        <div className="card text-center">
+                            <FontAwesomeIcon icon={faMoneyCheck} className="msm-text-dark fs-3 m-auto mb-3" />
+                            <h6>7 Day's Refundable policy</h6>
+                        </div>
+                    </div>
+                    {/*  */}
+                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                        <div className="card text-center">
+                            <FontAwesomeIcon icon={faNoteSticky} className="msm-text-dark fs-3 m-auto mb-3" />
+                            <h6>Provide Quality Notes </h6>
+                        </div>
+                    </div>
+                    {/*  */}
+                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                        <div className="card text-center">
+                            <FontAwesomeIcon icon={faWhatsapp} className="msm-text-dark fs-3 m-auto mb-3" />
+                            <h6>What's App group</h6>
+                        </div>
+                    </div>
+                    {/*  */}
+                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                        <div className="card text-center">
+                            <FontAwesomeIcon icon={faRightFromBracket} className="msm-text-dark fs-3 m-auto mb-3" />
+                            <h6>Batch Rejoin Facility Within One Year</h6>
                         </div>
                     </div>
                 </div>

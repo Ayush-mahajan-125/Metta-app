@@ -42,4 +42,33 @@
     .list-style-circle {
         list-style: circle;
     }
+
+    .card {
+        padding: 2rem 1rem;
+        border-radius: 1rem;
+        box-shadow:0 1px 5px rgba(0, 0, 0, 0.25);
+        height: 100%;
+        // background-color: #111116;
+        background: white;
+        transition: transform 0.5s ease-in-out;
+        border-bottom: 3px solid #ff0a0a !important;
+        border: none;
+
+        h6,
+        .msm-text-dark {
+            color: rgb(0, 0, 0);
+            font-weight: 400;
+        }
+
+        &:hover {
+            background: #ff0a0a;
+            transition: transform 0.5s ease-in-out;
+
+            h6,
+            .msm-text-dark {
+                color: rgb(255, 255, 255);
+                font-weight: 500;
+            }
+        }
+    }
 }
