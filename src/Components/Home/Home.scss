@@ -492,6 +492,7 @@ textarea {
     padding: 8rem 16px;
     padding-bottom: 5rem;
     background: #FCEDE6;
+
     @media (max-width: 992px) {
         padding: 3rem 0;
     }
@@ -584,52 +585,55 @@ textarea {
 // /nagpur best classes section -----------------------------------------------------------
 
 // whatsapp connect btn
-.msm-whatsapp-btn {
-    width: 60px;
-    height: 60px;
-    border-radius: 58px;
-    font-size: 17px;
-    text-decoration: none;
+.msm-social-icons {
     position: fixed;
-    top: 50%;
-    right: 15px;
-    font-weight: 700;
-    background-color: #23D366;
-    color: white;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+    top: 45%;
+    border: 1px solid white;
+    border-radius: 5px;
+    right: 0;
     z-index: 999;
-    padding-left: 1rem;
 
-    &::before {
-        content: '';
-        position: absolute;
-        width: 100px;
-        height: 100%;
-        background-image: linear-gradient(120deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
-        top: 0;
-        left: -100px;
-        animation: white-liine 2s infinite linear;
+    .msm-whatsapp-btn {
+        width: 60px;
+        height: 60px;
+        font-size: 17px;
+        text-decoration: none;
+        top: 50%;
+        right: 15px;
+        font-weight: 700;
+        background-color: #23D366;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
     }
 
-    @media (max-width: 768px) {
-        top: 75%;
-    }
-}
-
-.msm-whatsapp-icon {
-    margin-right: 6px;
-    font-size: 34px;
-}
-
-@keyframes white-liine {
-    0% {
-        left: -100px;
+    .whatsapp-msm-btn {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
     }
 
-    100% {
-        left: 100%;
+    .msm-whatsapp-icon {
+        margin-right: 6px;
+        font-size: 25px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .msm-facebook-btn {
+        background: #3b5999;
+    }
+
+    .msm-instagram-btn {
+        background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    }
+
+    .msm-telegram-btn {
+        background: #0072b1;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
 }
 
