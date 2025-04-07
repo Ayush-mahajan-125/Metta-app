@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong, faLeftLong } from '@fortawesome/free-solid-svg-icons';
 import "./Gallery.scss";
 
+import { Helmet} from 'react-helmet-async';
+
 // random image call in gallery block
 const imageList = Array.from({ length: 29 }, (_, i) => `/img/img-${i + 1}.jpg`);
 
@@ -46,6 +48,13 @@ const Gallery = () => {
   //  image preview dialog -----------------
   return (
     <section className='msm-mt-5'>
+
+      <Helmet>
+        <meta name="description" content="Top-rated share market classes and training in Nagpur." />
+        <meta name="keywords" content="Nagpur Share Market, Best Share Market Nagpur, Trading Institute Nagpur, Metta Share Market, Metta , top share market in nagpur ,share market" />
+      </Helmet>
+
+
       {/* hero section */}
       <div className="msm-gallery-hero-section" style={{ backgroundImage: `url(${randomImage})` }}>
         <div className="container">
@@ -86,7 +95,7 @@ const Gallery = () => {
           <dialog id="dialog" className="dialog">
             {currentImage !== null && (
               <div className="dialogContainer">
-                
+
                 {/* random image */}
                 <img src={imageList[currentImage]} alt="Preview" className="msm-dialog-img" />
 

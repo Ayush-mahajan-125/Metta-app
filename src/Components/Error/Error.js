@@ -1,10 +1,17 @@
 // File: src/components/ErrorPage/ErrorPage.js
 import React from 'react';
 import './Error.scss';
+import { Helmet } from 'react-helmet-async';
 
 const Error = () => {
   return (
     <div className="msm-error-page-block">
+
+      <Helmet>
+        <meta name="description" content="Top-rated share market classes and training in Nagpur." />
+        <meta name="keywords" content="Nagpur Share Market, Best Share Market Nagpur, Trading Institute Nagpur, Metta Share Market, Metta , top share market in nagpur ,share market" />
+      </Helmet>
+
       <div className="error-page m-auto">
         <div className="msm-container">
           <div className="eyes my-5">

@@ -14,6 +14,8 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
+import { Helmet } from 'react-helmet-async';
+
 const About = () => {
 
   const { t } = useTranslation();
@@ -22,6 +24,11 @@ const About = () => {
     <>
       {/* hero About bg block */}
       <div className="msm-about-block-section msm-mt-5">
+
+        <Helmet>
+          <meta name="description" content="Top-rated share market classes and training in Nagpur." />
+          <meta name="keywords" content="Nagpur Share Market, Best Share Market Nagpur, Trading Institute Nagpur, Metta Share Market, Metta , top share market in nagpur ,share market" />
+        </Helmet>
         <div className="container text-center">
 
           {/* content */}

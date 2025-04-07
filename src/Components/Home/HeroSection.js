@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js'; // Import Typed.js
 import './Home.scss';
 import profileImage from '../../assets/img/IMG_1359.JPG';
+import { Helmet} from 'react-helmet-async';
 
 
 const HeroSection = () => {
@@ -25,17 +26,24 @@ const HeroSection = () => {
   return (
     <>
       {/* hero section */}
+      <Helmet>
+      <title>Bddd</title>
+        <meta name="description" content="Top-rated share market classes and training in Nagpur." />
+        <meta name="keywords" content="Nagpur Share Market, Best Share Market Nagpur, Trading Institute Nagpur, Metta Share Market, Metta , top share market in nagpur ,share market" />
+      </Helmet>
       <div className="msm-masthead-header">
         <div className="container col-12">
           <div className="row align-items-center">
             <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 msm-hero-section-mobile-view">
               {/* heading */}
+
               <h1 className="lead fw-normal text-dark mb-3">
                 Welcome to
               </h1>
               <h1 className="display-5 fw-bold mb-3 text-dark">
-               Metta Financial Investment & Trading Training Institute
+                Metta Financial Investment & Trading Training Institute
               </h1>
+
               {/* /heading */}
 
               {/* description */}

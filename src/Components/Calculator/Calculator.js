@@ -4,6 +4,8 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js/auto";
 
 import './Calculator.scss';
 
+import { Helmet } from 'react-helmet-async';
+
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const Calculator = () => {
@@ -40,6 +42,11 @@ const Calculator = () => {
 
     <div className=" msm-mt-5 bg-white">
 
+      <Helmet>
+        <meta name="description" content="Top-rated share market classes and training in Nagpur." />
+        <meta name="keywords" content="Nagpur Share Market, Best Share Market Nagpur, Trading Institute Nagpur, Metta Share Market, Metta , top share market in nagpur ,share market" />
+      </Helmet>
+      
       {/* primary section */}
       <div className="text-center msm-ayush-chart">
         <h1 className="fw-bold text-white mb-3">SIP Calculator</h1>
@@ -110,11 +117,11 @@ const Calculator = () => {
 
             {/* pie data */}
             <div className="col-sm-12 col-md-12 col-lg-6">
-             <div className="d-flex justify-content-center lign-items-center">
-             <div className="chart ">
-                <Pie data={data} />
+              <div className="d-flex justify-content-center lign-items-center">
+                <div className="chart ">
+                  <Pie data={data} />
+                </div>
               </div>
-             </div>
             </div>
             {/* /pie data */}
 

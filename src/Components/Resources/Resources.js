@@ -22,7 +22,7 @@ import pdf12 from '../../assets/img/61M9jjepwTL._SY425_.jpg';
 import pdf14 from '../../assets/img/51vZwFpYT9L._SY445_SX342_.jpg';
 import pdf15 from '../../assets/img/51tYFBUvQqL._SY445_SX342_.jpg';
 
-import NSIM from './NSIM';
+// import NSIM from './NSIM';
 
 const Resources = () => {
     return (
@@ -324,7 +324,7 @@ const Resources = () => {
                 </div>
             </div>
 
-            <NSIM/>
+            {/* <NSIM/> */}
         </div>
     );
 };

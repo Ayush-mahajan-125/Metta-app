@@ -169,6 +169,19 @@ const Navbar = () => {
                   </AnimatePresence>
                 </li>
 
+
+                {/* Blogs */}
+                <li className="nav-item px-2">
+                  <NavLink
+                    className="nav-link"
+                    to="https://blogs.mettasharemarket.in/"
+                    onClick={() => setIsNavCollapsed(true)}
+                  >
+                    {translate("Blogs")}
+                  </NavLink>
+                </li>
+                {/* /Blogs */}
+
               </ul>
             </div>
           </div>

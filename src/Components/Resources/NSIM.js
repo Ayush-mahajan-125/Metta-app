@@ -1,10 +1,7 @@
 import React from "react";
 import { Viewer, Worker } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
-import * as pdfjs from "pdfjs-dist/build/pdf";
-import "pdfjs-dist/build/pdf.worker.entry";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`;
 
 const pdfFiles = [
   "/pdf/NSIM/NISM-SERIES-I--CURRENCY-DERIVATIVE-EXAM-WORKBOOK-IN-PDF1.pdf",
@@ -37,16 +34,14 @@ const pdfFiles = [
 const NSIM = () => {
   return (
     <div className="container py-4">
-
-<h1 className="display-6 fw-normal py-5 text-center">
-NISM Exams - Free Workbooks Download
-                </h1>
-      <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js`}>
+      <h1 className="display-6 fw-normal py-5 text-center">
+        NISM Exams - Free Workbooks Download
+      </h1>
+      <Worker workerUrl={`https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js`}>
         <div className="row g-4">
           {pdfFiles.map((pdf, index) => (
             <div key={index} className="col-sm-12 col-md-6 col-lg-4 col-xl-3">
               <div className="card">
-           
                 <div className="card-body text-center">
                   <div className="" style={{ height: "15rem", overflow: "hidden" }}>
                     <Viewer fileUrl={pdf} />

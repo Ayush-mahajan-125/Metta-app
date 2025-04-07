@@ -10,7 +10,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
-
+import { Helmet} from 'react-helmet-async';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -50,6 +50,12 @@ const ContactForm = () => {
 
   return (
     <section className="msm-mt-5 msm-contact-page-block">
+
+      <Helmet>
+        <meta name="description" content="Top-rated share market classes and training in Nagpur." />
+        <meta name="keywords" content="Nagpur Share Market, Best Share Market Nagpur, Trading Institute Nagpur, Metta Share Market, Metta , top share market in nagpur ,share market" />
+      </Helmet>
+
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -86,8 +92,8 @@ const ContactForm = () => {
             {/* time */}
             <h5 class="text-dark">Our Timing</h5>
             <h6 class="nav-item text-secondary mb-5 msm-font-size"><span><FontAwesomeIcon icon={faStopwatch} className='pe-2 ' /></span>
-            Mon - Sat : 07:00 AM - 10:00 PM <br></br>
-            Sun : Closed</h6>
+              Mon - Sat : 07:00 AM - 10:00 PM <br></br>
+              Sun : Closed</h6>
             {/* /time */}
 
             {/* Call Us */}
