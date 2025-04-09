@@ -51,7 +51,7 @@ const Navbar = () => {
             >
               <ul className="navbar-nav ms-auto text-center text-white">
                 {/* Home */}
-                <li className="nav-item">
+                <li className="nav-item px-2">
                   <NavLink
                     className="nav-link"
                     to="/"
@@ -61,6 +61,18 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 {/* /Home */}
+
+                {/* Enrollment */}
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link"
+                    to="/enrollment-form"
+                    onClick={() => setIsNavCollapsed(true)}
+                  >
+                    {translate("Enrollment Form")}
+                  </NavLink>
+                </li>
+                {/* /Enrollment */}
 
                 {/* Modules */}
                 <li className="nav-item px-2">

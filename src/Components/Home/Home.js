@@ -116,8 +116,8 @@ const Home = () => {
       <div className="msm-social-icons">
         <a className="msm-whatsapp-btn whatsapp-msm-btn" href="https://wa.me/919834888821" target="_blank"> <FontAwesomeIcon icon={faWhatsapp} className="msm-whatsapp-icon" /></a>
         <a className="msm-whatsapp-btn bg-danger" href="https://www.youtube.com/@mettasharemarket" target="_blank"> <FontAwesomeIcon icon={faYoutube} className="msm-whatsapp-icon" /></a>
-        <a className="msm-whatsapp-btn msm-facebook-btn" href="https://m.facebook.com/sharemarketmetta/" target="_blank"> <FontAwesomeIcon icon={faFacebook} className="msm-whatsapp-icon" /></a>
-        <a className="msm-whatsapp-btn msm-instagram-btn" href="http://instagram.com/mettasharemarket" target="_blank"> <FontAwesomeIcon icon={faInstagram} className="msm-whatsapp-icon" /></a>
+        <a className="msm-whatsapp-btn msm-facebook-btn" href="https://www.facebook.com/groups/1118661713609447" target="_blank"> <FontAwesomeIcon icon={faFacebook} className="msm-whatsapp-icon" /></a>
+        <a className="msm-whatsapp-btn msm-instagram-btn" href="https://www.instagram.com/mettasharemarket.nagpur/" target="_blank"> <FontAwesomeIcon icon={faInstagram} className="msm-whatsapp-icon" /></a>
         <a className="msm-whatsapp-btn msm-telegram-btn" href="https://t.me/joinchat/HrYYVxCqEvLAN3hc" target="_blank"> <FontAwesomeIcon icon={faTelegram} className="msm-whatsapp-icon" /></a>
       </div>
      

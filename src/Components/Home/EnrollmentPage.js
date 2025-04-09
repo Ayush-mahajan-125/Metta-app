@@ -1,104 +1,101 @@
-// File: src/components/ErrorPage/ErrorPage.js
-import React, { useEffect, useState } from 'react';
-import Enrollment from './EnrollmentForm';
+import React, { Component } from 'react';
 import './Home.scss';
-import EnrollImage from '../../assets/img/enroll-image.jpg';
+import AboutOne from '../../assets/img/undraw_thought-process_pavs.png';
 
-const EnrollmentPage = () => {
+class EnrollmentPage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeForm: 'login',
+      formSubmitted: false,
+    };
+  }
 
-    // call random image
-    // Manually list all images
-    const images = [
-        require('../../assets/randomFolder1/image1.jpg'),
-        require('../../assets/randomFolder1/image2.jpg'),
-        require('../../assets/randomFolder1/image3.jpg'),
-        require('../../assets/randomFolder1/image5.jpg'),
-        require('../../assets/randomFolder1/image6.jpg'),
-        require('../../assets/randomFolder1/image7.jpg'),
-        require('../../assets/randomFolder1/image8.jpg'),
-        require('../../assets/randomFolder1/image9.jpg'),
-        require('../../assets/randomFolder1/image10.jpg'),
-        require('../../assets/randomFolder1/image11.jpg'),
-    ];
+  switchForm = (form) => {
+    this.setState({ activeForm: form, formSubmitted: false });
+  };
 
-    // Select a random image on reload
-    const [randomImage, setRandomImage] = useState('');
+  handleFormSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
 
-    useEffect(() => {
-        const randomIndex = Math.floor(Math.random() * images.length);
-        setRandomImage(images[randomIndex]);
-    }, []);
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: new FormData(form),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.success) {
+          this.setState({ formSubmitted: true });
+          form.reset();
+        } else {
+          alert("Something went wrong. Please try again!");
+        }
+      })
+      .catch(() => alert("Network error!"));
+  };
 
+  render() {
+    const { activeForm, formSubmitted } = this.state;
 
     return (
-        <>
-            {/* hero section */}
-            <div className="msm-enrollment-page-block" style={{ backgroundImage: `url(${randomImage})` }}>
-                <div className="container">
-                    <div className="row align-items-center">
-                        {/* content */}
-                        <div className="col-sm-12 col-md-12 col-lg-6">
-                            <div className="px-4">
-                                <h1 className="display-5 fw-bold mb-4 text-white">
-                                    Unlock Your Share Market Potential
-                                </h1>
-                                <h5 className='text-white fw-bold mb-4'>Join Us Today and Elevate Your Trading Journey</h5>
-                                <p className="lead msm-text-secondary fs-6">
-                                    Take the first step towards financial success by enrolling with us. <br />Gain exclusive access to expert insights, advanced trading strategies, and round-the-clock support to boost your share market expertise.
-                                </p>
-                            </div>
-                        </div>
-                        {/* /content */}
+      <div className="msm-form-container-block">
+        <div className="auth-wrapper">
+          <div className="p-5">
+            <h2 className='fw-bold text-white text-center'>Free Demo & Enroll Now – Learn, Trade, Succeed!</h2>
+            <p className='text-white text-center'>
+              Kickstart your stock market journey with expert-led sessions — choose a free demo or enroll today to grow your trading skills!
+            </p>
+          </div>
 
-                        {/* form */}
-                        <div className="col-sm-12 col-md-12 col-lg-6">
-                            <Enrollment />
-                        </div>
-                        {/* /form */}
-                    </div>
-                </div>
+          <div className="auth-card">
+            <p><img src={AboutOne} alt="mett share market" loading="lazy" className='w-50 m-auto d-flex' /></p>
+
+            <div className="tab-switcher mb-4">
+              <button className={activeForm === 'login' ? 'active' : ''} onClick={() => this.switchForm('login')}>Free Demo</button>
+              <button className={activeForm === 'register' ? 'active' : ''} onClick={() => this.switchForm('register')}>Enroll Now</button>
             </div>
-            {/* hero section */}
-            <div className="container msm-enroll-content-section-block">
-                <div className="row">
 
-                    {/* /heading */}
-                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <h1 class="display-6 fw-normal text-dark">Take Control of Your Financial Future</h1>
-                        <p class="text-dark">Imagine having the confidence to navigate the share market with ease. With our expert resources and dedicated support, you’ll unlock the skills to make informed decisions and maximize your investments. Whether you're a beginner or an experienced trader, we empower you to achieve your financial goals.
-                        </p>
-
-                        <h3 className='fw-normal text-dark mt-5 mb-4'>Here’s What Awaits You:</h3>
-
-                        <li className="text-dark fw-normal my-2">Access to in-depth market research and insights.</li>
-                        <li className="text-dark fw-normal my-2">Customized trading plans designed for your success.</li>
-                        <li className="text-dark fw-normal my-2">Ongoing guidance to help you stay ahead of market trends.</li>
-                        <li className="text-dark fw-normal my-2">A vibrant community of like-minded investors to collaborate with.</li>
-                    </div>
-                    {/* /heading */}
-
-                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <div className="d-flex justify-content-center">
-                            <img src={EnrollImage} alt="Enroll Image" className='image-enroll' loading="lazy" />
-                        </div>
-                    </div>
+            <div className="form-slider">
+              {formSubmitted && (
+                <div className="success-message text-success text-center mb-3">
+                  ✅ Your form has been submitted successfully!
                 </div>
+              )}
+
+              <form className="form" onSubmit={this.handleFormSubmit}>
+                <input type="hidden" name="access_key" value="ce4f0829-83e2-43ff-9e0e-1662f17955d1" />
+
+                <input type="text" name="full_name" placeholder="Full Name" required  />
+                <input type="email" name="email" placeholder="Email Address" required />
+                <input
+                  type="text"
+                  name="whatsapp"
+                  placeholder="WhatsApp number"
+                  required
+                  maxLength={10}
+                  pattern="[0-9]{10}"
+                  onInput={(e) => {
+                    e.target.value = e.target.value.replace(/[^0-9]/g, '').slice(0, 10);
+                  }}
+                />
+                <textarea name="address" placeholder="Enter Address" required />
+
+                {activeForm === 'register' && (
+                  <>
+                    <input type="text" name="qualification" placeholder="Qualification" required />
+                    <input type="text" name="profession" placeholder="Profession" required />
+                  </>
+                )}
+
+                <button type="submit">Submit</button>
+              </form>
             </div>
-            
-            <hr className='container' />
-            
-            {/* contact us */}
-            <div className="msm-container-block">
-                <div className="container text-dark text-center">
-                    <h3 className='fw-normal'>Need help? Contact our support team anytime at</h3>
-                    <p className='text-orange mb-2'>nagpurmettasharemarket@gmail.com</p>
-                    <div className="d-flex justify-content-center">
-                        <a href="/contact-us" target="_blank" className='btn-primary'>Contact Us</a>
-                    </div>
-                </div>
-            </div>
-            {/* /contact us */}
-        </>
+          </div>
+        </div>
+      </div>
     );
-};
+  }
+}
+
 export default EnrollmentPage;

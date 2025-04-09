@@ -27,7 +27,6 @@ const HeroSection = () => {
     <>
       {/* hero section */}
       <Helmet>
-      <title>Bddd</title>
         <meta name="description" content="Top-rated share market classes and training in Nagpur." />
         <meta name="keywords" content="Nagpur Share Market, Best Share Market Nagpur, Trading Institute Nagpur, Metta Share Market, Metta , top share market in nagpur ,share market" />
       </Helmet>

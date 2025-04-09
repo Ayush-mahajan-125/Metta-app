@@ -663,35 +663,103 @@ textarea {
 
 // EnrollmentForm
 
-.msm-enroll-form-container {
-    background: #0000000f;
-    backdrop-filter: blur(15px);
-    padding: 35px;
-    max-width: 100%;
-    border-radius: 10px;
-    border-bottom: 3px solid white;
+.msm-to-form-block-container {
+    .container {
+        // max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: sans-serif;
+        margin-top: 5rem;
+        padding-top: 5rem;
+    }
 
-    .msm-success-message {
-        color: green;
-        background-color: #d4edda;
-        border: 1px solid #c3e6cb;
-        padding: 6px;
-        border-radius: 5px;
+    .slider-center {
         text-align: center;
-        font-weight: 600;
     }
-}
 
-.msm-container-block {
-    padding: 5rem 16px;
-}
-
-.msm-enroll-content-section-block {
-    padding: 8rem 16px;
-
-    .image-enroll {
-        width: 80%;
+    .slider-image {
+        width: 100%;
+        border-radius: 12px;
+        height: 300px;
+        object-fit: cover;
     }
+
+    .slider-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .slider-btn {
+        padding: 10px 20px;
+        background-color: #2563eb;
+        color: #fff;
+        border: none;
+        border-radius: 999px;
+        cursor: pointer;
+        font-size: 16px;
+
+        &.green {
+            background-color: #10b981;
+        }
+    }
+
+    .slider-form-wrapper {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f9fafb;
+    }
+
+    .slider-form-box {
+        background: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        width: 100%;
+        max-width: 500px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    .slider-heading {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .slider-input,
+    .slider-textarea {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+    .slider-textarea {
+        min-height: 80px;
+    }
+
+    .slider-submit-btn {
+        width: 100%;
+        background: #059669;
+        color: #fff;
+        font-weight: bold;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .slider-back {
+        margin-top: 10px;
+        color: #2563eb;
+        text-align: center;
+        cursor: pointer;
+    }
+
 }
 
 // /EnrollmentForm ----------------------------------------------------------------------------
@@ -730,3 +798,71 @@ textarea {
 }
 
 // Certification----------------------------------------------------------
+
+
+.msm-form-container-block {
+    .auth-wrapper {
+        background:linear-gradient(to right, #3b82f6, #a855f7);
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+    }
+
+    .auth-card {
+        background: white;
+        padding: 2rem;
+        border-radius: 16px;
+        width: 400px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        margin: auto;
+    }
+
+
+    .tab-switcher {
+        display: flex;
+        margin-bottom: 1rem;
+        background: #eee;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .tab-switcher button {
+        flex: 1;
+        padding: 0.5rem;
+        border: none;
+        cursor: pointer;
+        background: transparent;
+        transition: background 0.3s;
+    }
+
+    .tab-switcher .active {
+        background: linear-gradient(to right, #0052d4, #4364f7);
+        color: white;
+        border-radius: 8px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .form input ,.form textarea{
+        padding: 0.75rem;
+        border: none;
+        border-radius: 8px;
+        background: #ededed99;
+        margin-bottom: 7px;
+        transform: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .form button {
+        background: linear-gradient(to right, #0052d4, #4364f7);
+        color: white;
+        border: none;
+        padding: 0.75rem;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
