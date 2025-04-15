@@ -123,7 +123,7 @@ const Home = () => {
 
         <a className="msm-whatsapp-btn bg-danger" href="https://www.youtube.com/@mettasharemarket" target="_blank"> <FontAwesomeIcon icon={faYoutube} className="msm-whatsapp-icon" /></a>
 
-        <a className="msm-whatsapp-btn msm-facebook-btn" href="https://www.facebook.com/groups/1118661713609447" target="_blank"> <FontAwesomeIcon icon={faFacebook} className="msm-whatsapp-icon" /></a>
+        <a className="msm-whatsapp-btn msm-facebook-btn" href="https://www.facebook.com/mettasharemarket.nagpur" target="_blank"> <FontAwesomeIcon icon={faFacebook} className="msm-whatsapp-icon" /></a>
 
         <a className="msm-whatsapp-btn msm-instagram-btn" href="https://www.instagram.com/mettasharemarket.nagpur/" target="_blank"> <FontAwesomeIcon icon={faInstagram} className="msm-whatsapp-icon" /></a>
 

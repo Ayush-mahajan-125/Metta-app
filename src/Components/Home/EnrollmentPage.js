@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Home.scss';
 import AboutOne from '../../assets/img/undraw_thought-process_pavs.png';
+import WorkShop from '../../assets/img/Workshop.jpg';
+
 
 class EnrollmentPage extends Component {
   constructor(props) {
@@ -41,11 +43,20 @@ class EnrollmentPage extends Component {
     return (
       <div className="msm-form-container-block">
         <div className="auth-wrapper">
-          <div className="p-5">
+          {/* <div className="p-5">
             <h2 className='fw-bold text-white text-center'>Free Demo & Enroll Now – Learn, Trade, Succeed!</h2>
             <p className='text-white text-center'>
               Kickstart your stock market journey with expert-led sessions — choose a free demo or enroll today to grow your trading skills!
             </p>
+          </div> */}
+
+          <div className="container text-white">
+            <div className="my-5 text-center">
+              {/* <h2 className='fw-bold text-white'>Join Our Free Stock Market Workshops!</h2>
+              <p className='text-white'>Metta Share Market Institute for Two Days Free Offline Demo Classes Designed for Beginners and Aspiring Traders.​</p> */}
+
+              <img src={WorkShop} alt="mett share market" loading="lazy" className='w-100 m-auto d-flex rounded' />
+            </div>
           </div>
 
           <div className="auth-card">
@@ -66,7 +77,7 @@ class EnrollmentPage extends Component {
               <form className="form" onSubmit={this.handleFormSubmit}>
                 <input type="hidden" name="access_key" value="ce4f0829-83e2-43ff-9e0e-1662f17955d1" />
 
-                <input type="text" name="full_name" placeholder="Full Name" required  />
+                <input type="text" name="full_name" placeholder="Full Name" required />
                 <input type="email" name="email" placeholder="Email Address" required />
                 <input
                   type="text"

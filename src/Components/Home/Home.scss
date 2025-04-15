@@ -811,9 +811,12 @@ textarea {
         background: white;
         padding: 2rem;
         border-radius: 16px;
-        width: 400px;
+        width: 460px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         margin: auto;
+        @media (max-width: 768px) {
+            width: 400px;
+        }
     }
 
 
