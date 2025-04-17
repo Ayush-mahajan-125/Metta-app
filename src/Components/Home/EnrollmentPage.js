@@ -60,7 +60,7 @@ class EnrollmentPage extends Component {
           </div>
 
           <div className="auth-card">
-            <p><img src={AboutOne} alt="mett share market" loading="lazy" className='w-50 m-auto d-flex' /></p>
+            <p><img src={AboutOne} alt="metta share market free demo clases" loading="lazy" className='w-50 m-auto d-flex' /></p>
 
             <div className="tab-switcher mb-4">
               <button className={activeForm === 'login' ? 'active' : ''} onClick={() => this.switchForm('login')}>Free Demo</button>
@@ -100,6 +100,7 @@ class EnrollmentPage extends Component {
                 )}
 
                 <button type="submit">Submit</button>
+                <div className="col-12"><a href="https://goo.gl/maps/hnmrbQDteCWyCzPb8" target="_blank" className="btn btn-danger w-100">Google map Location </a></div>
               </form>
             </div>
           </div>
