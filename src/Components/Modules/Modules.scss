@@ -2,17 +2,15 @@
     .btn-toggle-collapse {
         background-color: #ffffff;
         color: rgb(0, 0, 0);
-        border: none;
+        border: 1px solid #ddd;
         padding: 18px 20px;
         cursor: pointer;
         text-align: cebter;
         width: 90%;
         border-radius: 12px;
-        border-right: 4px solid var(--primary-color);
         margin: auto auto 30px auto;
         display: flex;
         justify-content: center;
-        box-shadow: 0 1px 5px rgba(0, 0, 0, .25);
     }
 
     .msm-modal-para p {
@@ -72,3 +70,5 @@
         }
     }
 }
+
+// background-image: url("/assets/img/bg-hero-homr.jpg");

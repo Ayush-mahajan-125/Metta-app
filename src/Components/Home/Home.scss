@@ -802,7 +802,7 @@ textarea {
 
 .msm-form-container-block {
     .auth-wrapper {
-        background:linear-gradient(to right, #3b82f6, #a855f7);
+        background: linear-gradient(to right, #3b82f6, #a855f7);
         padding-top: 7rem;
         padding-bottom: 5rem;
     }
@@ -814,6 +814,7 @@ textarea {
         width: 460px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         margin: auto;
+
         @media (max-width: 768px) {
             width: 400px;
         }
@@ -849,7 +850,8 @@ textarea {
         gap: 0.75rem;
     }
 
-    .form input ,.form textarea{
+    .form input,
+    .form textarea {
         padding: 0.75rem;
         border: none;
         border-radius: 8px;
@@ -868,4 +870,26 @@ textarea {
         border-radius: 8px;
         cursor: pointer;
     }
+}
+
+details {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    transition: transform 0.5s ease-in-out;
+    border-bottom: 3px solid #ff0a0a !important;
+    margin-bottom: 20px;
+}
+
+summary {
+    font-weight: 500;
+    cursor: pointer;
+    list-style: none;
+    font-size: 25px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
 }

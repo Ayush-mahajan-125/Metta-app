@@ -9,7 +9,7 @@ const CallToAction = () => {
             <p className='text-dark fw-normal'>🔔 Join the Fastest Growing Trading Network Today!</p>
             <p className='text-dark fw-normal'>📊 Learn from Experts, Get Actionable Insights & Trade Confidently.</p>
             <p className='text-dark fw-normal mb-3'>🚀 Contact Now & Take Control of Your Financial Future!</p>
-           <div className="d-flex justify-content-center"> <a href="#" className='btn-primary'>Contact Us</a></div>
+           <div className="d-flex justify-content-center"> <a href="/contact-us" className='btn-primary'>Contact Us</a></div>
             </div>
         </div>
     );
