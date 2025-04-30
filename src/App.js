@@ -17,7 +17,10 @@ import ScrollToTop from './ScrollToTop';
 import RefundPolicy from './Components/RefundPolicy';
 import EnrollmentPage from './Components/Home/EnrollmentPage';
 import Calculator from './Components/Calculator/Calculator';
+import CAGRCalculator from './Components/CAGRCalculator/CAGRCalculator';
+import MettaChart from './Components/Chart/MettaChart';
 import './App.scss';
+
 import { HelmetProvider} from 'react-helmet-async';
 const LanguageSelector = () => {
   const { language, setLanguage } = useLanguage();
@@ -50,6 +53,8 @@ const App = () => {
               <Route path="/enrollment-form" element={<EnrollmentPage />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/sip-calculator" element={<Calculator />} />
+              <Route path="/cagr-calculator" element={<CAGRCalculator />} />
+              <Route path="/metta-chart-analysis" element={<MettaChart />} />
               <Route path="*" element={<Error />} />
             </Routes>
             <ScrollToTop />

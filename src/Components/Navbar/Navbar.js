@@ -7,13 +7,6 @@ import "./Navbar.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faTelegram } from "@fortawesome/free-brands-svg-icons";
-// import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-// import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-// import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-// import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-
 const Navbar = () => {
   const { translate } = useLanguage();
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -51,7 +44,7 @@ const Navbar = () => {
             >
               <ul className="navbar-nav ms-auto text-center text-white">
                 {/* Home */}
-                <li className="nav-item px-2">
+                <li className="nav-item">
                   <NavLink
                     className="nav-link"
                     to="/"
@@ -63,7 +56,7 @@ const Navbar = () => {
                 {/* /Home */}
 
                 {/* Enrollment */}
-                <li className="nav-item">
+                <li className="nav-item px-1">
                   <NavLink
                     className="nav-link"
                     to="/enrollment-form"
@@ -75,7 +68,7 @@ const Navbar = () => {
                 {/* /Enrollment */}
 
                 {/* Modules */}
-                <li className="nav-item px-2">
+                <li className="nav-item ">
                   <NavLink
                     className="nav-link"
                     to="/course-modules"
@@ -85,6 +78,18 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 {/* /Modules */}
+
+                {/* Resources */}
+                <li className="nav-item px-1">
+                  <a
+                    className="nav-link"
+                    href="/metta-chart-analysis"
+                    onClick={() => setIsNavCollapsed(true)}
+                  >
+                    {translate("Metta chart")}
+                  </a>
+                </li>
+                {/* /Resources */}
 
                 {/* Resources */}
                 <li className="nav-item">
@@ -99,7 +104,7 @@ const Navbar = () => {
                 {/* /Resources */}
 
                 {/* Contact us */}
-                <li className="nav-item px-2">
+                <li className="nav-item px-1">
                   <NavLink
                     className="nav-link"
                     to="/contact-us"
@@ -130,7 +135,7 @@ const Navbar = () => {
                         style={{
                           top: "100%",
                           left: "0",
-                          width: "200px",
+                          width: "210px",
                           zIndex: "1000",
                         }}
                       >
@@ -175,6 +180,18 @@ const Navbar = () => {
                           </NavLink>
                         </li>
                         {/* /Calculator */}
+
+                        {/* CAGRCalculator */}
+                        <li className="nav-item">
+                          <NavLink
+                            className="nav-link msm-text-dark-color"
+                            to="/cagr-calculator"
+                            onClick={() => setIsNavCollapsed(true)}
+                          >
+                            {translate("CAGR Calculator")}
+                          </NavLink>
+                        </li>
+                        {/* /CAGRCalculator */}
 
                       </motion.div>
                     )}

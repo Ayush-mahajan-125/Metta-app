@@ -1,0 +1,80 @@
+/* Main container */
+.calculator-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc00;
+  padding: 10rem 2.5rem;
+}
+
+/* Card */
+.calculator-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+}
+
+
+
+/* Grid layout */
+.calculator-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Left form section */
+.form-section {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input fields */
+.input-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-with-icon {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.input-with-icon input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+
+  &:focus {
+    box-shadow: none;
+    transform: none;
+  }
+}
+
+.input-with-icon span {
+  background: #e2e8f0;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.msm-bg-video-frame {
+  background-image: url("/assets/img/bg-testimonial.png");
+  background-position: center;
+  animation: animatedBackground 10s linear infinite alternate;
+  background-size: 105% !important;
+  background-repeat: no-repeat;
+}
