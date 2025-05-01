@@ -80,18 +80,6 @@ const Navbar = () => {
                 {/* /Modules */}
 
                 {/* Resources */}
-                <li className="nav-item px-1">
-                  <a
-                    className="nav-link"
-                    href="/metta-chart-analysis"
-                    onClick={() => setIsNavCollapsed(true)}
-                  >
-                    {translate("Metta chart")}
-                  </a>
-                </li>
-                {/* /Resources */}
-
-                {/* Resources */}
                 <li className="nav-item">
                   <NavLink
                     className="nav-link"
