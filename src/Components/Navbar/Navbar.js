@@ -79,8 +79,20 @@ const Navbar = () => {
                 </li>
                 {/* /Modules */}
 
-                {/* Resources */}
-                <li className="nav-item">
+                {/* Chart */}
+                <li className="nav-item px-2">
+                  <NavLink
+                    className="nav-link"
+                    to="https://chart.mettasharemarket.in/"
+                    onClick={() => setIsNavCollapsed(true)}
+                  >
+                    {translate("Metta chart")}
+                  </NavLink>
+                </li>
+                {/* /Chart */}
+
+                 {/* Resources */}
+                 <li className="nav-item">
                   <NavLink
                     className="nav-link"
                     to="/resources"
