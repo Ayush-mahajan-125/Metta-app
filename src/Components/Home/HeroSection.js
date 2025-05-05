@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js'; // Import Typed.js
 import './Home.scss';
-import profileImage from '../../assets/img/IMG_1359.JPG';
+import profileImage from '../../assets/img/IMG_1359.jpg';
 import { Helmet} from 'react-helmet-async';
 
 

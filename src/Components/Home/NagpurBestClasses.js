@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.scss";
-import NagpurBestClassesOne from '../../assets/img/IMG_1313.JPG';
-import NagpurBestClassesTwo from '../../assets/img/IMG_1309.JPG';
-import NagpurBestClassesThree from '../../assets/img/IMG_1330.JPG';
+import NagpurBestClassesOne from '../../assets/img/IMG_1313.jpg';
+import NagpurBestClassesTwo from '../../assets/img/IMG_1309.jpg';
+import NagpurBestClassesThree from '../../assets/img/IMG_1330.jpg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faScrewdriverWrench, faChartSimple, faMagnifyingGlassChart, faBrain, faDollarSign, faCalendarWeek, faArrowTrendUp, faPersonWalking, faGaugeHigh, faHandshake, faNoteSticky, faMoneyCheck, faSatelliteDish, faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
@@ -16,9 +16,9 @@ const NagpurBestClasses = () => {
                 <div className="row align-items-center">
                     <div className="col-sm-12 col-md-12 col-lg-6">
                         <div class="msm-card">
-                            <p><img src={NagpurBestClassesThree} alt="About image" loading="lazy" /></p>
-                            <p><img src={NagpurBestClassesTwo} alt="About image" loading="lazy" /></p>
-                            <p><img src={NagpurBestClassesOne} alt="About image" loading="lazy" /></p>
+                            <p><img src={NagpurBestClassesThree} alt="metta share market nagpur" loading="lazy" /></p>
+                            <p><img src={NagpurBestClassesTwo} alt="metta share market nagpur" loading="lazy" /></p>
+                            <p><img src={NagpurBestClassesOne} alt="metta share market nagpur" loading="lazy" /></p>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6">

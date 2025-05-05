@@ -123,9 +123,9 @@ const About = () => {
           {/* image expand effect */}
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <div className="msm-card">
-              <p><img src={AboutOne} alt="About image" loading="lazy" /></p>
-              <p><img src={AboutTwo} alt="About image" loading="lazy" /></p>
-              <p><img src={AboutThree} alt="About image" loading="lazy" /></p>
+              <p><img src={AboutOne} alt="metta share market" loading="lazy" /></p>
+              <p><img src={AboutTwo} alt="metta share market" loading="lazy" /></p>
+              <p><img src={AboutThree} alt="metta share market" loading="lazy" /></p>
             </div>
           </div>
           {/* /image expand effect */}
@@ -181,7 +181,7 @@ const About = () => {
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className="d-flex justify-content-center">
-                <img src={NagpurBestClassesTwo} alt="About-image" loading="lazy" className='msm-about-img' />
+                <img src={NagpurBestClassesTwo} alt="Swapnil Khaire" loading="lazy" className='msm-about-img' />
               </div>
             </div>
           </div>

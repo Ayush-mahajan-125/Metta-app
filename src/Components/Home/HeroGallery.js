@@ -32,43 +32,43 @@ const HeroGallery = () => {
                 </div>
                 <div class="wrap-images">
                     <div class="row-images">
-                        <img src={heroGalleryOne} loading="lazy" />
-                        <img src={heroGalleryTwo} loading="lazy" />
-                        <img src={heroGalleryThree} loading="lazy" />
-                        <img src={heroGalleryFour} loading="lazy" />
-                        <img src={heroGalleryFive} loading="lazy" />
-                        <img src={heroGallerySix} loading="lazy" />
-                        <img src={heroGallerySeven} loading="lazy" />
-                        <img src={heroGalleryEight} loading="lazy" />
-                        <img src={heroGalleryNine} loading="lazy" />
-                        <img src={heroGalleryTen} loading="lazy" />
-                        <img src={heroGalleryEleven} loading="lazy" />
-                        <img src={heroGalleryTwelve} loading="lazy" />
-                        <img src={heroGalleryThirteen} loading="lazy" />
-                        <img src={heroGalleryFourteen} loading="lazy" />
-                        <img src={heroGalleryfifteen} loading="lazy" />
-                        <img src={heroGallerySixteen} loading="lazy" />
-                        <img src={heroGalleryseventeen} loading="lazy" />
+                        <img src={heroGalleryOne} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryTwo} loading="lazy"  alt='metta share market' />
+                        <img src={heroGalleryThree} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGalleryFour} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGalleryFive} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGallerySix} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGallerySeven} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGalleryEight} loading="lazy" alt='metta share market' />
+                        <img src={heroGalleryNine} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGalleryTen} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGalleryEleven} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGalleryTwelve} loading="lazy" alt='metta share market' />
+                        <img src={heroGalleryThirteen} loading="lazy" alt='metta share market' />
+                        <img src={heroGalleryFourteen} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGalleryfifteen} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGallerySixteen} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGalleryseventeen} loading="lazy" alt='metta share market' />
 
                     </div>
                     <div class="row-images">
-                        <img src={heroGalleryOne} loading="lazy" />
-                        <img src={heroGalleryTwo} loading="lazy" />
-                        <img src={heroGalleryThree} loading="lazy" />
-                        <img src={heroGalleryFour} loading="lazy" />
-                        <img src={heroGalleryFive} loading="lazy" />
-                        <img src={heroGallerySix} loading="lazy" />
-                        <img src={heroGallerySeven} loading="lazy" />
-                        <img src={heroGalleryEight} loading="lazy" />
-                        <img src={heroGalleryNine} loading="lazy" />
-                        <img src={heroGalleryTen} loading="lazy" />
-                        <img src={heroGalleryEleven} loading="lazy" />
-                        <img src={heroGalleryTwelve} loading="lazy" />
-                        <img src={heroGalleryThirteen} loading="lazy" />
-                        <img src={heroGalleryFourteen} loading="lazy" />
-                        <img src={heroGalleryfifteen} loading="lazy" />
-                        <img src={heroGallerySixteen} loading="lazy" />
-                        <img src={heroGalleryseventeen} loading="lazy" />
+                        <img src={heroGalleryOne} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryTwo} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryThree} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryFour} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryFive} loading="lazy" alt='metta share market' />
+                        <img src={heroGallerySix} loading="lazy"  alt='metta share market' />
+                        <img src={heroGallerySeven} loading="lazy"  alt='metta share market'/>
+                        <img src={heroGalleryEight} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryNine} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryTen} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryEleven} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryTwelve} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryThirteen} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryFourteen} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryfifteen} loading="lazy" alt='metta share market'/>
+                        <img src={heroGallerySixteen} loading="lazy" alt='metta share market'/>
+                        <img src={heroGalleryseventeen} loading="lazy" alt='metta share market'/>
                     </div>
                 </div>
             </section>

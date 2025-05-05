@@ -35,7 +35,7 @@ const HomeAbout = () => {
                         <div className="d-flex justify-content-center">
                             <div className="image-container">
                                 {/* image first as  default*/}
-                                <img src={HeroAbout} className="img-fluid  w-100 rounded-4 mt--2 default" alt="MeTta Financial Investment & Trading Training Institute" loading="lazy" />
+                                <img src={HeroAbout} className="img-fluid  w-100 rounded-4 mt--2 default" alt="MeTta Financial Investment & Trading Training Institute " loading="lazy" />
 
                                 {/* image first as  hover*/}
                                 <img src={HeroAboutOne} className="img-fluid w-100 rounded-4 mt--2 hover" alt="MeTta Financial Investment & Trading Training Institute" loading="lazy" />
