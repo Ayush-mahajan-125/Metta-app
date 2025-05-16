@@ -23,7 +23,7 @@ const Navbar = () => {
             <NavLink className="navbar-brand text-success" to="/">
               <img
                 src={mettaLogo}
-                className="img-fluid"
+                className="img-fluid msm-w-25"
                 alt="MeTta Financial Investment & Trading Training Institute"
                 loading="lazy"
               />
