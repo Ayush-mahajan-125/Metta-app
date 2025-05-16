@@ -13,9 +13,9 @@ import pdf2 from '../../assets/img/71pvFCvMM2L._SY466_.jpg';
 import pdf3 from '../../assets/img/51dpNq7AMeL._SY445_SX342_.jpg';
 import pdf4 from '../../assets/img/411yLi6ql1L._SY445_SX342_.jpg';
 import pdf5 from '../../assets/img/715ucF1cMZS._SY466_.jpg';
-import pdf6 from '../../assets/img/61B84NiWabL._AC_UY218_.jpg';
+// import pdf6 from '../../assets/img/61B84NiWabL._AC_UY218_.jpg';
 import pdf7 from '../../assets/img/71fUpJ2S30L._SY466_.jpg';
-import pdf8 from '../../assets/img/71aySJnxQZL._SY466_.jpg';
+// import pdf8 from '../../assets/img/71aySJnxQZL._SY466_.jpg';
 
 import pdf11 from '../../assets/img/61qvQIlGEXL._SY466_.jpg';
 import pdf12 from '../../assets/img/61M9jjepwTL._SY425_.jpg';
@@ -34,7 +34,7 @@ const Resources = () => {
                 <img src={Upstox} className="my-3 msm-upstox" alt="Upstox" loading="lazy" />
                 <h6 className='mb-5'>
                     <span className='text-dark'> Open Your Demant Account in Upstox</span><br />
-                    <a href="https://upstox.com/open-account/?f=JG1348" target="_blank" className='text-orange' rel=""> https://upstox.com/open-account/?f=JG1348</a>
+                    <a href="https://upstox.com/open-account/?f=JG1348" target="_blank" className='text-orange' rel="noreferrer"> https://upstox.com/open-account/?f=JG1348</a>
                 </h6>
             </div>
 
@@ -54,7 +54,7 @@ const Resources = () => {
                             <h6 className='mb-3'><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></h6>
 
                             <div className="m-auto">
-                                <a href="https://amzn.in/d/fnS82r9" target="_blank" className='btn btn-warning mb-3'>Buy now</a>
+                                <a href="https://amzn.in/d/fnS82r9" target="_blank" className='btn btn-warning mb-3'  rel="noreferrer">Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const Resources = () => {
                             <h6 className='mb-3'><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></h6>
 
                             <div className="m-auto">
-                                <a href="https://amzn.in/d/hcovvtF" target="_blank" className='btn btn-warning mb-3'>Buy now</a>
+                                <a href="https://amzn.in/d/hcovvtF" target="_blank" className='btn btn-warning mb-3' rel="noreferrer">Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ const Resources = () => {
                             <h6 className='mb-3'><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></h6>
 
                             <div className="m-auto">
-                                <a href="https://amzn.in/d/em73e6W" target="_blank" className='btn btn-warning mb-3'>Buy now</a>
+                                <a href="https://amzn.in/d/em73e6W" target="_blank" className='btn btn-warning mb-3' rel="noreferrer" >Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ const Resources = () => {
                             <h6 className='mb-3'><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></h6>
 
                             <div className="m-auto">
-                                <a href="https://amzn.in/d/gDOeeT8" target="_blank" className='btn btn-warning mb-3'>Buy now</a>
+                                <a href="https://amzn.in/d/gDOeeT8" target="_blank" className='btn btn-warning mb-3' rel="noreferrer" >Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/THE-INTELLIGENT-INVESTOR.pdf" download="THE-INTELLIGENT-INVESTOR.pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/0736Bge" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/0736Bge" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/one-up-on-wall-street.pdf" download="one-up-on-wall-street.pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/5EuyOdu" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/5EuyOdu" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/common_stocks_and_uncommon_profits_and_other_writings.pdf" download="common_stocks_and_uncommon_profits_and_other_writings.pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/8m9DaRN" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/8m9DaRN" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -172,7 +172,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/The Little Book That Beats the Market 2006.pdf" download="The Little Book That Beats the Market 2006.pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/9W6OyKg" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/9W6OyKg" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/The Psychology of Money.pdf" download="The Psychology of Money.pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/fhBAS23" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/fhBAS23" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -204,7 +204,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/Think and Grow Rich.pdf" download="Think and Grow Rich.pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/eRGwrjj" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/eRGwrjj" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -220,7 +220,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/Unshakeable_ Your Financial Freedom Playbook ( PDFDrive.com ).pdf" download="Unshakeable_ Your Financial Freedom Playbook ( PDFDrive.com ).pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/5CP6esd" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/5CP6esd" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -246,7 +246,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/security-analysis-benjamin-graham-6th-edition-pdf-february-24-2010-12-08-am-3-0-meg.pdf" download="security-analysis-benjamin-graham-6th-edition-pdf-february-24-2010-12-08-am-3-0-meg.pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/1SCvLzB" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/1SCvLzB" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -262,7 +262,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/1597833614500Little-Book-Of-Value-Investing-.pdf" download="1597833614500Little-Book-Of-Value-Investing-.pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/i0rANYa" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/i0rANYa" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -278,7 +278,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/[Mohnish_Pabrai]_The_Dhandho_Investor_The_Low_-_R.pdf" download="THE-INTELLIGENT-INVESTOR.pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/90gaDoz" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/90gaDoz" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -294,7 +294,7 @@ const Resources = () => {
                             <div className="m-auto">
                                 <a href="/pdf/pdf/Quality Investing PDF.pdf" download="Quality Investing PDF.pdf" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
                                 <br />
-                                <a href="https://amzn.in/d/7BNdRU0" target="_blank" rel="metta" className=" btn-link text-dark"> Buy now</a>
+                                <a href="https://amzn.in/d/7BNdRU0" target="_blank" rel="noreferrer" className=" btn-link text-dark"> Buy now</a>
                             </div>
                         </div>
                     </div>
@@ -317,7 +317,7 @@ const Resources = () => {
                             <h6 className='mb-3'><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></h6>
 
                             <div className="m-auto">
-                                <a href="https://amzn.in/d/gDOeeT8" target="_blank" className='btn btn-warning mb-3'>Download for Free</a>
+                                <a href="https://amzn.in/d/gDOeeT8" target="_blank" className='btn btn-warning mb-3' rel="noreferrer" >Download for Free</a>
                             </div>
                         </div>
                     </div>

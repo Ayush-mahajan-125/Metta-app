@@ -27,16 +27,16 @@ const HomeBrochureDownloadForm = () => {
                         {/* social icons */}
                         <ul class="social-menu mb-5">
                             <li class="social-btn facebook" tooltip="Facebook">
-                                <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
+                                <a href="https://www.facebook.com/mettasharemarket.nagpur" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faFacebook} /></a>
                             </li>
                             <li class="social-btn instagram" tooltip="Instagram">
-                                <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+                                <a href="http://instagram.com/mettasharemarket" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faInstagram} /></a>
                             </li>
                             <li class="social-btn whatsapp" tooltip="WhatsApp">
-                                <a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                                <a href="https://chat.whatsapp.com/FrE5T06HAZjEEqGFLMbQRA" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
                             </li>
                             <li class="social-btn telegram" tooltip="Telegram">
-                                <a href="#"><FontAwesomeIcon icon={faTelegram} /></a>
+                                <a href="https://t.me/joinchat/HrYYVxCqEvLAN3hc" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTelegram} /></a>
                             </li>
                         </ul>
                         {/* /social icons */}
@@ -44,7 +44,7 @@ const HomeBrochureDownloadForm = () => {
                         {/* email address */}
                         <h5 class="text-dark">Email Address :</h5>
                         <h6 class="nav-item text-dark mb-5 msm-font-size"><span><FontAwesomeIcon icon={faEnvelope} className='pe-2 ' /></span>
-                        nagpurmettasharemarket@gmail.com
+                            nagpurmettasharemarket@gmail.com
                         </h6>
                         {/* /email address */}
 
@@ -64,8 +64,8 @@ const HomeBrochureDownloadForm = () => {
                         {/* /Address */}
 
                         <div className="row">
-                        <div className="col-12"> <a href="https://g.page/r/CV9yiife7Cz9EB0/review" target="_blank" className="btn btn-success mb-3">Give me feedback </a></div>
-                        <div className="col-12"><a href="https://goo.gl/maps/hnmrbQDteCWyCzPb8" target="_blank" className="btn btn-danger mb-5">Google map Location </a></div>
+                            <div className="col-12"> <a href="https://g.page/r/CV9yiife7Cz9EB0/review" target="_blank" className="btn btn-success mb-3" rel="noreferrer" >Give me feedback </a></div>
+                            <div className="col-12"><a href="https://goo.gl/maps/hnmrbQDteCWyCzPb8" target="_blank" className="btn btn-danger mb-5" rel="noreferrer" >Google map Location </a></div>
                         </div>
 
 

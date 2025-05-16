@@ -23,7 +23,14 @@ const Certification = () => {
                         <p className='mb-4 msm-text-secondary'>This certification reflects our ongoing commitment to quality, professionalism, and continuous improvement in Share Market Training.</p>
 
                         <p>🔗 Verify Our Certification:</p>
-                        <a href="https://www.uamls.org.uk/certified-clients.php" target="_blank" rel="Check Status" className='btn btn-primary mt-0 border-0'>Check Status</a>
+                        <a
+                            href="https://www.uamls.org.uk/certified-clients.php"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn btn-primary mt-0 border-0"
+                        >
+                            Check Status
+                        </a>
 
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6">

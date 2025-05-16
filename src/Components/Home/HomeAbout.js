@@ -26,7 +26,7 @@ const HomeAbout = () => {
 
                         {/* button */}
                         <div className="lw-msm-button-p">
-                            <a class="btn-primary" href="/about-us">Learn more</a>
+                            <a class="btn-primary" href="/about-us">Read more our Metta</a>
                         </div>
                         {/* /button */}
 

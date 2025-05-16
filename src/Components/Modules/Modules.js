@@ -168,7 +168,7 @@ const Modules = () => {
                                                 </ul>
                                             </li>
                                         </ol>
-                                        <div> <img src={AboutThree} alt="About image" loading="lazy" className='w-100' /></div>
+                                        <div> <img src={AboutThree} alt="Metta share market" loading="lazy" className='w-100' /></div>
 
                                         <div className="d-flex justify-content-center">
                                             <a href="https://in.tradingview.com/chart/?symbol=NSE%3ANIFTY" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
@@ -248,7 +248,7 @@ const Modules = () => {
                                                 </ul>
                                             </li>
                                         </ol>
-                                        <div> <img src={Option} alt="About image" loading="lazy" className='w-100 mb-3' /></div>
+                                        <div> <img src={Option} alt="Metta share market" loading="lazy" className='w-100 mb-3' /></div>
 
                                         <div className="d-flex justify-content-center">
                                             <a href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
@@ -351,7 +351,7 @@ const Modules = () => {
                                                 </ul>
                                             </li>
                                         </ol>
-                                        <div> <img src={Fundammental} alt="About image" loading="lazy" className='w-100 mb-3' /></div>
+                                        <div> <img src={Fundammental} alt="Metta share market" loading="lazy" className='w-100 mb-3' /></div>
                                         <div className="d-flex justify-content-center">
                                             <a href="https://www.screener.in/company/DMART/consolidated/" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
                                         </div>
@@ -565,7 +565,7 @@ const Modules = () => {
                                             <li>Swing Trading</li>
                                             <li>Short-Term Trading, Long-Term Trading</li>
                                         </ol>
-                                        <div> <img src={AboutThree} alt="About image" loading="lazy" className='w-100' /></div>
+                                        <div> <img src={AboutThree} alt="Metta share market" loading="lazy" className='w-100' /></div>
                                         <div className="d-flex justify-content-center">
                                             <a href="https://in.tradingview.com/chart/?symbol=NSE%3ANIFTY" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
                                         </div>
@@ -708,7 +708,7 @@ const Modules = () => {
 
                                         <h6 className='small'>This structure gives you a good mix of theory, practical strategy, and technical analysis. You can start with Introduction to Option Contracts and gradually move to advanced concepts like Greeks and strategies.</h6>
 
-                                        <div> <img src={Option} alt="About image" loading="lazy" className='w-100 mb-3' /></div>
+                                        <div> <img src={Option} alt="Metta share market" loading="lazy" className='w-100 mb-3' /></div>
 
                                         <div className="d-flex justify-content-center">
                                             <a href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
@@ -820,7 +820,7 @@ const Modules = () => {
                                             <li>Where to Invest: Bonds, Gold, Fixed Deposits (FD).</li>
                                             <li>Mutual Funds and Financial Literacy.</li>
                                         </ul>
-                                        <div> <img src={Fundammental} alt="About image" loading="lazy" className='w-100 mb-3' /></div>
+                                        <div> <img src={Fundammental} alt="Metta share market" loading="lazy" className='w-100 mb-3' /></div>
                                         <div className="d-flex justify-content-center">
                                             <a href="https://www.screener.in/company/DMART/consolidated/" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
                                         </div>
@@ -914,7 +914,7 @@ const Modules = () => {
                                             <li>How to Use Technical Analysis in Cryptocurrency Trading</li>
                                             <li>Stablecoins and Their Role in the Crypto Ecosystem</li>
                                         </ol>
-                                        <div> <img src={AboutFour} alt="About image" loading="lazy" className='w-100' /></div>
+                                        <div> <img src={AboutFour} alt="Metta share market" loading="lazy" className='w-100' /></div>
 
                                         <div className="d-flex justify-content-center">
                                             <a href="https://in.tradingview.com/chart/?symbol=FX_IDC%3AUSDINR" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>

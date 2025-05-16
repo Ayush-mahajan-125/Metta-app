@@ -71,7 +71,7 @@ const Navbar = () => {
                 <li className="nav-item ">
                   <NavLink
                     className="nav-link"
-                    to="/course-modules"
+                    to="/share-market-courses"
                     onClick={() => setIsNavCollapsed(true)}
                   >
                     {translate("Course Modules")}

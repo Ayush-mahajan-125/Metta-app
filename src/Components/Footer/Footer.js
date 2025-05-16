@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
-      <div className="container">
+      <div className="container ">
         <div class="row pt-5 pb-3">
 
           {/* site logo & des */}

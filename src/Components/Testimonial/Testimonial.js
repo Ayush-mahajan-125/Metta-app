@@ -716,7 +716,7 @@ const Testimonial = () => {
           </div>
 
           <div className="d-flex justify-content-center py-3">
-            <a class="btn-primary" target="_blank" href="https://g.co/kgs/YtHMjr4">Check our Google reviews and share your experience!</a>
+            <a class="btn-primary" target="_blank" href="https://g.co/kgs/YtHMjr4"  rel="noreferrer">Check our Google reviews and share your experience!</a>
           </div>
         </div>
         {/* /testimonial cards */}

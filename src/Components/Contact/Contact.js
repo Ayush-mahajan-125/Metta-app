@@ -69,16 +69,16 @@ const ContactForm = () => {
             {/* social icons */}
             <ul class="social-menu mb-5">
               <li class="social-btn facebook" tooltip="Facebook">
-                <a href="https://m.facebook.com/sharemarketmetta/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
+                <a href="https://www.facebook.com/mettasharemarket.nagpur" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faFacebook} /></a>
               </li>
               <li class="social-btn instagram" tooltip="Instagram">
-                <a href="http://instagram.com/mettasharemarket" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="http://instagram.com/mettasharemarket" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faInstagram} /></a>
               </li>
               <li class="social-btn whatsapp" tooltip="WhatsApp">
-                <a href="https://chat.whatsapp.com/FrE5T06HAZjEEqGFLMbQRA" target="_blank"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                <a href="https://chat.whatsapp.com/FrE5T06HAZjEEqGFLMbQRA" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
               </li>
               <li class="social-btn telegram" tooltip="Telegram">
-                <a href="https://t.me/joinchat/HrYYVxCqEvLAN3hc" target="_blank"><FontAwesomeIcon icon={faTelegram} /></a>
+                <a href="https://t.me/joinchat/HrYYVxCqEvLAN3hc" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTelegram} /></a>
               </li>
             </ul>
             {/* /social icons */}
@@ -112,8 +112,8 @@ const ContactForm = () => {
             {/* /Address */}
 
             <div className="row">
-              <div className="col-12"> <a href="https://g.page/r/CV9yiife7Cz9EB0/review" target="_blank" className="btn btn-success mb-3">Give me feedback </a></div>
-              <div className="col-12"><a href="https://goo.gl/maps/hnmrbQDteCWyCzPb8" target="_blank" className="btn btn-danger mb-5">Google map Location </a></div>
+              <div className="col-12"> <a href="https://g.page/r/CV9yiife7Cz9EB0/review" target="_blank" className="btn btn-success mb-3" rel="noreferrer" >Give me feedback </a></div>
+              <div className="col-12"><a href="https://goo.gl/maps/hnmrbQDteCWyCzPb8" target="_blank" className="btn btn-danger mb-5" rel="noreferrer" >Google map Location </a></div>
             </div>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">

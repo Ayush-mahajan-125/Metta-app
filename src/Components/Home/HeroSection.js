@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js'; // Import Typed.js
 import './Home.scss';
 import profileImage from '../../assets/img/IMG_1359.jpg';
-import { Helmet} from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 
 const HeroSection = () => {
@@ -26,9 +26,9 @@ const HeroSection = () => {
   return (
     <>
       {/* hero section */}
-      <Helmet>
-        <meta name="description" content="Top-rated share market classes and training in Nagpur." />
-        <meta name="keywords" content="Nagpur Share Market, Best Share Market Nagpur, Trading Institute Nagpur, Metta Share Market, Metta , top share market in nagpur ,share market" />
+        <Helmet>
+        <title>Metta Share Market | Learn Share Trading</title>
+        <meta name="description" content="Join Metta Share Market to learn stock trading. Live classes, beginner friendly, English , Marathi & Hindi available." />
       </Helmet>
       <div className="msm-masthead-header">
         <div className="container col-12">
@@ -47,7 +47,7 @@ const HeroSection = () => {
 
               {/* description */}
               <p className="lead text-dark fs-6">
-                Unlock the secrets of smart investing and trading with expert-led training. Gain the skills to navigate financial markets and build lasting wealth!
+                Metta Share Market is Nagpur’s most trusted stock market training institute. Learn from experts and become a confident trader.
               </p>
               {/* /description */}
 
@@ -73,7 +73,7 @@ const HeroSection = () => {
       {/* Typing Effect Section */}
       <section className="msm-quotes">
         <div className="container text-center">
-          <h1 ref={typingRef} className="typing "></h1>
+          <h1 ref={typingRef} className="typing" aria-label="Art Of Wealth Creation"></h1>
         </div>
       </section>
       {/* Typing Effect Section */}
