@@ -16,7 +16,7 @@ const Footer = () => {
           {/* site logo & des */}
           <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 my-3">
             <a href="/" className="d-flex align-items-center mb-3 text-decoration-none">
-              <img src={mettaLogo} className="img-fluid msm-logo-images" alt="MeTta Financial Investment & Trading Training Institute" loading="lazy" />
+              <img src={mettaLogo} className="img-fluid msm-logo-images msm-w-25 " alt="MeTta Financial Investment & Trading Training Institute" loading="lazy" />
             </a>
             <p className="text-secondary msm-p">Master the art of investing and trading with expert-led training. Develop the skills to navigate financial markets confidently and create lasting wealth!</p>
           </div>
