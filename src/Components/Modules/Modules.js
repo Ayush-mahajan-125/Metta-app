@@ -39,9 +39,9 @@ const Modules = () => {
                             Module 2 -   Future and Option
                         </button>
 
-                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal31">
+                        {/* <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal31">
                             Module 3 - Fundamental Analysis
-                        </button>
+                        </button> */}
 
                         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -375,12 +375,13 @@ const Modules = () => {
                             Module 2 -   Future and Option
                         </button>
 
-                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                            Module 3 - Fundamental Analysis
+
+                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            Module 3 - Forex, Commodity, and Cryptocurrency Markets
                         </button>
 
-                        <button type="button" class="btn-toggle-collapse mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                            Module 4 - Forex, Commodity, and Cryptocurrency Markets
+                        <button type="button" class="btn-toggle-collapse msm-pointer">
+                            Module 4 - Smart Money Concept
                         </button>
 
                         {/* module first */}
@@ -719,7 +720,110 @@ const Modules = () => {
                         </div>
                         {/* /module second */}
 
-                        {/* module thrid  */}
+                        {/* module fourth  */}
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Forex, Commodity, and Cryptocurrency Markets</h1>
+                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                                    </div>
+                                    <div class="modal-body text-dark">
+                                        <h4 className='mb-3 mt-3 text-green'>Forex Market</h4>
+                                        <ol>
+                                            <li>Introduction to Forex Trading</li>
+                                            <li>Currency Pairs and How They Work</li>
+                                            <li>Major vs. Minor vs. Exotic Currency Pairs</li>
+                                            <li>Forex Market Trading Hours and Liquidity</li>
+                                            <li>Role of Central Banks in the Forex Market</li>
+                                            <li>Leverage and Margin in Forex Trading</li>
+                                            <li>Forex Trading Strategies (Scalping, Swing, Day Trading)</li>
+                                            <li>Understanding Forex Spreads and Pips</li>
+                                            <li>Impact of Global Economic News on Forex Markets</li>
+                                            <li>Forex Risk Management and Position Sizing</li>
+                                            <li>Forex Technical Indicators and Tools (RSI, MACD, Fibonacci)</li>
+                                            <li>Carry Trade Strategy in Forex</li>
+                                            <li>Fundamental Analysis for Forex (Interest Rates, Inflation, GDP)</li>
+                                            <li>How to Read a Forex Chart</li>
+                                            <li>Correlation Between Currency Pairs</li>
+                                        </ol>
+
+                                        <h4 className='mb-3 mt-3 text-green'>Currency Market</h4>
+                                        <ol>
+                                            <li>Understanding the Global Currency Market</li>
+                                            <li>Factors Influencing Exchange Rates</li>
+                                            <li>Role of Interest Rates in Currency Valuation</li>
+                                            <li>Foreign Exchange Reserves and Their Impact</li>
+                                            <li>Impact of Trade Deficits on Currency Prices</li>
+                                            <li>Currency Pegs and Exchange Rate Mechanisms</li>
+                                            <li>Currency Wars: Competitive Devaluation</li>
+                                            <li>Role of the International Monetary Fund (IMF) in the Currency Market</li>
+                                            <li>Safe Haven Currencies: USD, JPY, CHF</li>
+                                            <li>Currency Futures and Options Trading</li>
+                                            <li>Impact of Political Events on Currency Market</li>
+                                            <li>Emerging Market Currencies and Volatility</li>
+                                            <li>Currency Intervention by Governments and Central Banks</li>
+                                            <li>Effect of Inflation and Deflation on Currencies</li>
+                                            <li>Hedging Against Currency Risk</li>
+                                        </ol>
+
+                                        <h4 className='mb-3 mt-3 text-green'>Commodity Market</h4>
+                                        <ol>
+                                            <li>Introduction to the Commodity Market</li>
+                                            <li>Types of Commodities: Metals, Energy, Agriculture</li>
+                                            <li>How Commodity Futures and Options Work</li>
+                                            <li>Key Factors Affecting Commodity Prices (Supply, Demand, Geopolitics)</li>
+                                            <li>Role of OPEC in the Oil Market</li>
+                                            <li>Precious Metals: Gold, Silver, and Their Role in Portfolio Diversification</li>
+                                            <li>Commodity Trading Strategies (Momentum, Mean Reversion, Breakout)</li>
+                                            <li>Role of Weather in Agricultural Commodity Prices</li>
+                                            <li>Impact of Global Economic Growth on Commodity Demand</li>
+                                            <li>Trading Commodities vs. Stocks: Differences and Similarities</li>
+                                            <li>Energy Commodities: Oil, Natural Gas, Coal</li>
+                                            <li>Commodity ETFs and How to Invest in Them</li>
+                                            <li>Speculation and Hedging in the Commodity Market</li>
+                                            <li>Impact of Trade Wars on Commodity Prices</li>
+                                            <li>How Geopolitical Events Affect Commodity Markets</li>
+                                        </ol>
+
+                                        <h4 className='mb-3 mt-3 text-green'>Cryptocurrency</h4>
+                                        <ol>
+                                            <li>Introduction to Cryptocurrencies: What They Are and How They Work</li>
+                                            <li>Bitcoin vs. Altcoins: Key Differences and Similarities</li>
+                                            <li>Blockchain Technology and Its Applications Beyond Cryptocurrencies</li>
+                                            <li>How to Trade Cryptocurrencies on Exchanges</li>
+                                            <li>Cryptocurrency Wallets: Hot vs. Cold Storage</li>
+                                            <li>Understanding Crypto Market Volatility</li>
+                                            <li>How to Analyze a Cryptocurrency Project (Whitepapers, Team, Use Case)</li>
+                                            <li>Bitcoin Halving and Its Impact on Price</li>
+                                            <li>Decentralized Finance (DeFi) and Its Growth</li>
+                                            <li>Risks and Benefits of Cryptocurrency Investment</li>
+                                            <li>Regulation of Cryptocurrencies Across the Globe</li>
+                                            <li>Cryptocurrency Mining: Proof of Work vs. Proof of Stake</li>
+                                            <li>Security Risks in Crypto: Hacking, Scams, and Fraud</li>
+                                            <li>How to Use Technical Analysis in Cryptocurrency Trading</li>
+                                            <li>Stablecoins and Their Role in the Crypto Ecosystem</li>
+                                        </ol>
+                                        <div> <img src={AboutFour} alt="Metta share market" loading="lazy" className='w-100' /></div>
+
+                                        <div className="d-flex justify-content-center">
+                                            <a href="https://in.tradingview.com/chart/?symbol=FX_IDC%3AUSDINR" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+                </div>
+
+                <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <details>
+                        <summary className='text-center text-orange text-uppercase p-3'>Group 3 </summary>
+                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            Module 1 - Fundamental Analysis
+                        </button>
+
+                        {/* Fundamental Analysis  */}
                         <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                                 <div class="modal-content">
@@ -828,110 +932,7 @@ const Modules = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* module thrid  */}
-
-                        {/* module fourth  */}
-                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Forex, Commodity, and Cryptocurrency Markets</h1>
-                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
-                                    </div>
-                                    <div class="modal-body text-dark">
-                                        <h4 className='mb-3 mt-3 text-green'>Forex Market</h4>
-                                        <ol>
-                                            <li>Introduction to Forex Trading</li>
-                                            <li>Currency Pairs and How They Work</li>
-                                            <li>Major vs. Minor vs. Exotic Currency Pairs</li>
-                                            <li>Forex Market Trading Hours and Liquidity</li>
-                                            <li>Role of Central Banks in the Forex Market</li>
-                                            <li>Leverage and Margin in Forex Trading</li>
-                                            <li>Forex Trading Strategies (Scalping, Swing, Day Trading)</li>
-                                            <li>Understanding Forex Spreads and Pips</li>
-                                            <li>Impact of Global Economic News on Forex Markets</li>
-                                            <li>Forex Risk Management and Position Sizing</li>
-                                            <li>Forex Technical Indicators and Tools (RSI, MACD, Fibonacci)</li>
-                                            <li>Carry Trade Strategy in Forex</li>
-                                            <li>Fundamental Analysis for Forex (Interest Rates, Inflation, GDP)</li>
-                                            <li>How to Read a Forex Chart</li>
-                                            <li>Correlation Between Currency Pairs</li>
-                                        </ol>
-
-                                        <h4 className='mb-3 mt-3 text-green'>Currency Market</h4>
-                                        <ol>
-                                            <li>Understanding the Global Currency Market</li>
-                                            <li>Factors Influencing Exchange Rates</li>
-                                            <li>Role of Interest Rates in Currency Valuation</li>
-                                            <li>Foreign Exchange Reserves and Their Impact</li>
-                                            <li>Impact of Trade Deficits on Currency Prices</li>
-                                            <li>Currency Pegs and Exchange Rate Mechanisms</li>
-                                            <li>Currency Wars: Competitive Devaluation</li>
-                                            <li>Role of the International Monetary Fund (IMF) in the Currency Market</li>
-                                            <li>Safe Haven Currencies: USD, JPY, CHF</li>
-                                            <li>Currency Futures and Options Trading</li>
-                                            <li>Impact of Political Events on Currency Market</li>
-                                            <li>Emerging Market Currencies and Volatility</li>
-                                            <li>Currency Intervention by Governments and Central Banks</li>
-                                            <li>Effect of Inflation and Deflation on Currencies</li>
-                                            <li>Hedging Against Currency Risk</li>
-                                        </ol>
-
-                                        <h4 className='mb-3 mt-3 text-green'>Commodity Market</h4>
-                                        <ol>
-                                            <li>Introduction to the Commodity Market</li>
-                                            <li>Types of Commodities: Metals, Energy, Agriculture</li>
-                                            <li>How Commodity Futures and Options Work</li>
-                                            <li>Key Factors Affecting Commodity Prices (Supply, Demand, Geopolitics)</li>
-                                            <li>Role of OPEC in the Oil Market</li>
-                                            <li>Precious Metals: Gold, Silver, and Their Role in Portfolio Diversification</li>
-                                            <li>Commodity Trading Strategies (Momentum, Mean Reversion, Breakout)</li>
-                                            <li>Role of Weather in Agricultural Commodity Prices</li>
-                                            <li>Impact of Global Economic Growth on Commodity Demand</li>
-                                            <li>Trading Commodities vs. Stocks: Differences and Similarities</li>
-                                            <li>Energy Commodities: Oil, Natural Gas, Coal</li>
-                                            <li>Commodity ETFs and How to Invest in Them</li>
-                                            <li>Speculation and Hedging in the Commodity Market</li>
-                                            <li>Impact of Trade Wars on Commodity Prices</li>
-                                            <li>How Geopolitical Events Affect Commodity Markets</li>
-                                        </ol>
-
-                                        <h4 className='mb-3 mt-3 text-green'>Cryptocurrency</h4>
-                                        <ol>
-                                            <li>Introduction to Cryptocurrencies: What They Are and How They Work</li>
-                                            <li>Bitcoin vs. Altcoins: Key Differences and Similarities</li>
-                                            <li>Blockchain Technology and Its Applications Beyond Cryptocurrencies</li>
-                                            <li>How to Trade Cryptocurrencies on Exchanges</li>
-                                            <li>Cryptocurrency Wallets: Hot vs. Cold Storage</li>
-                                            <li>Understanding Crypto Market Volatility</li>
-                                            <li>How to Analyze a Cryptocurrency Project (Whitepapers, Team, Use Case)</li>
-                                            <li>Bitcoin Halving and Its Impact on Price</li>
-                                            <li>Decentralized Finance (DeFi) and Its Growth</li>
-                                            <li>Risks and Benefits of Cryptocurrency Investment</li>
-                                            <li>Regulation of Cryptocurrencies Across the Globe</li>
-                                            <li>Cryptocurrency Mining: Proof of Work vs. Proof of Stake</li>
-                                            <li>Security Risks in Crypto: Hacking, Scams, and Fraud</li>
-                                            <li>How to Use Technical Analysis in Cryptocurrency Trading</li>
-                                            <li>Stablecoins and Their Role in the Crypto Ecosystem</li>
-                                        </ol>
-                                        <div> <img src={AboutFour} alt="Metta share market" loading="lazy" className='w-100' /></div>
-
-                                        <div className="d-flex justify-content-center">
-                                            <a href="https://in.tradingview.com/chart/?symbol=FX_IDC%3AUSDINR" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <details>
-                        <summary className='text-center text-orange text-uppercase p-3'>Group 3 </summary>
-                        <button type="button" class="btn-toggle-collapse border-0">
-                            Smart Money Concept
-                        </button>
+                        {/* Fundamental Analysis  */}
                     </details>
                 </div>
             </div>
