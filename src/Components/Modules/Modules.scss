@@ -5,12 +5,9 @@
         border: 1px solid #ddd;
         padding: 18px 20px;
         cursor: pointer;
-        text-align: cebter;
-        width: 90%;
+        width: 96%;
         border-radius: 12px;
-        margin: auto auto 30px auto;
-        display: flex;
-        justify-content: center;
+        margin: 5px;
     }
 
     .msm-modal-para p {
@@ -70,6 +67,10 @@
     }
     .msm-pointer{
         cursor: auto;
+    }
+    .msm-font-size{
+        font-size: 15px ;
+        text-transform: capitalize;
     }
 }
 

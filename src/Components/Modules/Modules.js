@@ -28,20 +28,16 @@ const Modules = () => {
             {/* /heading */}
 
             <div className="row">
-                <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3">
                     <details>
-                        <summary className='text-center text-orange text-uppercase p-3'>Group 1</summary>
+                        <summary className='text-center text-orange text-uppercase p-3'>Group 1 <br /> <small className='text-dark msm-font-size'>( Basic To Advanced )</small></summary>
                         <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                            Module 1 - Technical Analysis
+                            <b className='text-center'>Module 1</b> <br /> Technical Analysis
                         </button>
 
-                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal21">
-                            Module 2 -   Future and Option
+                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            <b className='text-center'>Module 2</b> <br /> Forex, Commodity, and Cryptocurrency Markets
                         </button>
-
-                        {/* <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal31">
-                            Module 3 - Fundamental Analysis
-                        </button> */}
 
                         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -177,212 +173,24 @@ const Modules = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* /module first */}
-
-                        {/* module second */}
-                        <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Derivative And Future & Option’s</h1>
-                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
-                                    </div>
-                                    <div class="modal-body text-dark">
-                                        <h4 className='mb-3 mt-3 text-green'>Futures Contract Trading</h4>
-                                        <ol>
-                                            <li><strong>Introduction to Futures Contracts</strong>
-                                                <ul>
-                                                    <li>Covers the basics of futures, the mechanics of how futures contracts work, and why they're used in trading and hedging. Ideal for beginners.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Trading in Futures vs Trading in Stocks</strong>
-                                                <ul>
-                                                    <li>A comparison of key differences, such as leverage, risk, and capital requirements. Good if you're deciding whether futures or stocks are the right asset class for you.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Contract Cycle and Expiry Date in Futures Trading</strong>
-                                                <ul>
-                                                    <li>This explains how futures contracts follow a life cycle and the importance of understanding expiration dates.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Rollover of Futures Contracts</strong>
-                                                <ul>
-                                                    <li>A practical topic that explains how traders avoid physical delivery by rolling over positions to the next contract month.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Margin Requirements: SPAN and Exposure Margin</strong>
-                                                <ul>
-                                                    <li>Essential for understanding the risk management tools used by exchanges, helping you grasp how much capital is required to maintain futures positions.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Mark to Market Calculations</strong>
-                                                <ul>
-                                                    <li>Vital for learning how daily gains and losses are calculated and credited/debited to your account.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Settlement in the Futures Market</strong>
-                                                <ul>
-                                                    <li>Covers how futures contracts are settled, including cash settlement vs. physical delivery.</li>
-                                                </ul>
-                                            </li>
-                                        </ol>
-
-                                        <h4 className='mb-3 mt-3 text-green'>Basic Option Contracts</h4>
-                                        <ol>
-                                            <li><strong>Introduction to Option Contracts</strong>
-                                                <ul>
-                                                    <li>Understanding call and put options.</li>
-                                                    <li>How option contracts work in the financial markets.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Option Premium Calculation</strong>
-                                                <ul>
-                                                    <li>Factors affecting the premium, including volatility, time, and intrinsic value.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Futures Contract Trading</strong>
-                                                <ul>
-                                                    <li>Differences between futures and stocks.</li>
-                                                    <li>Contract cycle, expiry, and rollovers.</li>
-                                                    <li>Mark to market and margin calculations.</li>
-                                                </ul>
-                                            </li>
-                                        </ol>
-                                        <div> <img src={Option} alt="Metta share market" loading="lazy" className='w-100 mb-3' /></div>
-
-                                        <div className="d-flex justify-content-center">
-                                            <a href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* /module second */}
-
-                        {/* module thrid  */}
-                        <div class="modal fade" id="exampleModal31" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Fundamental Analysis & Long Term Investment</h1>
-                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
-                                    </div>
-                                    <div class="modal-body text-dark">
-                                        <h4 className='mb-3 mt-3 text-green'>Fundamental Analysis</h4>
-                                        <ol>
-                                            <li><strong>Key Financial Ratios in Fundamental Analysis</strong>
-                                                <ul>
-                                                    <li>Explore essential financial ratios like Price-to-Earnings (P/E), Price-to-Book (P/B), Debt-to-Equity, Return on Equity (ROE), and how they are used in evaluating a company's financial health and stock value.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Discounted Cash Flow (DCF) Model in Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Delve into the DCF model, its components (free cash flow, discount rate, terminal value), and how it is used to estimate the intrinsic value of a stock.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>The Role of Earnings Reports in Stock Analysis</strong>
-                                                <ul>
-                                                    <li>Understand how quarterly and annual earnings reports affect stock prices and the role they play in fundamental analysis. Focus on key metrics like EPS, revenue growth, and profit margins.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>How Macroeconomic Factors Impact Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Analyze how inflation, interest rates, GDP growth, and unemployment levels influence stock prices and valuations from a fundamental perspective.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Growth vs. Value Investing: A Fundamental Analysis Perspective</strong>
-                                                <ul>
-                                                    <li>Compare growth stocks (companies expected to grow at an above-average rate) and value stocks (companies trading below their intrinsic value), using fundamental analysis techniques.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Assessing Management Effectiveness in Fundamental Analysis</strong>
-                                                <ul>
-                                                    <li>Examine how investors can evaluate the performance and decision-making of a company’s management team, using factors like Return on Assets (ROA), ROE, and company governance.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Impact of Industry and Competitive Position on Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Explore how the competitive landscape, market share, and industry conditions (e.g., technology, healthcare) influence the fundamental valuation of a company’s stock.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Balance Sheet Analysis for Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Study how the assets, liabilities, and equity on a company's balance sheet provide insights into its financial stability and ability to generate long-term shareholder value.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Understanding the Profit and Loss (P&amp;L) Statement</strong>
-                                                <ul>
-                                                    <li>Analyze the components of the P&amp;L statement, including revenue, expenses, net profit, and how it provides insights into a company's profitability and operational efficiency.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Impact of Dividends and Dividend Growth on Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Discuss the significance of dividends in fundamental analysis, and how models like the Dividend Discount Model (DDM) help in valuing dividend-paying stocks.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Analyzing a Company’s Moat and Competitive Advantage</strong>
-                                                <ul>
-                                                    <li>Look into the concept of an economic moat (a company’s long-term competitive advantage) and how this qualitative factor impacts long-term stock value in fundamental analysis.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Top-Down vs. Bottom-Up Approach in Fundamental Analysis</strong>
-                                                <ul>
-                                                    <li>Discuss the differences between the top-down approach (starting with macroeconomic factors and working down to individual stocks) and the bottom-up approach (focusing on individual stocks first) in fundamental analysis.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>The Role of Free Cash Flow in Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Explore how free cash flow (FCF) is used as an important metric in evaluating a company’s ability to generate profits and reinvest for future growth.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Analyzing Stock Valuation through Comparable Company Analysis (CCA)</strong>
-                                                <ul>
-                                                    <li>Investigate how CCA is used to compare the valuation of a company with its industry peers and determine if the stock is fairly priced.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Fundamental Analysis vs. Technical Analysis: A Comparative Study</strong>
-                                                <ul>
-                                                    <li>Contrast the approaches of fundamental and technical analysis, focusing on their respective strengths and weaknesses in stock valuation.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>The Influence of Corporate Governance on Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Examine how corporate governance practices, such as transparency, accountability, and board structure, affect investor confidence and stock performance from a fundamental analysis perspective.</li>
-                                                </ul>
-                                            </li>
-                                        </ol>
-                                        <div> <img src={Fundammental} alt="Metta share market" loading="lazy" className='w-100 mb-3' /></div>
-                                        <div className="d-flex justify-content-center">
-                                            <a href="https://www.screener.in/company/DMART/consolidated/" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* module thrid  */}
-
                     </details>
                 </div>
 
-                <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3">
                     <details>
-                        <summary className='text-center text-orange text-uppercase p-3'>Group 2</summary>
+                        <summary className='text-center text-orange text-uppercase p-3'>Group 2 <br /> <small className='text-dark msm-font-size'>( Advanced Pro )</small></summary>
                         <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Module 1 - Technical Analysis
+                            <b className='text-center'>Module 1</b> <br /> Technical Analysis
+                        </button>
+
+                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            <b className='text-center'>Module 2</b> <br /> Forex, Commodity, and Cryptocurrency Markets
                         </button>
 
                         <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                            Module 2 -   Future and Option
+                            <b className='text-center'>Module 3</b> <br /> Future and Option
                         </button>
 
-
-                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                            Module 3 - Forex, Commodity, and Cryptocurrency Markets
-                        </button>
-
-                        <button type="button" class="btn-toggle-collapse msm-pointer">
-                            Module 4 - Smart Money Concept
-                        </button>
 
                         {/* module first */}
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -816,11 +624,11 @@ const Modules = () => {
                     </details>
                 </div>
 
-                <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3">
                     <details>
-                        <summary className='text-center text-orange text-uppercase p-3'>Group 3 </summary>
+                        <summary className='text-center text-orange text-uppercase p-3'>Group 3   <br /> <small className='text-dark msm-font-size'>( Advanced Pro )</small></summary>
                         <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                            Module 1 - Fundamental Analysis
+                            <b className='text-center'>Module 4</b> <br /> Fundamental Analysis
                         </button>
 
                         {/* Fundamental Analysis  */}
@@ -933,6 +741,15 @@ const Modules = () => {
                             </div>
                         </div>
                         {/* Fundamental Analysis  */}
+                    </details>
+                </div>
+
+                <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                    <details>
+                        <summary className='text-center text-orange text-uppercase p-3'>Group 4   <br /> <small className='text-dark msm-font-size'>( Advanced Pro )</small></summary>
+                        <button type="button" class="btn-toggle-collapse msm-pointer">
+                            <b className='text-center'>Module 5</b> <br /> Smart Money Concept
+                        </button>
                     </details>
                 </div>
             </div>
