@@ -174,7 +174,7 @@ const Modules = () => {
                             </div>
                         </div>
 
-                         <div class="modal fade" id="exampleModal40" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="exampleModal40" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -486,130 +486,157 @@ const Modules = () => {
                                         <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
-                                        <h4 className='mb-3 mt-3 text-green'>Futures Contract Trading</h4>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>📘 Basic Topics (Foundation)</h5>
                                         <ol>
-                                            <li><strong>Introduction to Futures Contracts</strong>
+                                            <li><strong>Introduction to Futures Contracts:</strong> What are futures? How do they work? Key participants (hedgers, speculators, arbitrageurs).</li>
+                                            <li><strong>Futures vs. Stocks Trading:</strong> Differences in leverage, margin, ownership, capital requirement, and risk.</li>
+                                            <li><strong>Futures Terminology:</strong> Terms like spot price, futures price, lot size, tick size, expiry, open interest, etc.</li>
+                                            <li><strong>Contract Specifications:</strong> Understanding size, expiry dates, underlying assets (index, stock, commodity).</li>
+                                            <li><strong>Order Types in Futures:</strong> Market, limit, stop-loss, cover orders, bracket orders.</li>
+                                        </ol>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>⚙️ Intermediate Topics (Practical Application)</h5>
+                                        <ol start="6">
+                                            <li><strong>Contract Cycle and Expiry:</strong> Monthly, near-month, next-month, and far-month contracts. What happens on expiry?</li>
+                                            <li><strong>Rollover of Futures Contracts:</strong> Why rollover is done, rollover cost, rollover strategies, interpretation of rollover data.</li>
+                                            <li><strong>Margin Requirements:</strong>
                                                 <ul>
-                                                    <li>Covers the basics of futures, mechanics of contracts, and their use in trading and hedging.</li>
+                                                    <li><strong>SPAN Margin:</strong> Risk-based margining system.</li>
+                                                    <li><strong>Exposure Margin:</strong> Additional safety buffer. Impact on capital allocation.</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Trading in Futures vs Trading in Stocks</strong>
+                                            <li><strong>Mark to Market (MTM) Calculations:</strong> Daily settlement of profit/loss, impact on margin balance, and ledger.</li>
+                                            <li><strong>Settlement in the Futures Market:</strong>
                                                 <ul>
-                                                    <li>Comparison of leverage, risk, and capital requirements between futures and stocks.</li>
+                                                    <li><strong>Cash Settlement:</strong> Common in index futures.</li>
+                                                    <li><strong>Physical Delivery:</strong> Mainly in stock futures (introduced in Indian markets).</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Contract Cycle and Expiry Date in Futures Trading</strong>
+                                            <li><strong>Risk Management in Futures Trading:</strong> Stop-loss discipline, position sizing, volatility adjustment, margin buffer.</li>
+                                        </ol>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🚀 Advanced to Pro-Level Topics</h5>
+                                        <ol start="12">
+                                            <li><strong>Futures Trading Strategies:</strong>
                                                 <ul>
-                                                    <li>Understanding the life cycle of futures contracts and expiration dates.</li>
+                                                    <li>Directional Trades: Long/Short futures</li>
+                                                    <li>Hedging: Using futures to hedge spot or portfolio</li>
+                                                    <li>Arbitrage: Cash-futures arbitrage opportunities</li>
+                                                    <li>Spread Trading: Calendar spread, inter-commodity spread</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Rollover of Futures Contracts</strong>
+                                            <li><strong>Futures Pricing Models:</strong> Cost of Carry Model, Futures Fair Value, and relation with interest rates & dividends.</li>
+                                            <li><strong>Open Interest and Volume Analysis:</strong> How OI helps understand market sentiment and trend confirmation.</li>
+                                            <li><strong>Volatility-Based Futures Trading:</strong> Using Implied Volatility (IV) and Historical Volatility (HV) for futures strategy.</li>
+                                            <li><strong>Institutional Participation & FII/DII Data:</strong> Analyzing futures positions of institutions for sentiment and flow-based strategies.</li>
+                                            <li><strong>Behavior Around Expiry and Rollovers:</strong> How expiry week/rollover affects volumes, prices, and volatility (F&O expiry tactics).</li>
+                                            <li><strong>Algorithmic Futures Trading:</strong> Basics of automation, execution algorithms, backtesting, API-based trading.</li>
+                                        </ol>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🟢 Basic Level: Option Contracts Introduction</h5>
+                                        <ol start="19">
+                                            <li><strong>What is an Option Contract?</strong>
+                                                <p>A derivative giving the right but not the obligation to buy/sell an underlying asset at a specified price before/at expiry.</p>
                                                 <ul>
-                                                    <li>How traders roll over positions to the next contract month to avoid physical delivery.</li>
+                                                    <li><strong>Call Option:</strong> Right to buy</li>
+                                                    <li><strong>Put Option:</strong> Right to sell</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Margin Requirements: SPAN and Exposure Margin</strong>
+                                            <li><strong>Key Terminologies:</strong>
                                                 <ul>
-                                                    <li>Understanding risk management and capital requirements for futures trading.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Mark to Market Calculations</strong>
-                                                <ul>
-                                                    <li>Daily profit/loss calculations and their effect on trading accounts.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Settlement in the Futures Market</strong>
-                                                <ul>
-                                                    <li>Cash settlement vs. physical delivery in futures trading.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Order Placement in Futures</strong>
-                                                <ul>
-                                                    <li>Types of orders such as market, limit, and stop orders.</li>
+                                                    <li>Strike Price</li>
+                                                    <li>Expiry Date</li>
+                                                    <li>Premium</li>
+                                                    <li>In-the-Money (ITM), At-the-Money (ATM), Out-of-the-Money (OTM)</li>
+                                                    <li>Lot size</li>
                                                 </ul>
                                             </li>
                                         </ol>
-                                        <ol className='list-style-disc'>
-                                            <li>
-                                                <strong>If you're looking for a focused topic:</strong>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🟡 Intermediate Level: Understanding Option Mechanics</h5>
+                                        <ol start="21">
+                                            <li><strong>Option Greeks:</strong> Used to measure risk and sensitivity:
                                                 <ul>
-                                                    <li className='mb-2'>
-                                                        "Rollover of Futures Contracts": A practical and often misunderstood aspect of futures trading that can help improve your strategy.
-                                                    </li>
-
-                                                    <li>
-                                                        "Mark to Market Calculations": This topic helps in understanding daily profit/loss management and is key for capital management.
-                                                    </li>
-
+                                                    <li><strong>Delta:</strong> Price change in option per ₹1 move in the underlying</li>
+                                                    <li><strong>Gamma:</strong> Rate of change of Delta</li>
+                                                    <li><strong>Theta:</strong> Time decay of option premium</li>
+                                                    <li><strong>Vega:</strong> Impact of volatility change</li>
+                                                    <li><strong>Rho:</strong> Impact of interest rate change</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Option Premium Calculation:</strong> Intrinsic Value + Time Value
+                                                <ul>
+                                                    <li>Influenced by Volatility, Time to Expiry, and Strike vs Market Price</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Reading Option Chain Data:</strong>
+                                                <ul>
+                                                    <li>Open Interest (OI)</li>
+                                                    <li>Volume</li>
+                                                    <li>Change in OI</li>
+                                                    <li>Max Pain</li>
+                                                    <li>PCR (Put Call Ratio)</li>
                                                 </ul>
                                             </li>
                                         </ol>
-                                        <h4 className='mb-3 mt-3 text-green'>Option Contracts</h4>
-                                        <ol>
-                                            <li><strong>Introduction to Option Contracts</strong>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🔵 Advanced Level: Trading Strategies</h5>
+                                        <ol start="24">
+                                            <li><strong>Volatility Strategies:</strong>
                                                 <ul>
-                                                    <li>Understanding call and put options and their role in financial markets.</li>
+                                                    <li>Long Straddle: Buy ATM Call + ATM Put</li>
+                                                    <li>Long Strangle: Buy OTM Call + OTM Put</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Option Greeks</strong>
+                                            <li><strong>Low Volatility (Range-bound Market):</strong>
                                                 <ul>
-                                                    <li>Exploring Delta, Gamma, Vega, Theta, and Rho for risk management.</li>
+                                                    <li>Short Straddle: Sell ATM Call + ATM Put</li>
+                                                    <li>Short Strangle: Sell OTM Call + OTM Put</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Option Trading Strategies</strong>
+                                            <li><strong>Directional Strategies:</strong>
                                                 <ul>
-                                                    <li>Long Straddle and Long Strangle: Strategies for high volatility.</li>
-                                                    <li>Short Straddle and Short Strangle: Riskier strategies for low volatility.</li>
-                                                    <li>Bull Call Spread, Bear Put Spread: Directional strategies with limited risk.</li>
-                                                    <li>Iron Butterfly, Condor: Advanced strategies with defined risk.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Option Premium Calculation</strong>
-                                                <ul>
-                                                    <li>Factors affecting premium such as volatility, time, and intrinsic value.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Reading Option Chain Data</strong>
-                                                <ul>
-                                                    <li>Analyzing open interest, volume, and strike prices for better decision-making.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Put-Call Ratio and Market Indicators</strong>
-                                                <ul>
-                                                    <li>Understanding Put-Call Ratio, India VIX, and US VIX for market sentiment analysis.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Order Placement in Futures & Options</strong>
-                                                <ul>
-                                                    <li>How to place orders effectively and set stop losses in options trading.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Building Strategies</strong>
-                                                <ul>
-                                                    <li>Personalized option strategies based on market conditions:</li>
-                                                    <ul className='p-0 list-style-circle'>
-                                                        <li>Long Straddle</li>
-                                                        <li>Long Strangle</li>
-                                                        <li>Short Straddle</li>
-                                                        <li>Short Strangle</li>
-                                                        <li>Call Protection Strategy</li>
-                                                        <li>Put Protection Strategy</li>
-                                                        <li>Covered Call</li>
-                                                        <li>Covered Put</li>
-                                                        <li>Bull Call Spread</li>
-                                                        <li>Bull Put Spread</li>
-                                                        <li>Bear Call Spread</li>
-                                                        <li>Bear Put Spread</li>
-                                                        <li>Butterfly Spread</li>
-                                                        <li>Iron Butterfly</li>
-                                                        <li>Condor</li>
-                                                    </ul>
+                                                    <li>Bull Call Spread: Buy lower strike Call, Sell higher strike Call</li>
+                                                    <li>Bear Put Spread: Buy higher strike Put, Sell lower strike Put</li>
+                                                    <li>Covered Call/Put</li>
+                                                    <li>Protective Call/Put</li>
                                                 </ul>
                                             </li>
                                         </ol>
-
-                                        <h6 className='small'>This structure gives you a good mix of theory, practical strategy, and technical analysis. You can start with Introduction to Option Contracts and gradually move to advanced concepts like Greeks and strategies.</h6>
-
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🔴 Pro-Level: Multi-leg & Hedged Strategies</h5>
+                                        <ol start="27">
+                                            <li><strong>Defined Risk Advanced Strategies:</strong>
+                                                <ul>
+                                                    <li>Iron Condor</li>
+                                                    <li>Iron Butterfly</li>
+                                                    <li>Ratio Spreads</li>
+                                                    <li>Calendar Spreads</li>
+                                                    <li>Diagonal Spreads</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🧠 Expert Tools & Market Sentiment</h5>
+                                        <ol start="28">
+                                            <li><strong>Market Indicators:</strong>
+                                                <ul>
+                                                    <li>Put-Call Ratio (PCR)</li>
+                                                    <li>India VIX / US VIX</li>
+                                                    <li>FII/DII Data</li>
+                                                    <li>Max Pain</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Order Placement in Options:</strong>
+                                                <ul>
+                                                    <li>Use limit orders</li>
+                                                    <li>Place stop-losses</li>
+                                                    <li>Avoid market orders in low liquidity options</li>
+                                                    <li>Monitor slippage and IV crush</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                        <hr></hr>
                                         <div> <img src={Option} alt="Metta share market" loading="lazy" className='w-100 mb-3' /></div>
 
                                         <div className="d-flex justify-content-center">
@@ -729,102 +756,134 @@ const Modules = () => {
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Fundamental Analysis & Long Term Investment</h1>
+                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Fundamental Analysis</h1>
                                         <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
-                                        <h4 className='mb-3 mt-3 text-green'>Fundamental Analysis</h4>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>1. Business & Industry Evaluation</h5>
                                         <ol>
-                                            <li><strong>Key Financial Ratios in Fundamental Analysis</strong>
-                                                <ul>
-                                                    <li>Explore P/E, P/B, Debt-to-Equity, ROE, and their role in stock valuation.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Discounted Cash Flow (DCF) Model in Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Understanding free cash flow, discount rates, and intrinsic value estimation.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>The Role of Earnings Reports in Stock Analysis</strong>
-                                                <ul>
-                                                    <li>How EPS, revenue growth, and profit margins impact stock prices.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>How Macroeconomic Factors Impact Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Effects of inflation, interest rates, GDP, and unemployment on stocks.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Growth vs. Value Investing</strong>
-                                                <ul>
-                                                    <li>Comparison of growth stocks vs. value stocks using fundamental analysis.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Assessing Management Effectiveness</strong>
-                                                <ul>
-                                                    <li>Analyzing management through ROA, ROE, and corporate governance.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Industry and Competitive Position in Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Evaluating industry conditions and competitive landscape.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Balance Sheet Analysis</strong>
-                                                <ul>
-                                                    <li>Understanding assets, liabilities, and shareholder equity.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Understanding the Profit and Loss (P&L) Statement</strong>
-                                                <ul>
-                                                    <li>Analyzing revenue, expenses, and net profit for business performance.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Impact of Dividends on Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Using Dividend Discount Models (DDM) to evaluate dividend stocks.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Company’s Moat and Competitive Advantage</strong>
-                                                <ul>
-                                                    <li>Understanding how strong market positions lead to long-term value.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Top-Down vs. Bottom-Up Approach</strong>
-                                                <ul>
-                                                    <li>Comparing two investment approaches in fundamental analysis.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Role of Free Cash Flow (FCF)</strong>
-                                                <ul>
-                                                    <li>Using FCF as a key metric for evaluating company profitability.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Stock Valuation through Comparable Company Analysis (CCA)</strong>
-                                                <ul>
-                                                    <li>Comparing company valuations with industry peers.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Fundamental vs. Technical Analysis</strong>
-                                                <ul>
-                                                    <li>Comparing strengths and weaknesses of both approaches.</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Influence of Corporate Governance on Stock Valuation</strong>
-                                                <ul>
-                                                    <li>Examining transparency, accountability, and investor confidence.</li>
-                                                </ul>
-                                            </li>
+                                            <li><strong>Business Analysis</strong> – Understand the company’s model, revenue streams, and core operations.</li>
+                                            <li><strong>Sectoral Analysis</strong> – Examine industry dynamics, growth trends, and regulatory environment.</li>
+                                            <li><strong>Economic Moat & Competitive Advantage</strong> – Identify long-term edge over competitors.</li>
+                                            <li><strong>SWOT Analysis</strong> – Evaluate internal strengths/weaknesses and external opportunities/threats.</li>
+                                            <li><strong>Top-Down vs. Bottom-Up Approach</strong> – Macro-to-micro vs. micro-to-macro analysis methodologies.</li>
                                         </ol>
-
-                                        <h4 className='mb-3 mt-3 text-green'>Other Financial Topics</h4>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>2. Management & Governance</h5>
+                                        <ol start="6">
+                                            <li><strong>Management & Corporate Governance</strong> – Assess leadership credibility, board practices, and transparency.</li>
+                                            <li><strong>Assessing Management Effectiveness</strong> – Use ROA, ROE, and strategic decisions as evaluation tools.</li>
+                                            <li><strong>Influence of Corporate Governance on Valuation</strong> – Understand how governance impacts investor confidence.</li>
+                                        </ol>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>3. Financial Health & Performance</h5>
+                                        <ol start="9">
+                                            <li><strong>Financial Statement Analysis</strong> – Deep dive into P&amp;L, balance sheet, and cash flow statements.</li>
+                                            <li><strong>Key Financial Ratios</strong> – Metrics like P/E, P/B, ROE, ROCE, D/E ratio to judge performance.</li>
+                                            <li><strong>Balance Sheet Analysis</strong> – Understand asset quality, debt load, and equity health.</li>
+                                            <li><strong>Profit &amp; Loss (P&amp;L) Statement</strong> – Assess operational efficiency and profitability.</li>
+                                        </ol>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>4. Valuation Techniques</h5>
+                                        <ol start="13">
+                                            <li><strong>Company Valuation Analysis</strong> – Overall approach to determining fair stock value.</li>
+                                            <li><strong>Discounted Cash Flow (DCF) Model</strong> – Estimate intrinsic value using FCF and discounting future cash flows.</li>
+                                            <li><strong>Comparable Company Analysis (CCA)</strong> – Relative valuation using peer multiples.</li>
+                                            <li><strong>Dividend Discount Model (DDM)</strong> – Valuation of dividend-paying stocks.</li>
+                                            <li><strong>Free Cash Flow Valuation</strong> – Use FCF as a key indicator of intrinsic worth.</li>
+                                        </ol>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>5. Stock-Specific Factors</h5>
+                                        <ol start="18">
+                                            <li><strong>Stock Analysis</strong> – Evaluate price trends, volume, financials, and fundamentals.</li>
+                                            <li><strong>Earnings Reports Analysis</strong> – Interpret quarterly/annual reports for revenue, EPS, margins.</li>
+                                            <li><strong>Dividend &amp; Return Analysis</strong> – Study historical and expected dividends and total return potential.</li>
+                                            <li><strong>Shareholding Pattern Analysis</strong> – Analyze promoter, FII, DII, and retail investor trends.</li>
+                                        </ol>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>6. Broader Influencing Factors</h5>
+                                        <ol start="22">
+                                            <li><strong>Macroeconomic Impact</strong> – Understand how GDP, inflation, interest rates, and unemployment affect stock prices.</li>
+                                            <li><strong>ESG Analysis</strong> – Assess environmental, social, and governance criteria for sustainable investing.</li>
+                                            <li><strong>Industry Position &amp; Competitive Landscape</strong> – Examine market share, disruption risks, and peer strength.</li>
+                                        </ol>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>7. Strategy Comparison</h5>
+                                        <ol start="25">
+                                            <li><strong>Growth vs. Value Investing</strong> – Contrast two major stock-picking philosophies through a fundamental lens.</li>
+                                            <li><strong>Fundamental vs. Technical Analysis</strong> – Understand how they differ and when to apply each.</li>
+                                        </ol>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>8. AI in Fundamental Analysis – Simplified</h5>
                                         <ul>
-                                            <li>IPO, FPO, Rights Issue, Offer for Sale & Buyback.</li>
-                                            <li>Merger, Acquisition, and Takeover.</li>
-                                            <li>How to Read GDP, Fiscal Policy, and Monetary Policy.</li>
-                                            <li>Where to Invest: Bonds, Gold, Fixed Deposits (FD).</li>
-                                            <li>Mutual Funds and Financial Literacy.</li>
+                                            <li><strong>Data Extraction:</strong> AI can quickly read and extract financial data from reports, websites, and PDFs, saving hours of manual work.</li>
+                                            <li><strong>Sentiment Analysis:</strong> It analyzes news, CEO interviews, and earnings calls to understand market mood (positive or negative).</li>
+                                            <li><strong>Financial Forecasting:</strong> AI predicts future revenue, profit, and growth using past trends and market conditions.</li>
+                                            <li><strong>Stock Valuation:</strong> AI helps calculate the fair value of a stock using models like DCF or peer comparison—automatically updating with new data.</li>
+                                            <li><strong>Red Flag Detection:</strong> AI can catch signs of fraud or risk in financial statements, like unusual income or rising debt.</li>
+                                            <li><strong>Portfolio Building:</strong> It helps create balanced investment portfolios based on risk, return, and sector exposure.</li>
+                                            <li><strong>ESG Scoring:</strong> AI scores companies on environmental and social responsibility using reports and public data.</li>
                                         </ul>
+                                        <hr></hr>
+                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>Other Financial Topics</h5>
+
+                                        <h6> <strong>Primary & Secondary Market Instruments</strong> </h6>
+                                        <ul>
+                                            <li>IPO (Initial Public Offering)</li>
+                                            <li>FPO (Follow-on Public Offering)</li>
+                                            <li>Rights Issue</li>
+                                            <li>Offer for Sale (OFS)</li>
+                                            <li>Buyback of Shares</li>
+                                        </ul>
+
+                                        <h6><strong> Corporate Actions & Restructuring</strong></h6>
+                                        <ul>
+                                            <li>Mergers, Acquisitions & Takeovers</li>
+                                            <li>Demergers & Spin-offs</li>
+                                            <li>Stock Split & Bonus Shares</li>
+                                            <li>Dividends (Interim & Final)</li>
+                                        </ul>
+
+                                        <h6><strong> Macroeconomics & Economic Indicators</strong></h6>
+                                        <ul>
+                                            <li>How to Read GDP (Gross Domestic Product)</li>
+                                            <li>Inflation & Deflation</li>
+                                            <li>Fiscal Policy (Government Spending & Taxation)</li>
+                                            <li>Monetary Policy (Repo Rate, CRR, SLR, etc.)</li>
+                                            <li>Union Budget & Economic Survey</li>
+                                        </ul>
+
+                                        <h6><strong> Financial Literacy & Investment Instruments</strong></h6>
+                                        <ul>
+                                            <li>Financial Planning & Goal Setting</li>
+                                            <li>Understanding Risk vs Return</li>
+                                            <li>Asset Allocation & Diversification</li>
+                                            <li>Bonds (Government, Corporate, Tax-free)</li>
+                                            <li>Gold (Physical, Digital, Sovereign Gold Bonds)</li>
+                                            <li>Fixed Deposits (FD) & Recurring Deposits (RD)</li>
+                                            <li>Public Provident Fund (PPF), NPS, SCSS</li>
+                                        </ul>
+
+                                        <h6><strong> Mutual Funds & Other Market Instruments</strong></h6>
+                                        <ul>
+                                            <li>Mutual Funds (Types: Equity, Debt, Hybrid)</li>
+                                            <li>SIP (Systematic Investment Plan) & SWP (Systematic Withdrawal Plan)</li>
+                                            <li>Exchange-Traded Funds (ETFs)</li>
+                                            <li>Real Estate Investment Trusts (REITs)</li>
+                                            <li>Asset Management Companies (AMCs)</li>
+                                        </ul>
+
+                                        <h6><strong>Modern Financial Concepts</strong></h6>
+                                        <ul>
+                                            <li>Credit Score & Credit Reports (CIBIL, Experian, etc.)</li>
+                                            <li>Insurance (Life, Health, Term, ULIP)</li>
+                                            <li>Cryptocurrency & Blockchain Basics</li>
+                                            <li>ESG Investing (Environmental, Social, Governance)</li>
+                                            <li>Robo-Advisory & FinTech Trends</li>
+                                        </ul>
+
+
+                                        <hr></hr>
                                         <div> <img src={Fundammental} alt="Metta share market" loading="lazy" className='w-100 mb-3' /></div>
                                         <div className="d-flex justify-content-center">
                                             <a href="https://www.screener.in/company/DMART/consolidated/" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
