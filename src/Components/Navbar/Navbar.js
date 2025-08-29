@@ -80,7 +80,7 @@ const Navbar = () => {
                 {/* /Modules */}
 
                 {/* Chart */}
-                <li className="nav-item px-2">
+                {/* <li className="nav-item px-2">
                   <NavLink
                     className="nav-link"
                     to="https://chart.mettasharemarket.in/"
@@ -88,7 +88,7 @@ const Navbar = () => {
                   >
                     {translate("Metta chart")}
                   </NavLink>
-                </li>
+                </li> */}
                 {/* /Chart */}
 
                  {/* Resources */}
@@ -200,7 +200,7 @@ const Navbar = () => {
 
 
                 {/* Blogs */}
-                <li className="nav-item px-2">
+                {/* <li className="nav-item px-2">
                   <NavLink
                     className="nav-link"
                     to="https://blogs.mettasharemarket.in/"
@@ -208,7 +208,7 @@ const Navbar = () => {
                   >
                     {translate("Blogs")}
                   </NavLink>
-                </li>
+                </li> */}
                 {/* /Blogs */}
 
               </ul>
