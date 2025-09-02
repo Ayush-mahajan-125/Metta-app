@@ -32,7 +32,7 @@ const Modules = () => {
                     <details>
                         <summary className='text-center text-orange text-uppercase p-3'>Group 1 <br /> <small className='text-dark msm-font-size'>( Basic To Advanced )</small></summary>
                         <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                            <b className='text-center'>Module 1</b> <br /> Technical Analysis
+                            <b className='text-center'>Module 1</b> <br /> Modern Technical Analysis
                         </button>
 
                         <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal40">
@@ -273,7 +273,7 @@ const Modules = () => {
                     <details>
                         <summary className='text-center text-orange text-uppercase p-3'>Group 2 <br /> <small className='text-dark msm-font-size'>( Advanced Pro )</small></summary>
                         <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <b className='text-center'>Module 1</b> <br /> Technical Analysis
+                            <b className='text-center'>Module 1</b> <br /> Modern Technical Analysis
                         </button>
 
                         <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal4">
@@ -290,7 +290,7 @@ const Modules = () => {
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel"> Basic To Advanced Technical Analysis</h1>
+                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel"> Basic To Advanced and Advanced Pro </h1>
                                         <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
@@ -901,6 +901,9 @@ const Modules = () => {
                         <summary className='text-center text-orange text-uppercase p-3'>Group 4   <br /> <small className='text-dark msm-font-size'>( Advanced Pro )</small></summary>
                         <button type="button" class="btn-toggle-collapse msm-pointer">
                             <b className='text-center'>Module 5</b> <br /> Smart Money Concept
+                        </button>
+                         <button type="button" class="btn-toggle-collapse msm-pointer">
+                            <b className='text-center'>Module 6</b> <br /> Trading With Artificial intelligence (AI)
                         </button>
                     </details>
                 </div>

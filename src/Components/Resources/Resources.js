@@ -1,6 +1,6 @@
 import React from 'react';
 import './Resources.scss';
-import Upstox from '../../assets/img/upstox-logo.webp';
+import Sahi from '../../assets/img/sahi.webp';
 import Book1 from '../../assets/img/81BE7eeKzAL._SY466_.jpg';
 import Book2 from '../../assets/img/711xMzVPIuL._SY342_.jpg';
 import Book3 from '../../assets/img/41lJjTYiFfL._SY445_SX342_.jpg';
@@ -31,10 +31,10 @@ const Resources = () => {
                 <h1 className="display-6 fw-normal pt-5">
                     Recommended Brokers for Stock Market
                 </h1>
-                <img src={Upstox} className="my-3 msm-upstox" alt="Upstox" loading="lazy" />
+                <img src={Sahi} className="my-3 msm-upstox" alt="Upstox" loading="lazy" />
                 <h6 className='mb-5'>
-                    <span className='text-dark'> Open Your Demant Account in Upstox</span><br />
-                    <a href="https://upstox.com/open-account/?f=JG1348" target="_blank" className='text-orange' rel="noreferrer"> https://upstox.com/open-account/?f=JG1348</a>
+                    <span className='text-dark'> Open Your Demant Account in Sahi : Options & Stock Trading</span><br />
+                    <a href="https://sahi.onelink.me/lsr5/e191p03c*Address*" target="_blank" className='text-orange' rel="noreferrer"> https://sahi.onelink.me/lsr5/e191p03c*Address*</a>
                 </h6>
             </div>
 

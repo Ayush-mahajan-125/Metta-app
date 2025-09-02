@@ -19,7 +19,6 @@ import EnrollmentPage from './Components/Home/EnrollmentPage';
 import Calculator from './Components/Calculator/Calculator';
 import CAGRCalculator from './Components/CAGRCalculator/CAGRCalculator';
 import './App.scss';
-
 import { HelmetProvider} from 'react-helmet-async';
 const LanguageSelector = () => {
   const { language, setLanguage } = useLanguage();
