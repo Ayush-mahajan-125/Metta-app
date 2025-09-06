@@ -14,7 +14,7 @@ import NagpurBestClasses from './NagpurBestClasses';
 import CallToAction from './CallToAction';
 import EmailSubscriptionForm from './EmailSubscriptionForm';
 import Certification from './Certification';
-import ImageShow from '../../assets/img/Thursday, 1 May, 2025 (2) (1).png';
+// import ImageShow from '../../assets/img/Thursday, 1 May, 2025 (2) (1).png';
 
 // font awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -84,30 +84,20 @@ const Home = () => {
       {/* /Brochure Form */}
 
       {/* Bootstrap Modal - Auto Shows After 15 sec */}
-      <div className="container">
-        <div className="row">
-          <div className="col-6">
-            src={ImageShow}
-          </div>
-          <div className="col-6">
-            <div className="modal fade h-100 msm-content-modal " id="brochureModal" tabIndex="-1" aria-hidden="true">
-              <div className="modal-dialog modal-dialog-centered">
-                <div className="modal-content">
-                  <div className="modal-header">
-                    <h5 className="modal-title ">Brochure Download</h5>
-                    <p className='text-secondary'></p>
-                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div className="modal-body">
-                    {showBrochureForm ? <BrochureDownloadForm /> : <p>Loading...</p>}
-                  </div>
-                </div>
-              </div>
+      <div className="modal fade h-100 msm-content-modal " id="brochureModal" tabIndex="-1" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title ">Brochure Download</h5>
+              <p className='text-secondary'></p>
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              {showBrochureForm ? <BrochureDownloadForm /> : <p>Loading...</p>}
             </div>
           </div>
         </div>
       </div>
-
       {/* Bootstrap Modal */}
 
       {/* call to action */}
@@ -118,10 +108,8 @@ const Home = () => {
       <EmailSubscriptionForm />
       {/* /email form */}
 
-
       <div className="msm-social-icons">
         <a className="msm-whatsapp-btn whatsapp-msm-btn" href="https://wa.me/919834888821" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faWhatsapp} className="msm-whatsapp-icon" /></a>
-
         <a className="msm-whatsapp-btn bg-primary" href="tel:+919834888821">
           <FontAwesomeIcon icon={faPhone} className="msm-call-icon" />
         </a>
