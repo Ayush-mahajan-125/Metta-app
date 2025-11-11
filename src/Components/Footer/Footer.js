@@ -115,7 +115,7 @@ const Footer = () => {
 
         {/* copy right */}
         <div className="text-center py-4">
-          <small className='text-secondary'>© Copyrights 2025 - 2026. <br />Metta Financial Investment & Trading Trainning Institute.All Rights Reserved.</small>
+          <small className='text-secondary'>© Copyrights 2025 - 2026. <br />Metta Financial Investment & Trading Training Institute.All Rights Reserved.</small>
         </div>
         {/* /copy right */}
 

@@ -28,15 +28,19 @@ const Modules = () => {
             {/* /heading */}
 
             <div className="row">
-                <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3">
-                    <details>
-                        <summary className='text-center text-orange text-uppercase p-3'>Group 1 <br /> <small className='text-dark msm-font-size'>( Basic To Advanced )</small></summary>
+                <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-4">
+                    <div className='card px-2 msm-bg-color py-2 lw-card-color'>
+                        <summary className='text-center text-black fw-bold p-3 text-uppercase'>Module 1 <br /> <small className='text-dark msm-font-size'>( Basic To Advanced )</small></summary>
                         <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                            <b className='text-center'>Module 1</b> <br /> Modern Technical Analysis
+                            <b className='text-center msm-text-color-text'>Chapter 1</b> <br /> Technical Analysis
                         </button>
 
                         <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal40">
-                            <b className='text-center'>Module 2</b> <br /> Forex, Commodity, and Cryptocurrency Markets
+                            <b className='text-center msm-text-color-text'>Chapter 2</b> <br /> Forex, Commodity, and Cryptocurrency Markets
+                        </button>
+
+                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal400">
+                            <b className='text-center msm-text-color-text'>Chapter 3</b> <br /> Future and Option
                         </button>
 
                         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -200,7 +204,6 @@ const Modules = () => {
                                             <li>How to Read a Forex Chart</li>
                                             <li>Correlation Between Currency Pairs</li>
                                         </ol>
-
                                         <h4 className='mb-3 mt-3 text-green'>Currency Market</h4>
                                         <ol>
                                             <li>Understanding the Global Currency Market</li>
@@ -266,24 +269,171 @@ const Modules = () => {
                                 </div>
                             </div>
                         </div>
-                    </details>
+
+                        <div class="modal fade" id="exampleModal400" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Derivative And Future & Option’s</h1>
+                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                                    </div>
+                                    <div class="modal-body text-dark">
+                                        <ol>
+                                            <li><strong>Introduction to Derivatives</strong>
+                                                <ul>
+                                                    <li>What are Futures & Options (F&O)?</li>
+                                                    <li>Difference between Futures & Options</li>
+                                                    <li>Key Market Participants: Hedgers, Speculators, Arbitrageurs</li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Futures – Basic Concepts</strong>
+                                                <ul>
+                                                    <li>How Futures Contracts work</li>
+                                                    <li>Spot Price vs Futures Price</li>
+                                                    <li>Lot Size, Tick Size, Expiry, Open Interest (OI)</li>
+                                                    <li>Contract Specifications (Index, Stock, Commodity Futures)</li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Order Types</strong>
+                                                <ul>
+                                                    <li>Market Order</li>
+                                                    <li>Limit Order</li>
+                                                    <li>Stop-Loss Order</li>
+                                                    <li>Bracket Order (BO)</li>
+                                                    <li>Cover Order (CO)</li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Margin Requirements</strong>
+                                                <ul>
+                                                    <li>SPAN Margin</li>
+                                                    <li>Exposure Margin</li>
+                                                    <li>How margin affects position size</li>
+                                                    <li>Mark-to-Market (MTM) settlement</li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Contract Cycle & Rollover</strong>
+                                                <ul>
+                                                    <li>Near, Next & Far Month Contracts</li>
+                                                    <li>Meaning of Rollover</li>
+                                                    <li>Rollover Cost</li>
+                                                    <li>Interpretation of Rollover Data</li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Settlement</strong>
+                                                <ul>
+                                                    <li>Cash Settlement (for Index)</li>
+                                                    <li>Physical Delivery (for Stocks)</li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Introduction to Options</strong>
+                                                <ul>
+                                                    <li>What is an Option Contract?</li>
+                                                    <li>Call Option = Right to Buy</li>
+                                                    <li>Put Option = Right to Sell</li>
+                                                    <li>Key Option Terms:
+                                                        <ul>
+                                                            <li>Strike Price</li>
+                                                            <li>Expiry</li>
+                                                            <li>Premium</li>
+                                                            <li>ITM / ATM / OTM</li>
+                                                            <li>Lot size</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Mechanics of Options</strong>
+                                                <ul>
+                                                    <li>Option Premium = Intrinsic Value + Time Value</li>
+                                                    <li>Factors affecting premium:
+                                                        <ul>
+                                                            <li>Volatility</li>
+                                                            <li>Time to expiry</li>
+                                                            <li>Strike vs Market Price</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Basic Greeks:
+                                                        <ul>
+                                                            <li>Delta</li>
+                                                            <li>Gamma</li>
+                                                            <li>Theta</li>
+                                                            <li>Vega</li>
+                                                            <li>Rho</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Reading Option Chain</strong>
+                                                <ul>
+                                                    <li>Open Interest</li>
+                                                    <li>Volume</li>
+                                                    <li>Change in OI</li>
+                                                    <li>PCR (Put-Call Ratio)</li>
+                                                    <li>Max Pain</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                        <hr></hr>
+                                        <div> <img src={Option} alt="Metta share market" loading="lazy" className='w-100 mb-3' /></div>
+
+                                        <div className="d-flex justify-content-center">
+                                            <a href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener noreferrer" className='btn btn-dark' > Go to</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3">
-                    <details>
-                        <summary className='text-center text-orange text-uppercase p-3'>Group 2 <br /> <small className='text-dark msm-font-size'>( Advanced Pro )</small></summary>
-                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <b className='text-center'>Module 1</b> <br /> Modern Technical Analysis
-                        </button>
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-4">
+                    <div className='card msm-bg-color px-2 py-2 lw-card-color'>
+                        <summary className='text-center text-black fw-bold p-3 text-uppercase '>Modules 2 <br /> <small className='text-dark msm-font-size '>( Advanced Pro Plus )</small></summary>
 
-                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                            <b className='text-center'>Module 2</b> <br /> Forex, Commodity, and Cryptocurrency Markets
-                        </button>
+                        <div className="row">
+                            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
+                                <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <b className='text-center msm-text-color-text'>Chapter 1</b> <br /> Advanced Analysis Tracker
+                                </button>
+                            </div>
 
-                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                            <b className='text-center'>Module 3</b> <br /> Future and Option
-                        </button>
+                            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                <button type="button" class="btn-toggle-collapse " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                    <b className='text-center msm-text-color-text'>Chapter 2</b> <br /> Future and Option
+                                </button>
+                            </div>
 
+                            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                <button type="button" class="btn-toggle-collapse msm-pointer">
+                                    <b className='text-center msm-text-color-text'>Chapter 3</b> <br /> ICT + Smart Money Trading Mastery
+                                </button>
+                            </div>
+
+                            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                <button type="button" class="btn-toggle-collapse msm-pointer">
+                                    <b className='text-center msm-text-color-text'>Chapter 4</b> <br /> Money Management, Market Psychology & Mindset
+                                </button>
+                            </div>
+
+                            <div className="col-sm-12 col-md-12 col-lg-12  ">
+                                <button type="button" class="btn-toggle-collapse msm-pointer">
+                                    <b className='text-center msm-text-color-text'>Chapter 5</b> <br /> Trading With Artificial intelligence (AI)
+                                </button>
+                            </div>
+
+                            <div className="col-sm-12 col-md-12 col-lg-12 ">
+                                <button type="button" class="btn-toggle-collapse lw-100-w" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                    <b className='text-center msm-text-color-text'>Chapter 6</b> <br /> Currency, Commodity, and Cryptocurrency Markets
+                                </button>
+                            </div>
+                        </div>
 
                         {/* module first */}
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -486,156 +636,112 @@ const Modules = () => {
                                         <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>📘 Basic Topics (Foundation)</h5>
                                         <ol>
-                                            <li><strong>Introduction to Futures Contracts:</strong> What are futures? How do they work? Key participants (hedgers, speculators, arbitrageurs).</li>
-                                            <li><strong>Futures vs. Stocks Trading:</strong> Differences in leverage, margin, ownership, capital requirement, and risk.</li>
-                                            <li><strong>Futures Terminology:</strong> Terms like spot price, futures price, lot size, tick size, expiry, open interest, etc.</li>
-                                            <li><strong>Contract Specifications:</strong> Understanding size, expiry dates, underlying assets (index, stock, commodity).</li>
-                                            <li><strong>Order Types in Futures:</strong> Market, limit, stop-loss, cover orders, bracket orders.</li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>⚙️ Intermediate Topics (Practical Application)</h5>
-                                        <ol start="6">
-                                            <li><strong>Contract Cycle and Expiry:</strong> Monthly, near-month, next-month, and far-month contracts. What happens on expiry?</li>
-                                            <li><strong>Rollover of Futures Contracts:</strong> Why rollover is done, rollover cost, rollover strategies, interpretation of rollover data.</li>
-                                            <li><strong>Margin Requirements:</strong>
+                                            <li><strong>Advanced Futures Trading Strategies</strong>
                                                 <ul>
-                                                    <li><strong>SPAN Margin:</strong> Risk-based margining system.</li>
-                                                    <li><strong>Exposure Margin:</strong> Additional safety buffer. Impact on capital allocation.</li>
+                                                    <li>Long/Short Futures (Directional)</li>
+                                                    <li>Hedging with Futures</li>
+                                                    <li>Arbitrage (Cash-Futures Arbitrage)</li>
+                                                    <li>Spread Trading</li>
+                                                    <li>Calendar Spread</li>
+                                                    <li>Inter-commodity Spread</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Mark to Market (MTM) Calculations:</strong> Daily settlement of profit/loss, impact on margin balance, and ledger.</li>
-                                            <li><strong>Settlement in the Futures Market:</strong>
+
+                                            <li><strong>Futures Pricing Models</strong>
                                                 <ul>
-                                                    <li><strong>Cash Settlement:</strong> Common in index futures.</li>
-                                                    <li><strong>Physical Delivery:</strong> Mainly in stock futures (introduced in Indian markets).</li>
+                                                    <li>Cost of Carry Model</li>
+                                                    <li>Futures Fair Value</li>
+                                                    <li>Relationship with Interest Rates & Dividends</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Risk Management in Futures Trading:</strong> Stop-loss discipline, position sizing, volatility adjustment, margin buffer.</li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🚀 Advanced to Pro-Level Topics</h5>
-                                        <ol start="12">
-                                            <li><strong>Futures Trading Strategies:</strong>
+
+                                            <li><strong>Open Interest & Volume Analysis</strong>
                                                 <ul>
-                                                    <li>Directional Trades: Long/Short futures</li>
-                                                    <li>Hedging: Using futures to hedge spot or portfolio</li>
-                                                    <li>Arbitrage: Cash-futures arbitrage opportunities</li>
-                                                    <li>Spread Trading: Calendar spread, inter-commodity spread</li>
+                                                    <li>Using OI to detect trend strength</li>
+                                                    <li>Identifying short covering & long buildup</li>
+                                                    <li>Volume–OI correlation signals</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Futures Pricing Models:</strong> Cost of Carry Model, Futures Fair Value, and relation with interest rates & dividends.</li>
-                                            <li><strong>Open Interest and Volume Analysis:</strong> How OI helps understand market sentiment and trend confirmation.</li>
-                                            <li><strong>Volatility-Based Futures Trading:</strong> Using Implied Volatility (IV) and Historical Volatility (HV) for futures strategy.</li>
-                                            <li><strong>Institutional Participation & FII/DII Data:</strong> Analyzing futures positions of institutions for sentiment and flow-based strategies.</li>
-                                            <li><strong>Behavior Around Expiry and Rollovers:</strong> How expiry week/rollover affects volumes, prices, and volatility (F&O expiry tactics).</li>
-                                            <li><strong>Algorithmic Futures Trading:</strong> Basics of automation, execution algorithms, backtesting, API-based trading.</li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🟢 Basic Level: Option Contracts Introduction</h5>
-                                        <ol start="19">
-                                            <li><strong>What is an Option Contract?</strong>
-                                                <p>A derivative giving the right but not the obligation to buy/sell an underlying asset at a specified price before/at expiry.</p>
+
+                                            <li><strong>Volatility-Based Trading</strong>
                                                 <ul>
-                                                    <li><strong>Call Option:</strong> Right to buy</li>
-                                                    <li><strong>Put Option:</strong> Right to sell</li>
+                                                    <li>IV vs HV</li>
+                                                    <li>Role of Volatility in Futures & Options</li>
+                                                    <li>Trading high-IV and low-IV setups</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Key Terminologies:</strong>
+
+                                            <li><strong>Institutional Data Analysis</strong>
                                                 <ul>
-                                                    <li>Strike Price</li>
-                                                    <li>Expiry Date</li>
-                                                    <li>Premium</li>
-                                                    <li>In-the-Money (ITM), At-the-Money (ATM), Out-of-the-Money (OTM)</li>
-                                                    <li>Lot size</li>
+                                                    <li>FII/DII Futures Positions</li>
+                                                    <li>Client vs Pro Data</li>
+                                                    <li>Sentiment Shifts near Expiry</li>
                                                 </ul>
                                             </li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🟡 Intermediate Level: Understanding Option Mechanics</h5>
-                                        <ol start="21">
-                                            <li><strong>Option Greeks:</strong> Used to measure risk and sensitivity:
+
+                                            <li><strong>Expiry & Rollover Behavior</strong>
                                                 <ul>
-                                                    <li><strong>Delta:</strong> Price change in option per ₹1 move in the underlying</li>
-                                                    <li><strong>Gamma:</strong> Rate of change of Delta</li>
-                                                    <li><strong>Theta:</strong> Time decay of option premium</li>
-                                                    <li><strong>Vega:</strong> Impact of volatility change</li>
-                                                    <li><strong>Rho:</strong> Impact of interest rate change</li>
+                                                    <li>Expiry Week Volatility</li>
+                                                    <li>Max Pain Effect</li>
+                                                    <li>Rollover Tactics</li>
+                                                    <li>Volume Surges near expiry</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Option Premium Calculation:</strong> Intrinsic Value + Time Value
+
+                                            <li><strong>Algorithmic Futures Trading</strong>
                                                 <ul>
-                                                    <li>Influenced by Volatility, Time to Expiry, and Strike vs Market Price</li>
+                                                    <li>Basics of Algo Trading</li>
+                                                    <li>Execution Algorithms</li>
+                                                    <li>Backtesting</li>
+                                                    <li>API-based Trading</li>
                                                 </ul>
                                             </li>
-                                            <li><strong>Reading Option Chain Data:</strong>
+
+                                            <li><strong>Advanced Options Trading Strategies</strong>
                                                 <ul>
-                                                    <li>Open Interest (OI)</li>
-                                                    <li>Volume</li>
-                                                    <li>Change in OI</li>
-                                                    <li>Max Pain</li>
-                                                    <li>PCR (Put Call Ratio)</li>
+                                                    <li><strong>Volatility Strategies</strong>
+                                                        <ul>
+                                                            <li>Long Straddle</li>
+                                                            <li>Long Strangle</li>
+                                                            <li>Short Straddle</li>
+                                                            <li>Short Strangle</li>
+                                                        </ul>
+                                                    </li>
+
+                                                    <li><strong>Directional Strategies</strong>
+                                                        <ul>
+                                                            <li>Bull Call Spread</li>
+                                                            <li>Bear Put Spread</li>
+                                                            <li>Covered Call / Put</li>
+                                                            <li>Protective Call / Put</li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🔵 Advanced Level: Trading Strategies</h5>
-                                        <ol start="24">
-                                            <li><strong>Volatility Strategies:</strong>
-                                                <ul>
-                                                    <li>Long Straddle: Buy ATM Call + ATM Put</li>
-                                                    <li>Long Strangle: Buy OTM Call + OTM Put</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Low Volatility (Range-bound Market):</strong>
-                                                <ul>
-                                                    <li>Short Straddle: Sell ATM Call + ATM Put</li>
-                                                    <li>Short Strangle: Sell OTM Call + OTM Put</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Directional Strategies:</strong>
-                                                <ul>
-                                                    <li>Bull Call Spread: Buy lower strike Call, Sell higher strike Call</li>
-                                                    <li>Bear Put Spread: Buy higher strike Put, Sell lower strike Put</li>
-                                                    <li>Covered Call/Put</li>
-                                                    <li>Protective Call/Put</li>
-                                                </ul>
-                                            </li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🔴 Pro-Level: Multi-leg & Hedged Strategies</h5>
-                                        <ol start="27">
-                                            <li><strong>Defined Risk Advanced Strategies:</strong>
+
+                                            <li><strong>Pro-Level Multi-Leg Strategies</strong>
                                                 <ul>
                                                     <li>Iron Condor</li>
                                                     <li>Iron Butterfly</li>
                                                     <li>Ratio Spreads</li>
-                                                    <li>Calendar Spreads</li>
-                                                    <li>Diagonal Spreads</li>
+                                                    <li>Calendar Spread</li>
+                                                    <li>Diagonal Spread</li>
                                                 </ul>
                                             </li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>🧠 Expert Tools & Market Sentiment</h5>
-                                        <ol start="28">
-                                            <li><strong>Market Indicators:</strong>
+
+                                            <li><strong>Expert Tools & Market Sentiment</strong>
                                                 <ul>
                                                     <li>Put-Call Ratio (PCR)</li>
                                                     <li>India VIX / US VIX</li>
-                                                    <li>FII/DII Data</li>
-                                                    <li>Max Pain</li>
-                                                </ul>
-                                            </li>
-                                            <li><strong>Order Placement in Options:</strong>
-                                                <ul>
-                                                    <li>Use limit orders</li>
-                                                    <li>Place stop-losses</li>
-                                                    <li>Avoid market orders in low liquidity options</li>
-                                                    <li>Monitor slippage and IV crush</li>
+                                                    <li>FII/DII Data Interpretation</li>
+                                                    <li>Max Pain Theory</li>
+                                                    <li>IV Crush & Slippage Avoidance</li>
+                                                    <li>Always use Limit Orders in Options</li>
                                                 </ul>
                                             </li>
                                         </ol>
+
                                         <hr></hr>
                                         <div> <img src={Option} alt="Metta share market" loading="lazy" className='w-100 mb-3' /></div>
 
@@ -653,29 +759,10 @@ const Modules = () => {
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Forex, Commodity, and Cryptocurrency Markets</h1>
+                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Currency ,Commodity, and Cryptocurrency Markets</h1>
                                         <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
-                                        <h4 className='mb-3 mt-3 text-green'>Forex Market</h4>
-                                        <ol>
-                                            <li>Introduction to Forex Trading</li>
-                                            <li>Currency Pairs and How They Work</li>
-                                            <li>Major vs. Minor vs. Exotic Currency Pairs</li>
-                                            <li>Forex Market Trading Hours and Liquidity</li>
-                                            <li>Role of Central Banks in the Forex Market</li>
-                                            <li>Leverage and Margin in Forex Trading</li>
-                                            <li>Forex Trading Strategies (Scalping, Swing, Day Trading)</li>
-                                            <li>Understanding Forex Spreads and Pips</li>
-                                            <li>Impact of Global Economic News on Forex Markets</li>
-                                            <li>Forex Risk Management and Position Sizing</li>
-                                            <li>Forex Technical Indicators and Tools (RSI, MACD, Fibonacci)</li>
-                                            <li>Carry Trade Strategy in Forex</li>
-                                            <li>Fundamental Analysis for Forex (Interest Rates, Inflation, GDP)</li>
-                                            <li>How to Read a Forex Chart</li>
-                                            <li>Correlation Between Currency Pairs</li>
-                                        </ol>
-
                                         <h4 className='mb-3 mt-3 text-green'>Currency Market</h4>
                                         <ol>
                                             <li>Understanding the Global Currency Market</li>
@@ -741,14 +828,20 @@ const Modules = () => {
                                 </div>
                             </div>
                         </div>
-                    </details>
+                    </div>
                 </div>
 
-                <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3">
-                    <details>
-                        <summary className='text-center text-orange text-uppercase p-3'>Group 3   <br /> <small className='text-dark msm-font-size'>( Advanced Pro )</small></summary>
-                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                            <b className='text-center'>Module 4</b> <br /> Fundamental Analysis
+                <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-4">
+                    <div className='card msm-bg-color px-2 py-2 lw-card-color'>
+                        <summary className='text-center text-black fw-bold text-uppercase p-3'>Modules 3 <br /> <small className='text-dark msm-font-size'></small></summary>
+                        <button type="button" class="btn-toggle-collapse msm-font-size-16px" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            <b className='text-center msm-text-color-text'>Chapter 1</b> <br />
+                            Fundamental Analysis <br /><br />
+
+                            <small className='msm-text-color-secondary'> ( Financial Literacy/<br />Financial Planning & Goal Setting/<br />Mutual Funds/<br />Systematic Investment Plan/<br />Macroeconomics & Economic Indicators )
+
+                            </small>
+
                         </button>
 
                         {/* Fundamental Analysis  */}
@@ -760,7 +853,7 @@ const Modules = () => {
                                         <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>1. Business & Industry Evaluation</h5>
+                                        <h5 className='mb-3 text-dark fw-bold'>1. Business & Industry Evaluation</h5>
                                         <ol>
                                             <li><strong>Business Analysis</strong> – Understand the company’s model, revenue streams, and core operations.</li>
                                             <li><strong>Sectoral Analysis</strong> – Examine industry dynamics, growth trends, and regulatory environment.</li>
@@ -827,7 +920,7 @@ const Modules = () => {
                                         <hr></hr>
                                         <h5 className='mt-4 mb-3 text-dark fw-bold'>Other Financial Topics</h5>
 
-                                        <h6> <strong>Primary & Secondary Market Instruments</strong> </h6>
+                                        <h6> <strong className='text-dark'>Primary & Secondary Market Instruments</strong> </h6>
                                         <ul>
                                             <li>IPO (Initial Public Offering)</li>
                                             <li>FPO (Follow-on Public Offering)</li>
@@ -836,7 +929,7 @@ const Modules = () => {
                                             <li>Buyback of Shares</li>
                                         </ul>
 
-                                        <h6><strong> Corporate Actions & Restructuring</strong></h6>
+                                        <h6><strong className='text-dark'> Corporate Actions & Restructuring</strong></h6>
                                         <ul>
                                             <li>Mergers, Acquisitions & Takeovers</li>
                                             <li>Demergers & Spin-offs</li>
@@ -844,7 +937,7 @@ const Modules = () => {
                                             <li>Dividends (Interim & Final)</li>
                                         </ul>
 
-                                        <h6><strong> Macroeconomics & Economic Indicators</strong></h6>
+                                        <h6><strong className='text-dark'> Macroeconomics & Economic Indicators</strong></h6>
                                         <ul>
                                             <li>How to Read GDP (Gross Domestic Product)</li>
                                             <li>Inflation & Deflation</li>
@@ -853,7 +946,7 @@ const Modules = () => {
                                             <li>Union Budget & Economic Survey</li>
                                         </ul>
 
-                                        <h6><strong> Financial Literacy & Investment Instruments</strong></h6>
+                                        <h6><strong className='text-dark'> Financial Literacy & Investment Instruments</strong></h6>
                                         <ul>
                                             <li>Financial Planning & Goal Setting</li>
                                             <li>Understanding Risk vs Return</li>
@@ -864,7 +957,7 @@ const Modules = () => {
                                             <li>Public Provident Fund (PPF), NPS, SCSS</li>
                                         </ul>
 
-                                        <h6><strong> Mutual Funds & Other Market Instruments</strong></h6>
+                                        <h6><strong className='text-dark'> Mutual Funds & Other Market Instruments</strong></h6>
                                         <ul>
                                             <li>Mutual Funds (Types: Equity, Debt, Hybrid)</li>
                                             <li>SIP (Systematic Investment Plan) & SWP (Systematic Withdrawal Plan)</li>
@@ -873,7 +966,7 @@ const Modules = () => {
                                             <li>Asset Management Companies (AMCs)</li>
                                         </ul>
 
-                                        <h6><strong>Modern Financial Concepts</strong></h6>
+                                        <h6><strong className='text-dark'>Modern Financial Concepts</strong></h6>
                                         <ul>
                                             <li>Credit Score & Credit Reports (CIBIL, Experian, etc.)</li>
                                             <li>Insurance (Life, Health, Term, ULIP)</li>
@@ -893,67 +986,56 @@ const Modules = () => {
                             </div>
                         </div>
                         {/* Fundamental Analysis  */}
-                    </details>
-                </div>
-
-                <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3">
-                    <details>
-                        <summary className='text-center text-orange text-uppercase p-3'>Group 4   <br /> <small className='text-dark msm-font-size'>( Advanced Pro )</small></summary>
-                        <button type="button" class="btn-toggle-collapse msm-pointer">
-                            <b className='text-center'>Module 5</b> <br /> Smart Money Concept
-                        </button>
-                         <button type="button" class="btn-toggle-collapse msm-pointer">
-                            <b className='text-center'>Module 6</b> <br /> Trading With Artificial intelligence (AI)
-                        </button>
-                    </details>
+                    </div>
                 </div>
             </div>
 
             <div className="container pt-5">
-                <h1 className="fs-2 fw-normal text-dark text-center my-5">Benefits</h1>
+                <h1 className="fs-2 fw-normal text-orange text-center my-5 text-uppercase">Benefits</h1>
 
                 <div className="row msm-top-spacing justify-content-center">
                     <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
-                        <div className="card text-center">
-                            <FontAwesomeIcon icon={faGaugeHigh} className="msm-text-dark fs-3 m-auto mb-3" />
-                            <h6>Life-Time Support</h6>
-                        </div>
-                    </div>
-                    {/*  */}
-                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
-                        <div className="card text-center">
+                        <div className="card text-center msm-bg-color">
                             <FontAwesomeIcon icon={faSatelliteDish} className="msm-text-dark fs-3 m-auto mb-3" />
-                            <h6>Live Session</h6>
+                            <h6 className='fw-normal'>Live Session</h6>
                         </div>
                     </div>
-                    {/*  */}
-                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
-                        <div className="card text-center">
-                            <FontAwesomeIcon icon={faMoneyCheck} className="msm-text-dark fs-3 m-auto mb-3" />
-                            <h6>7 Day's Refundable policy</h6>
-                        </div>
-                    </div>
-                    {/*  */}
-                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
-                        <div className="card text-center">
-                            <FontAwesomeIcon icon={faNoteSticky} className="msm-text-dark fs-3 m-auto mb-3" />
-                            <h6>Provide Quality Notes </h6>
-                        </div>
-                    </div>
-                    {/*  */}
-                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
-                        <div className="card text-center">
+                     <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                        <div className="card text-center msm-bg-color">
                             <FontAwesomeIcon icon={faWhatsapp} className="msm-text-dark fs-3 m-auto mb-3" />
-                            <h6>What's App group</h6>
+                            <h6 className='fw-normal'>What's App group</h6>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                        <div className="card text-center msm-bg-color">
+                            <FontAwesomeIcon icon={faGaugeHigh} className="msm-text-dark fs-3 m-auto mb-3" />
+                            <h6 className='fw-normal'>Life-Time Support</h6>
                         </div>
                     </div>
                     {/*  */}
+                    {/*  */}
                     <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
-                        <div className="card text-center">
-                            <FontAwesomeIcon icon={faRightFromBracket} className="msm-text-dark fs-3 m-auto mb-3" />
-                            <h6>Batch Rejoin Facility Within One Year</h6>
+                        <div className="card text-center msm-bg-color">
+                            <FontAwesomeIcon icon={faMoneyCheck} className="msm-text-dark fs-3 m-auto mb-3" />
+                            <h6 className='fw-normal'>7 Day's Refundable policy</h6>
                         </div>
                     </div>
+                    {/*  */}
+                   
+                    {/*  */}
+                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                        <div className="card text-center msm-bg-color">
+                            <FontAwesomeIcon icon={faRightFromBracket} className="msm-text-dark fs-3 m-auto mb-3" />
+                            <h6 className='fw-normal'>Batch Rejoin Facility Within One Year</h6>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                        <div className="card text-center msm-bg-color">
+                            <FontAwesomeIcon icon={faNoteSticky} className="msm-text-dark fs-3 m-auto mb-3" />
+                            <h6 className='fw-normal'>Provide Quality Notes </h6>
+                        </div>
+                    </div>
+                    {/*  */}
                 </div>
             </div>
         </div>
