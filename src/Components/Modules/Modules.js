@@ -399,7 +399,11 @@ const Modules = () => {
 
                         <div className="row">
                             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
-                                <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                {/* <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <b className='text-center msm-text-color-text'>Chapter 1</b> <br /> Advanced Analysis Tracker
+                                </button> */}
+
+                                 <button type="button" class="btn-toggle-collapse msm-pointer">
                                     <b className='text-center msm-text-color-text'>Chapter 1</b> <br /> Advanced Analysis Tracker
                                 </button>
                             </div>
@@ -838,7 +842,7 @@ const Modules = () => {
                             <b className='text-center msm-text-color-text'>Chapter 1</b> <br />
                             Fundamental Analysis <br /><br />
 
-                            <small className='msm-text-color-secondary'> ( Financial Literacy/<br />Financial Planning & Goal Setting/<br />Mutual Funds/<br />Systematic Investment Plan/<br />Macroeconomics & Economic Indicators )
+                            <small> ( Financial Literacy/<br />Financial Planning & Goal Setting/<br />Mutual Funds/<br />Systematic Investment Plan/<br />Macroeconomics & Economic Indicators )
 
                             </small>
 
