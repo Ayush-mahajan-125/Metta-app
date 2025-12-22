@@ -39,7 +39,7 @@ class EnrollmentPage extends Component {
     const { formSubmitted } = this.state;
 
     return (
-      <div className="msm-form-container-block mt-5">
+      <div className="msm-form-container-block">
         <div className="auth-wrapper">
        
           <div className="auth-card">

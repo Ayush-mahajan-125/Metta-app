@@ -81,4 +81,84 @@ const HeroSection = () => {
   );
 };
 
+
+// import React from 'react';
+// import './Home.scss';
+// import tradingVideo from '../../assets/img/0_Global_Market_Financial_Data_1920x1080.mp4';
+// // import  from './assets/video.mp4';
+
+// const HeroSection = () => {
+//   return (
+//     <div className="hero-container">
+
+
+//       <video autoPlay loop muted playsInline className="background-video">
+//         <source src={tradingVideo} type="video/mp4" />
+//         Your browser does not support the video tag.
+//       </video>
+
+//       {/* <video width="100%" autoPlay muted loop>
+//         <source src={tradingVideo} type="video/mp4" />
+//         Your browser does not support the video tag.
+//       </video> */}
+
+//       {/* The Content Overlay */}
+//       <div className="hero-content">
+//         <h1>Master the Market</h1>
+//         <p>Advanced trading strategies without the noise.</p>
+//         <button className="hero-btn">Get Started</button>
+//       </div>
+//     </div>
+//   );
+// };
+
+
 export default HeroSection;
+
+
+
+
+
+// import React, { useEffect, useRef } from "react";
+// import "./Home.scss";
+// import heroVideo from "../../assets/img/0_Global_Market_Financial_Data_1920x1080.mp4";
+
+// const VideoHero = () => {
+//   const videoRef = useRef(null);
+
+//   useEffect(() => {
+//     if (videoRef.current) {
+//       videoRef.current.playbackRate = 0.2; // 🔥 slow speed (recommended)
+//     }
+//   }, []);
+
+//   return (
+//     <section className="video-hero">
+//       <video
+//         ref={videoRef}
+//         className="video-bg"
+//         src={heroVideo}
+//         autoPlay
+//         loop
+//         muted
+//         playsInline
+//       />
+
+//       <div className="overlay"></div>
+
+//       <div className="hero-content">
+//         <h1>Learn Share Market Trading Professionally</h1>
+//         <p>Practical knowledge • Real market experience • Structured learning</p>
+
+//         <div className="hero-buttons">
+//           <button className="btn primary">Enroll Now</button>
+//           <button className="btn secondary">Free Demo Class</button>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default VideoHero;
+
+

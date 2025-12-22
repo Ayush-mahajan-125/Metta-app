@@ -13,7 +13,7 @@ import { Helmet } from 'react-helmet-async';
 
 const Testimonial = () => {
   return (
-    <div className="msm-mt-5">
+    <div className="">
       <div className="msm-testimonial-section">
 
         <Helmet>

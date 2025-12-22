@@ -46,6 +46,108 @@
 
 // hero section --------------------------------
 
+// .video-hero {
+//     position: relative;
+//     width: 100%;
+//     height: 100vh;
+//     overflow: hidden;
+// }
+
+// /* Background Video */
+// .video-bg {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//     transform: translate(-50%, -50%);
+//     z-index: 1;
+// }
+
+// /* Dark Overlay */
+// .overlay {
+//     position: absolute;
+//     inset: 0;
+//     background: #000000cf;
+//     z-index: 2;
+// }
+
+// /* Content */
+// .hero-content {
+//     position: relative;
+//     z-index: 3;
+//     height: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+//     color: #fff;
+//     padding: 20px;
+// }
+
+// .hero-content h1 {
+//     font-size: 3rem;
+//     font-weight: 700;
+//     max-width: 900px;
+// }
+
+// .hero-content p {
+//     margin-top: 15px;
+//     font-size: 1.1rem;
+//     opacity: 0.9;
+// }
+
+// /* Buttons */
+// .hero-buttons {
+//     margin-top: 30px;
+//     display: flex;
+//     gap: 15px;
+//     flex-wrap: wrap;
+// }
+
+// .btn {
+//     padding: 12px 28px;
+//     border-radius: 30px;
+//     font-size: 1rem;
+//     cursor: pointer;
+//     border: none;
+//     transition: all 0.3s ease;
+// }
+
+// .btn.primary {
+//     background: #00c853;
+//     color: #000;
+// }
+
+// .btn.primary:hover {
+//     background: #00e676;
+// }
+
+// .btn.secondary {
+//     background: transparent;
+//     color: #fff;
+//     border: 2px solid #fff;
+// }
+
+// .btn.secondary:hover {
+//     background: #fff;
+//     color: #000;
+// }
+
+// /* Responsive */
+// @media (max-width: 768px) {
+//     .hero-content h1 {
+//         font-size: 2rem;
+//     }
+
+//     .hero-content p {
+//         font-size: 1rem;
+//     }
+// }
+
+
 
 // typing animation 
 .msm-quotes {
@@ -585,57 +687,57 @@ textarea {
 // /nagpur best classes section -----------------------------------------------------------
 
 // whatsapp connect btn
-.msm-social-icons {
-    position: fixed;
-    top: 45%;
-    border: 1px solid white;
-    border-radius: 5px;
-    right: 0;
-    z-index: 999;
+// .msm-social-icons {
+//     position: fixed;
+//     top: 45%;
+//     border: 1px solid white;
+//     border-radius: 5px;
+//     right: 0;
+//     z-index: 999;
 
-    .msm-whatsapp-btn {
-        width: 60px;
-        height: 60px;
-        font-size: 17px;
-        text-decoration: none;
-        top: 50%;
-        right: 15px;
-        font-weight: 700;
-        background-color: #23D366;
-        color: white;
-        display: flex;
-        align-items: center;
-        padding-left: 20px;
-    }
+//     .msm-whatsapp-btn {
+//         width: 60px;
+//         height: 60px;
+//         font-size: 17px;
+//         text-decoration: none;
+//         top: 50%;
+//         right: 15px;
+//         font-weight: 700;
+//         background-color: #23D366;
+//         color: white;
+//         display: flex;
+//         align-items: center;
+//         padding-left: 20px;
+//     }
 
-    .whatsapp-msm-btn {
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
-    }
+//     .whatsapp-msm-btn {
+//         border-top-right-radius: 5px;
+//         border-top-left-radius: 5px;
+//     }
 
-    .msm-whatsapp-icon {
-        margin-right: 6px;
-        font-size: 25px;
+//     .msm-whatsapp-icon {
+//         margin-right: 6px;
+//         font-size: 25px;
 
-        &:hover {
-            transform: scale(1.1);
-        }
-    }
+//         &:hover {
+//             transform: scale(1.1);
+//         }
+//     }
 
-    .msm-facebook-btn {
-        background: #3b5999;
-    }
+//     .msm-facebook-btn {
+//         background: #3b5999;
+//     }
 
-    .msm-instagram-btn {
-        background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
-    }
+//     .msm-instagram-btn {
+//         background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+//     }
 
-    .msm-telegram-btn {
-        background: #0072b1;
-        border-bottom-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-    }
-}
+//     .msm-telegram-btn {
+//         background: #0072b1;
+//         border-bottom-right-radius: 5px;
+//         border-bottom-left-radius: 5px;
+//     }
+// }
 
 // /whatsapp connect btn ----------------------------------------------------------------------------
 

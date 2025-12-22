@@ -47,7 +47,7 @@ const Gallery = () => {
   };
   //  image preview dialog -----------------
   return (
-    <section className='msm-mt-5'>
+    <section className=''>
 
       <Helmet>
         <meta name="description" content="Top-rated share market classes and training in Nagpur." />

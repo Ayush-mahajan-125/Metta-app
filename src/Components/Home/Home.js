@@ -41,7 +41,7 @@ const Home = () => {
         const modal = new Modal(modalElement);
         modal.show();
       }
-    }, 15000);
+    }, 150000000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -108,7 +108,7 @@ const Home = () => {
       <EmailSubscriptionForm />
       {/* /email form */}
 
-      <div className="msm-social-icons">
+      {/* <div className="msm-social-icons">
         <a className="msm-whatsapp-btn whatsapp-msm-btn" href="https://wa.me/919834888821" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faWhatsapp} className="msm-whatsapp-icon" /></a>
         <a className="msm-whatsapp-btn bg-primary" href="tel:+919834888821">
           <FontAwesomeIcon icon={faPhone} className="msm-call-icon" />
@@ -122,7 +122,7 @@ const Home = () => {
 
         <a className="msm-whatsapp-btn msm-telegram-btn" href="https://t.me/joinchat/HrYYVxCqEvLAN3hc" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faTelegram} className="msm-whatsapp-icon" /></a>
 
-      </div>
+      </div> */}
 
     </div>
   );

@@ -22,7 +22,7 @@ const EnrollmentForm = () => {
     };
 
     return (
-        <div className="text-white mt-5">
+        <div className="text-white">
             <form onSubmit={handleSubmit} className="msm-enroll-form-container">
                 <input type="hidden" name="access_key" value="ce4f0829-83e2-43ff-9e0e-1662f17955d1" />
 
