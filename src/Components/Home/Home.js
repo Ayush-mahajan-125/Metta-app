@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // pages
 import HeroSection from './HeroSection';
+import SmoothCursor from './SmoothCursor';
 import HeroGallery from './HeroGallery';
 import TestimonialSlider from './TestimonialSlider';
 import BrochureDownloadForm from './BrochureDownloadForm';
@@ -14,6 +15,7 @@ import NagpurBestClasses from './NagpurBestClasses';
 import CallToAction from './CallToAction';
 import EmailSubscriptionForm from './EmailSubscriptionForm';
 import Certification from './Certification';
+import poterImage from "../../assets/img/trading with AI.png";
 // import ImageShow from '../../assets/img/Thursday, 1 May, 2025 (2) (1).png';
 
 // font awesome
@@ -41,7 +43,7 @@ const Home = () => {
         const modal = new Modal(modalElement);
         modal.show();
       }
-    }, 150000000);
+    }, 15000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -52,11 +54,11 @@ const Home = () => {
       {/* hero */}
       <HeroSection />
       {/* /hero */}
-
+      {/* <SmoothCursor /> */}
       {/* About */}
       <HomeAbout />
       {/* /About */}
-
+      {/* <div className='msm-bg-cover-image'> */}
       {/* Why choose section */}
       <HomeWhyChoose />
       {/* /Why choose section */}
@@ -84,16 +86,21 @@ const Home = () => {
       {/* /Brochure Form */}
 
       {/* Bootstrap Modal - Auto Shows After 15 sec */}
-      <div className="modal fade h-100 msm-content-modal " id="brochureModal" tabIndex="-1" aria-hidden="true">
-        <div className="modal-dialog modal-dialog-centered">
+      <div className="modal fade h-100 msm-content-modal msm-modal-content-show" id="brochureModal" tabIndex="-1" aria-hidden="true">
+        <div className="modal-dialog modal-xl modal-dialog-centered">
           <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title ">Brochure Download</h5>
+            <div className="modal-header text-white">
+              <h5 className="modal-title ms-auto">Upcomming Batch</h5>
               <p className='text-secondary'></p>
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
-              {showBrochureForm ? <BrochureDownloadForm /> : <p>Loading...</p>}
+              {showBrochureForm ? <div className='d-flex justify-content-center'><img
+                src={poterImage}
+                className="img-fluid image-batch mb-2"
+                alt="MeTta Financial Investment & Trading Training Institute"
+                loading="lazy"
+              /></div> : <p>Loading...</p>}
             </div>
           </div>
         </div>
@@ -125,6 +132,7 @@ const Home = () => {
       </div> */}
 
     </div>
+
   );
 };
 

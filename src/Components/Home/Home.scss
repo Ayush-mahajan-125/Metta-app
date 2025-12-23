@@ -45,109 +45,218 @@
 }
 
 // hero section --------------------------------
+.hero-section-logo {
+    width: 130px;
+}
 
-// .video-hero {
+.video-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Background Video */
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* Dark Overlay */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: #000000de;
+    z-index: 2;
+}
+
+/* Content */
+.hero-content {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        max-width: 900px;
+        margin-top: 0;
+    }
+
+    p {
+
+        font-size: 1.1rem;
+        opacity: 0.9;
+        font-weight: 500;
+    }
+
+    .text-ani-h1 {
+        font-size: 54px;
+        background: -webkit-linear-gradient(#eeeeee, #424040);
+        // background: linear-gradient(45deg, #00ef00, #89ba00 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+// .main-logo {
+//     --border-radius: 15px;
+//     --border-width: 4px;
+//     position: absolute;
+//     appearance: none;
 //     position: relative;
-//     width: 100%;
-//     height: 100vh;
-//     overflow: hidden;
-// }
-
-// /* Background Video */
-// .video-bg {
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover;
-//     transform: translate(-50%, -50%);
-//     z-index: 1;
-// }
-
-// /* Dark Overlay */
-// .overlay {
-//     position: absolute;
-//     inset: 0;
-//     background: #000000cf;
+//     border: 0;
+//     font-family: "Roboto", Arial, "Segoe UI", sans-serif;
+//     font-size: 18px;
+//     font-weight: 500;
+//     color: #fff;
+//     padding: 10px;
+//     background-color: black;
 //     z-index: 2;
+//     img{
+//         width: 120px;
+//     }
 // }
 
-// /* Content */
-// .hero-content {
-//     position: relative;
-//     z-index: 3;
+// .main-logo::after {
+//     --m-i: linear-gradient(#000, #000);
+//     --m-o: content-box, padding-box;
+//     content: "";
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
 //     height: 100%;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     text-align: center;
-//     color: #fff;
-//     padding: 20px;
+//     padding: var(--border-width);
+//     border-radius: var(--border-radius);
+//     background-image: conic-gradient(#488cfb,
+//             #29dbbc,
+//             #ddf505,
+//             #ff9f0e,
+//             #e440bb,
+//             #655adc,
+//             #488cfb);
+//     -webkit-mask-image: var(--m-i), var(--m-i);
+//     mask-image: var(--m-i), var(--m-i);
+//     -webkit-mask-origin: var(--m-o);
+//     mask-origin: var(--m-o);
+//     -webkit-mask-clip: var(--m-o);
+//     mask-composite: exclude;
+//     -webkit-mask-composite: destination-out;
+//     filter: hue-rotate(0);
+//     animation: rotate-hue linear 500ms infinite;
+//     animation-play-state: paused;
+//     animation-play-state: running;
+
 // }
 
-// .hero-content h1 {
-//     font-size: 3rem;
-//     font-weight: 700;
-//     max-width: 900px;
+// .main-logo:hover::after {
+//     animation-play-state: running;
 // }
 
-// .hero-content p {
-//     margin-top: 15px;
-//     font-size: 1.1rem;
-//     opacity: 0.9;
-// }
-
-// /* Buttons */
-// .hero-buttons {
-//     margin-top: 30px;
-//     display: flex;
-//     gap: 15px;
-//     flex-wrap: wrap;
-// }
-
-// .btn {
-//     padding: 12px 28px;
-//     border-radius: 30px;
-//     font-size: 1rem;
-//     cursor: pointer;
-//     border: none;
-//     transition: all 0.3s ease;
-// }
-
-// .btn.primary {
-//     background: #00c853;
-//     color: #000;
-// }
-
-// .btn.primary:hover {
-//     background: #00e676;
-// }
-
-// .btn.secondary {
-//     background: transparent;
-//     color: #fff;
-//     border: 2px solid #fff;
-// }
-
-// .btn.secondary:hover {
-//     background: #fff;
-//     color: #000;
-// }
-
-// /* Responsive */
-// @media (max-width: 768px) {
-//     .hero-content h1 {
-//         font-size: 2rem;
-//     }
-
-//     .hero-content p {
-//         font-size: 1rem;
+// @keyframes rotate-hue {
+//     to {
+//         filter: hue-rotate(1turn);
 //     }
 // }
 
+// .main-logo,
+// .main-logo::after {
+//     box-sizing: border-box;
+// }
 
+// .main-logo:active {
+//     --border-width: 5px;
+// }
+
+
+
+.hero-content {
+    h1 {
+        .word-wrapper {
+            display: block; // Or inline-block
+            height: 60px; // Give it a fixed height so the paragraph doesn't jump
+            position: relative;
+            color: #ffd277; // Neon cyan for the animated word
+            font-size: 40px;
+        }
+
+        span {
+            display: block;
+            width: 100%;
+        }
+    }
+}
+
+.highlight {
+    text-shadow: 0 0 15px rgba(255, 210, 9, 0.296);
+}
+
+
+.homr-btn {
+    padding: 12px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.msm-primary {
+    background: linear-gradient(243deg, #00639f, #0e52b7, #0194e9);
+    color: #ffffff;
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+    }
+}
 
 // typing animation 
 .msm-quotes {
@@ -177,8 +286,8 @@
 }
 
 // / typing animation  --------------------------------
-
 // photo gallery
+
 .msm-hero {
     padding: 4rem 16px;
     display: flex;
@@ -491,7 +600,7 @@ textarea {
 }
 
 .msm-content-modal .text-white {
-    color: #212529 !important;
+    color: #ffffff !important;
 }
 
 @media (min-width: 576px) {
@@ -500,8 +609,32 @@ textarea {
     }
 }
 
+.msm-modal-content-show .modal-content {
+    background-color: #00000000;
+}
+
 .modal-content .form-container form {
     max-width: 100%;
+}
+
+.btn-close {
+    --bs-btn-close-color: #ffffff;
+    --bs-btn-close-bg: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23000%27%3e%3cpath d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/%3e%3c/svg%3e);
+    --bs-btn-close-opacity: 0.5;
+    --bs-btn-close-hover-opacity: 0.75;
+    --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    --bs-btn-close-focus-opacity: 1;
+    --bs-btn-close-disabled-opacity: 0.25;
+    --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: .25em .25em;
+    color: #ffffff;
+    background: #ffffff var(--bs-btn-close-bg) center / 1em auto no-repeat;
+    border: 0;
+    border-radius: .375rem;
+    opacity: 1.2;
 }
 
 // /Brochure form and contact form ---------------------------------------------
@@ -994,4 +1127,93 @@ summary {
 
 summary::-webkit-details-marker {
     display: none;
+}
+
+
+
+.cursor-circle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #FF5722;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    background: #FF5722;
+
+}
+
+
+.msm-bg-cover-image {
+    background-image: url("/assets/img/WALL STREET WALLPAPER.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105% !important;
+    background-color: #100519;
+}
+
+// background-image: url("/assets/img/WALL STREET WALLPAPER.jpg");
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by vinodjangid07 */
+.home-section-btn {
+    width: auto;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+    background-size: 250%;
+    background-position: left;
+    color: #ffd277;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.home-section-btn::before {
+    position: absolute;
+    content: "Call Us: (+91) 98348 88821";
+    color: #ffd277;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.842);
+    background-size: 200%;
+}
+
+.home-section-btn:hover {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.home-section-btn:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.home-section-btn:active {
+    transform: scale(0.95);
+}
+.image-batch{
+    width: 70%;
 }

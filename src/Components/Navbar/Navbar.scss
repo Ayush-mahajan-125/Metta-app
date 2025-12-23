@@ -35,7 +35,8 @@
 //     font-weight: 600;
 // }
 .msm-w-25 {
-    width: 110px;
+    width: 251px;
+    height: 51px;
 }
 
 /* --- GLOBAL RESETS --- */
@@ -63,6 +64,7 @@ ul {
 .contact-info {
     display: flex;
     gap: 20px;
+    font-size: 12px;
 }
 
 .contact-item {
@@ -73,10 +75,14 @@ ul {
         text-decoration: none;
 
     }
+
+    span {
+        font-size: 10px !important;
+    }
 }
 
 .icon-small {
-    font-size: 15px;
+    font-size: 12px;
     color: #fff;
 }
 
@@ -86,7 +92,7 @@ ul {
 
     a {
         color: #fff;
-        font-size: 16px;
+        font-size: 12px;
 
         &:hover {
             color: #e3cd00;
@@ -95,13 +101,15 @@ ul {
 }
 
 .main-nav {
-    background-color: #0a0226;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
     position: sticky;
     top: 0;
     z-index: 1000;
     transition: box-shadow 0.3s ease;
+    font-family: "Noticia Text", serif;
+
 }
 
 .main-nav.sticky-active {
@@ -116,41 +124,32 @@ ul {
     justify-content: space-between;
     align-items: center;
 }
-
-.logo .tagline {
-    font-size: 15px;
-    color: #ffffff;
-    letter-spacing: 1px;
-    margin-top: 2px;
-    margin-bottom: 5px;
-}
-
-/* Navigation Links */
 .nav-links {
     display: flex;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .nav-links li {
     position: relative;
-    padding-left: 15px;
+    padding-left: 10px;
 
     a {
         color: #ffffff;
-        font-size: 17px;
-        font-weight: 500;
+        font-size: 14px;
+        font-weight: 600;
         text-decoration: none;
     }
 }
 
-// .nav-links>li:not(:last-child)::after {
-//     content: '|';
-//     color: #ccc;
-//     // margin-left: 20px;
-//     font-weight: 500;
-//     text-transform: uppercase;
+.nav-links>li:not(:last-child)::after {
+    content: '|';
+    color: #ccc;
+    margin-left: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
 
-// }
+}
 
 .nav-links li:last-child::after,
 .dropdown-menu li::after {
@@ -161,8 +160,6 @@ ul {
     color: #e3cd00;
 }
 
-
-/* --- DROPDOWN MENU --- */
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -185,7 +182,6 @@ ul {
     display: flex;
 }
 
-/* --- MOBILE MENU --- */
 .mobile-toggle {
     display: none;
     font-size: 24px;
@@ -205,7 +201,6 @@ ul {
     .nav-links {
         position: absolute;
         top: 100%;
-        /* Adjusts automatically to height of navbar */
         left: 0;
         width: 100%;
         background-color: rgb(0, 0, 0);
@@ -246,7 +241,6 @@ ul {
         display: flex;
     }
 }
-
 .bg-primary-color {
     background-color: #0a0226;
 }

@@ -200,7 +200,8 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { NavLink } from "react-router-dom";
-import mettaLogo from "../../assets/img/metta-logo.png";
+import NewmettaLogo from "../../assets/img/new-logo.png";
+
 
 
 import {
@@ -208,7 +209,7 @@ import {
   faBars, faTimes
 } from '@fortawesome/free-solid-svg-icons';
 import {
-   faFacebookF, faInstagram, faTelegramPlane, faWhatsapp, faYoutube, faXTwitter, faLinkedinIn
+  faFacebookF, faInstagram, faTelegramPlane, faWhatsapp, faYoutube, faXTwitter, faLinkedinIn
 } from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = () => {
@@ -242,8 +243,8 @@ const Navbar = () => {
         <div className="container top-bar-content">
           <div className="contact-info">
             <div className="contact-item">
-              <a href="https://wa.me/919834888821" className="icon-small"><FontAwesomeIcon icon={faPhone} />
-                <span className='ps-2'>+91-9462572757</span> </a>
+              <a href="tel:+919834888821" className="icon-small"><FontAwesomeIcon icon={faPhone} />
+                <span className='ps-2'>+91-9834888821</span> </a>
             </div>
             <div className="contact-item">
               <FontAwesomeIcon icon={faEnvelope} className="icon-small" />
@@ -275,13 +276,13 @@ const Navbar = () => {
         <div className="container nav-content">
 
           <div className="logo">
-           <img
-                src={mettaLogo}
-                className="img-fluid msm-w-25"
-                alt="MeTta Financial Investment & Trading Training Institute"
-                loading="lazy"
-              />
-            {/* <p className="tagline">Financial Investment & Trading Training Institute</p> */}
+            <a href="/" className='text-decoration-none'>  <img
+              src={NewmettaLogo}
+              className="img-fluid msm-w-25"
+              alt="MeTta Financial Investment & Trading Training Institute"
+              loading="lazy"
+            /></a>  
+          {/* span className="tagline">Share Market Training Institute</span> */}
           </div>
 
           <div className="mobile-toggle" onClick={toggleMobileMenu}>
