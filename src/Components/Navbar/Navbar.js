@@ -199,14 +199,10 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { NavLink } from "react-router-dom";
-import NewmettaLogo from "../../assets/img/new-logo.png";
-
-
+import NewmettaLogo from "../../assets/img/metta-logo.png";
 
 import {
-  faPhone, faEnvelope,
-  faBars, faTimes
+  faPhone, faEnvelope, faBars, faTimes
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebookF, faInstagram, faTelegramPlane, faWhatsapp, faYoutube, faXTwitter, faLinkedinIn
@@ -219,7 +215,6 @@ const Navbar = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -238,7 +233,6 @@ const Navbar = () => {
 
   return (
     <header className="header-container">
-      {/* --- TOP BAR (Scrolls away) --- */}
       <div className="top-bar">
         <div className="container top-bar-content">
           <div className="contact-info">
@@ -258,16 +252,14 @@ const Navbar = () => {
 
             <a className="" href="https://www.youtube.com/@mettasharemarket" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faYoutube} className="msm-whatsapp-icon" /></a>
 
-            <a className="" href="https://www.instagram.com/mettasharemarket.nagpur/" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faInstagram} className="msm-whatsapp-icon" /></a>
+            <a className="" href="https://www.instagram.com/mettasharemarket/" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faInstagram} className="msm-whatsapp-icon" /></a>
 
-            <a className="" href="https://www.facebook.com/mettasharemarket.nagpur" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faFacebookF} className="msm-whatsapp-icon" /></a>
+            <a className="" href="https://www.facebook.com/sharemarketmetta/" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faFacebookF} className="msm-whatsapp-icon" /></a>
 
 
             <a className="" href="https://t.me/joinchat/HrYYVxCqEvLAN3hc" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faTelegramPlane} className="msm-whatsapp-icon" /></a>
 
             <a className="" href="https://x.com/indiamettasm" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faXTwitter} className="msm-whatsapp-icon" /></a>
-
-            <a className="" href="https://www.linkedin.com/company/metta-share-market-training-institute/" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faLinkedinIn} className="" /></a>
           </div>
         </div>
       </div>
@@ -281,8 +273,7 @@ const Navbar = () => {
               className="img-fluid msm-w-25"
               alt="MeTta Financial Investment & Trading Training Institute"
               loading="lazy"
-            /></a>  
-          {/* span className="tagline">Share Market Training Institute</span> */}
+            /></a>
           </div>
 
           <div className="mobile-toggle" onClick={toggleMobileMenu}>
@@ -293,7 +284,10 @@ const Navbar = () => {
 
             <li><a href="/">Home</a></li>
             <li><a href="/enrollment-form">Join Now</a></li>
-            <li><a href="/share-market-courses">Classroom Courses</a></li>
+            <li><a href="https://classplusapp.com/w/metta-share-market-fhxiz/courses" className='nav-color'>Online Courses</a></li>
+            <li><a href="/share-market-courses" className='nav-color'>Classroom Courses</a></li>
+            <li><a href="/sip-calculator">SIP Calculator</a></li>
+            <li><a href="/cagr-calculator">CAGR Calculator</a></li>
 
             <li className="dropdown-parent">
               <a href="#">About us</a>
@@ -302,8 +296,6 @@ const Navbar = () => {
                 <li><a href="/gallery">Gallery</a></li>
                 <li><a href="/testimonial">Testimonial</a></li>
                 <li><a href="/resources">Resources</a></li>
-                <li><a href="/sip-calculator">Calculator</a></li>
-                <li><a href="/cagr-calculator">CAGR Calculator</a></li>
               </ul>
             </li>
             <li><a href="/contact-us">Contact US</a></li>

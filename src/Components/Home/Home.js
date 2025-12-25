@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // pages
 import HeroSection from './HeroSection';
+import MettaHero from './MettaHero';
 import SmoothCursor from './SmoothCursor';
 import HeroGallery from './HeroGallery';
 import TestimonialSlider from './TestimonialSlider';
@@ -16,16 +17,8 @@ import CallToAction from './CallToAction';
 import EmailSubscriptionForm from './EmailSubscriptionForm';
 import Certification from './Certification';
 import poterImage from "../../assets/img/trading with AI.png";
-// import ImageShow from '../../assets/img/Thursday, 1 May, 2025 (2) (1).png';
 
-// font awesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faTelegram } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+
 // Import Bootstrap's Modal
 import { Modal } from 'bootstrap';
 
@@ -51,9 +44,11 @@ const Home = () => {
 
   return (
     <div className="home">
-      {/* hero */}
+
       <HeroSection />
-      {/* /hero */}
+
+      <MettaHero />
+
       {/* <SmoothCursor /> */}
       {/* About */}
       <HomeAbout />
@@ -114,25 +109,7 @@ const Home = () => {
       {/* email form */}
       <EmailSubscriptionForm />
       {/* /email form */}
-
-      {/* <div className="msm-social-icons">
-        <a className="msm-whatsapp-btn whatsapp-msm-btn" href="https://wa.me/919834888821" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faWhatsapp} className="msm-whatsapp-icon" /></a>
-        <a className="msm-whatsapp-btn bg-primary" href="tel:+919834888821">
-          <FontAwesomeIcon icon={faPhone} className="msm-call-icon" />
-        </a>
-
-        <a className="msm-whatsapp-btn bg-danger" href="https://www.youtube.com/@mettasharemarket" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faYoutube} className="msm-whatsapp-icon" /></a>
-
-        <a className="msm-whatsapp-btn msm-facebook-btn" href="https://www.facebook.com/mettasharemarket.nagpur" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faFacebook} className="msm-whatsapp-icon" /></a>
-
-        <a className="msm-whatsapp-btn msm-instagram-btn" href="https://www.instagram.com/mettasharemarket.nagpur/" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faInstagram} className="msm-whatsapp-icon" /></a>
-
-        <a className="msm-whatsapp-btn msm-telegram-btn" href="https://t.me/joinchat/HrYYVxCqEvLAN3hc" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faTelegram} className="msm-whatsapp-icon" /></a>
-
-      </div> */}
-
     </div>
-
   );
 };
 

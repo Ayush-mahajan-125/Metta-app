@@ -45,8 +45,43 @@ const HomeAbout = () => {
 
                 </div>
             </div>
+            <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-economic-map.js"></script>
+
+            <tv-economic-map hide-legend metrics='iryy,intr,gdg,ur,gdp'></tv-economic-map>
         </section>
     );
 };
 
 export default HomeAbout;
+
+
+
+// import React, { useEffect } from "react";
+
+// const EconomicMap = () => {
+//   useEffect(() => {
+//     const script = document.createElement("script");
+//     script.src =
+//       "https://widgets.tradingview-widget.com/w/en/tv-economic-map.js";
+//     script.type = "module";
+//     script.async = true;
+
+//     document.body.appendChild(script);
+
+//     return () => {
+//       document.body.removeChild(script);
+//     };
+//   }, []);
+
+//   return (
+//     <div style={{ width: "100%", height: "600px" }}>
+//       <tv-economic-map
+//         hide-legend
+//         metrics="iryy,intr,gdg,ur,gdp"
+//       ></tv-economic-map>
+//     </div>
+//   );
+// };
+
+// export default EconomicMap;
+    

@@ -1,50 +1,4 @@
-// hero section
-.msm-masthead-header {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #f5f5f5;
-    background-image: url("/assets/img/bg-hero-homr.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    @media (max-width: 768px) {
-        height: auto;
-        padding: 10rem 0;
-    }
-
-    .msm-hero-image {
-        width: 80%;
-        margin: auto;
-        display: flex;
-        box-shadow: 0 1px 17px rgb(206 206 206);
-
-        @media (max-width: 768px) {
-            margin-top: 3rem;
-            width: 100%;
-        }
-    }
-
-    @media (max-width: 768px) {
-        .msm-hero-section-mobile-view {
-            text-align: center;
-        }
-    }
-}
-
-@keyframes animatedBackground {
-    from {
-        background-position: left bottom
-    }
-
-    to {
-        background-position: right bottom
-    }
-}
-
-// hero section --------------------------------
+// video hero section --------------------------------
 .hero-section-logo {
     width: 130px;
 }
@@ -56,7 +10,6 @@
     overflow: hidden;
 }
 
-/* Background Video */
 .video-bg {
     position: absolute;
     top: 50%;
@@ -68,7 +21,6 @@
     z-index: 1;
 }
 
-/* Dark Overlay */
 .overlay {
     position: absolute;
     inset: 0;
@@ -76,7 +28,6 @@
     z-index: 2;
 }
 
-/* Content */
 .hero-content {
     position: relative;
     z-index: 3;
@@ -86,8 +37,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
     padding: 20px;
+    top: -50px;
+    color: white;
 
     h1 {
         font-size: 40px;
@@ -103,102 +55,17 @@
         font-weight: 500;
     }
 
-    .text-ani-h1 {
-        font-size: 54px;
-        background: -webkit-linear-gradient(#eeeeee, #424040);
-        // background: linear-gradient(45deg, #00ef00, #89ba00 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-}
-
-
-
-
-
-
-
-
-// .main-logo {
-//     --border-radius: 15px;
-//     --border-width: 4px;
-//     position: absolute;
-//     appearance: none;
-//     position: relative;
-//     border: 0;
-//     font-family: "Roboto", Arial, "Segoe UI", sans-serif;
-//     font-size: 18px;
-//     font-weight: 500;
-//     color: #fff;
-//     padding: 10px;
-//     background-color: black;
-//     z-index: 2;
-//     img{
-//         width: 120px;
-//     }
-// }
-
-// .main-logo::after {
-//     --m-i: linear-gradient(#000, #000);
-//     --m-o: content-box, padding-box;
-//     content: "";
-//     position: absolute;
-//     left: 0;
-//     top: 0;
-//     width: 100%;
-//     height: 100%;
-//     padding: var(--border-width);
-//     border-radius: var(--border-radius);
-//     background-image: conic-gradient(#488cfb,
-//             #29dbbc,
-//             #ddf505,
-//             #ff9f0e,
-//             #e440bb,
-//             #655adc,
-//             #488cfb);
-//     -webkit-mask-image: var(--m-i), var(--m-i);
-//     mask-image: var(--m-i), var(--m-i);
-//     -webkit-mask-origin: var(--m-o);
-//     mask-origin: var(--m-o);
-//     -webkit-mask-clip: var(--m-o);
-//     mask-composite: exclude;
-//     -webkit-mask-composite: destination-out;
-//     filter: hue-rotate(0);
-//     animation: rotate-hue linear 500ms infinite;
-//     animation-play-state: paused;
-//     animation-play-state: running;
-
-// }
-
-// .main-logo:hover::after {
-//     animation-play-state: running;
-// }
-
-// @keyframes rotate-hue {
-//     to {
-//         filter: hue-rotate(1turn);
-//     }
-// }
-
-// .main-logo,
-// .main-logo::after {
-//     box-sizing: border-box;
-// }
-
-// .main-logo:active {
-//     --border-width: 5px;
-// }
-
-
-
-.hero-content {
     h1 {
         .word-wrapper {
-            display: block; // Or inline-block
-            height: 60px; // Give it a fixed height so the paragraph doesn't jump
+            display: block;
+            height: 60px;
             position: relative;
-            color: #ffd277; // Neon cyan for the animated word
+            color: #ffd277;
             font-size: 40px;
+
+            .highlight {
+                text-shadow: 0 0 15px rgba(255, 210, 9, 0.296);
+            }
         }
 
         span {
@@ -208,46 +75,6 @@
     }
 }
 
-.highlight {
-    text-shadow: 0 0 15px rgba(255, 210, 9, 0.296);
-}
-
-
-.homr-btn {
-    padding: 12px 28px;
-    border-radius: 30px;
-    cursor: pointer;
-    border: none;
-    transition: all 0.3s ease;
-    font-weight: 500;
-}
-
-.msm-primary {
-    background: linear-gradient(243deg, #00639f, #0e52b7, #0194e9);
-    color: #ffffff;
-    background-size: 180% 180%;
-    animation: gradient-animation 5s ease infinite;
-}
-
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-
-
-
-
-/* Responsive */
 @media (max-width: 768px) {
     .hero-content h1 {
         font-size: 2rem;
@@ -258,12 +85,120 @@
     }
 }
 
-// typing animation 
+// video hero section --------------------------------
+
+// metta hero section -------------------------------
+.msm-masthead-header {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    background-image: url("/assets/img/steptodown.com534180.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 4px 4px 454px rgb(0 0 0 / 83%);
+
+    @media (max-width: 768px) {
+        padding: 8rem 0;
+    }
+
+    .msm-hero-image {
+        width: 100%;
+        height: 339px;
+        object-fit: cover;
+        border-radius: 10px;
+
+        @media (max-width: 768px) {
+            width: 99%;
+            height: 250px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .msm-hero-section-mobile-view {
+            text-align: center;
+        }
+    }
+
+    .msm-card {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+        z-index: 11;
+        overflow: hidden;
+
+        @media (max-width: 768px) {
+            height: 260px;
+        }
+
+        .msm-bg-container {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            width: 98.5%;
+            height: 350px;
+            z-index: 2;
+            background: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(24px);
+            border-radius: 10px;
+            overflow: hidden;
+
+            @media (max-width: 768px) {
+                height: 260px;
+            }
+        }
+
+        .blob {
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 350px;
+            border-radius: 50%;
+            background-color: #ff0000;
+            opacity: 1;
+            filter: blur(12px);
+            animation: blob-bounce 5s infinite ease;
+
+            @media (max-width: 768px) {
+                height: 260px;
+            }
+        }
+    }
+
+    @keyframes blob-bounce {
+        0% {
+            transform: translate(-100%, -100%) translate3d(0, 0, 0);
+        }
+
+        25% {
+            transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+        }
+
+        50% {
+            transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+        }
+
+        75% {
+            transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+        }
+
+        100% {
+            transform: translate(-100%, -100%) translate3d(0, 0, 0);
+        }
+    }
+}
+
+// metta hero section -------------------------------
+
+// typing animation  -------------------------------
 .msm-quotes {
-    // background: #ff0a0a;
-    // background: #180a4a;
-    background: rgb(17, 11, 124);
-    background: linear-gradient(90deg, #04012d 9%, rgb(171, 11, 21) 23%, rgb(247, 16, 14) 31%, rgb(247, 8, 8) 67%, rgb(142, 9, 23) 77%, #04012d 90%);
+    background: rgb(0, 0, 0);
+    // background: linear-gradient(90deg, #04012d 9%, rgb(171, 11, 21) 23%, rgb(247, 16, 14) 31%, rgb(247, 8, 8) 67%, rgb(142, 9, 23) 77%, #04012d 90%);
     height: 7rem;
     display: flex;
     align-items: center;
@@ -276,8 +211,9 @@
         font-style: italic;
         font-weight: 800;
         font-size: 45px;
-        line-height: 25px;
-        color: #ffffff;
+        background: linear-gradient(90deg, #FFCF49 31.25%, #FFCF49 31.26%, #FFFFFF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
         @media (max-width: 768px) {
             line-height: 50px;
@@ -285,7 +221,7 @@
     }
 }
 
-// / typing animation  --------------------------------
+// typing animation  -------------------------------
 // photo gallery
 
 .msm-hero {
@@ -1214,6 +1150,12 @@ summary::-webkit-details-marker {
 .home-section-btn:active {
     transform: scale(0.95);
 }
-.image-batch{
+
+.image-batch {
     width: 70%;
+
+    @media (max-width: 992px) {
+        width: 100%;
+
+    }
 }
