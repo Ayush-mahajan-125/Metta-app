@@ -9,9 +9,6 @@ import Fundammental from '../../assets/img/Fundammental.png';
 import Option from '../../assets/img/Option.png';
 
 
-
-
-
 const Modules = () => {
     return (
         <div className="msm-mt-5 container pb-5 msm-module-page-block">
@@ -35,12 +32,19 @@ const Modules = () => {
                             <b className='text-center msm-text-color-text'>Chapter 1</b> <br /> Technical Analysis
                         </button>
 
-                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal40">
-                            <b className='text-center msm-text-color-text'>Chapter 2</b> <br /> Forex, Commodity, and Cryptocurrency Markets
+                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal400">
+                            <b className='text-center msm-text-color-text'>Chapter 2</b> <br /> Future and Option
                         </button>
 
-                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal400">
-                            <b className='text-center msm-text-color-text'>Chapter 3</b> <br /> Future and Option
+                        <button type="button" class="btn-toggle-collapse" data-bs-toggle="modal" data-bs-target="#exampleModal40">
+                            <b className='text-center msm-text-color-text'>Chapter 3</b> <br /> Forex Market and Cryptocurrency Market
+                        </button>
+
+                        <span className='text-center text-dark fw-bold my-2'>------(OR)------</span>
+
+                        <button type="button" class="btn-toggle-collapse msm-font-size-16px" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            <b className='text-center msm-text-color-text'>Chapter 1</b> <br />
+                            Fundamental Analysis 
                         </button>
 
                         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -182,7 +186,7 @@ const Modules = () => {
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Forex, Commodity, and Cryptocurrency Markets</h1>
+                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Forex Market and Cryptocurrency Market</h1>
                                         <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
@@ -204,7 +208,7 @@ const Modules = () => {
                                             <li>How to Read a Forex Chart</li>
                                             <li>Correlation Between Currency Pairs</li>
                                         </ol>
-                                        <h4 className='mb-3 mt-3 text-green'>Currency Market</h4>
+                                        {/* <h4 className='mb-3 mt-3 text-green'>Currency Market</h4>
                                         <ol>
                                             <li>Understanding the Global Currency Market</li>
                                             <li>Factors Influencing Exchange Rates</li>
@@ -221,9 +225,9 @@ const Modules = () => {
                                             <li>Currency Intervention by Governments and Central Banks</li>
                                             <li>Effect of Inflation and Deflation on Currencies</li>
                                             <li>Hedging Against Currency Risk</li>
-                                        </ol>
+                                        </ol> */}
 
-                                        <h4 className='mb-3 mt-3 text-green'>Commodity Market</h4>
+                                        {/* <h4 className='mb-3 mt-3 text-green'>Commodity Market</h4>
                                         <ol>
                                             <li>Introduction to the Commodity Market</li>
                                             <li>Types of Commodities: Metals, Energy, Agriculture</li>
@@ -240,7 +244,7 @@ const Modules = () => {
                                             <li>Speculation and Hedging in the Commodity Market</li>
                                             <li>Impact of Trade Wars on Commodity Prices</li>
                                             <li>How Geopolitical Events Affect Commodity Markets</li>
-                                        </ol>
+                                        </ol> */}
 
                                         <h4 className='mb-3 mt-3 text-green'>Cryptocurrency</h4>
                                         <ol>
@@ -403,7 +407,7 @@ const Modules = () => {
                                     <b className='text-center msm-text-color-text'>Chapter 1</b> <br /> Advanced Analysis Tracker
                                 </button> */}
 
-                                 <button type="button" class="btn-toggle-collapse msm-pointer">
+                                <button type="button" class="btn-toggle-collapse msm-pointer">
                                     <b className='text-center msm-text-color-text'>Chapter 1</b> <br /> Advanced Analysis Tracker
                                 </button>
                             </div>
@@ -434,7 +438,7 @@ const Modules = () => {
 
                             <div className="col-sm-12 col-md-12 col-lg-12 ">
                                 <button type="button" class="btn-toggle-collapse lw-100-w" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                                    <b className='text-center msm-text-color-text'>Chapter 6</b> <br /> Currency, Commodity, and Cryptocurrency Markets
+                                    <b className='text-center msm-text-color-text'>Chapter 6</b> <br />Forex, Currency, Commodity, and Cryptocurrency Markets
                                 </button>
                             </div>
                         </div>
@@ -767,25 +771,24 @@ const Modules = () => {
                                         <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
-                                        <h4 className='mb-3 mt-3 text-green'>Currency Market</h4>
+                                        <h4 className='mb-3 mt-3 text-green'>Forex Market</h4>
                                         <ol>
-                                            <li>Understanding the Global Currency Market</li>
-                                            <li>Factors Influencing Exchange Rates</li>
-                                            <li>Role of Interest Rates in Currency Valuation</li>
-                                            <li>Foreign Exchange Reserves and Their Impact</li>
-                                            <li>Impact of Trade Deficits on Currency Prices</li>
-                                            <li>Currency Pegs and Exchange Rate Mechanisms</li>
-                                            <li>Currency Wars: Competitive Devaluation</li>
-                                            <li>Role of the International Monetary Fund (IMF) in the Currency Market</li>
-                                            <li>Safe Haven Currencies: USD, JPY, CHF</li>
-                                            <li>Currency Futures and Options Trading</li>
-                                            <li>Impact of Political Events on Currency Market</li>
-                                            <li>Emerging Market Currencies and Volatility</li>
-                                            <li>Currency Intervention by Governments and Central Banks</li>
-                                            <li>Effect of Inflation and Deflation on Currencies</li>
-                                            <li>Hedging Against Currency Risk</li>
+                                            <li>Introduction to Forex Trading</li>
+                                            <li>Currency Pairs and How They Work</li>
+                                            <li>Major vs. Minor vs. Exotic Currency Pairs</li>
+                                            <li>Forex Market Trading Hours and Liquidity</li>
+                                            <li>Role of Central Banks in the Forex Market</li>
+                                            <li>Leverage and Margin in Forex Trading</li>
+                                            <li>Forex Trading Strategies (Scalping, Swing, Day Trading)</li>
+                                            <li>Understanding Forex Spreads and Pips</li>
+                                            <li>Impact of Global Economic News on Forex Markets</li>
+                                            <li>Forex Risk Management and Position Sizing</li>
+                                            <li>Forex Technical Indicators and Tools (RSI, MACD, Fibonacci)</li>
+                                            <li>Carry Trade Strategy in Forex</li>
+                                            <li>Fundamental Analysis for Forex (Interest Rates, Inflation, GDP)</li>
+                                            <li>How to Read a Forex Chart</li>
+                                            <li>Correlation Between Currency Pairs</li>
                                         </ol>
-
                                         <h4 className='mb-3 mt-3 text-green'>Commodity Market</h4>
                                         <ol>
                                             <li>Introduction to the Commodity Market</li>
@@ -822,6 +825,24 @@ const Modules = () => {
                                             <li>Security Risks in Crypto: Hacking, Scams, and Fraud</li>
                                             <li>How to Use Technical Analysis in Cryptocurrency Trading</li>
                                             <li>Stablecoins and Their Role in the Crypto Ecosystem</li>
+                                        </ol>
+                                        <h4 className='mb-3 mt-3 text-green'>Currency Market</h4>
+                                        <ol>
+                                            <li>Understanding the Global Currency Market</li>
+                                            <li>Factors Influencing Exchange Rates</li>
+                                            <li>Role of Interest Rates in Currency Valuation</li>
+                                            <li>Foreign Exchange Reserves and Their Impact</li>
+                                            <li>Impact of Trade Deficits on Currency Prices</li>
+                                            <li>Currency Pegs and Exchange Rate Mechanisms</li>
+                                            <li>Currency Wars: Competitive Devaluation</li>
+                                            <li>Role of the International Monetary Fund (IMF) in the Currency Market</li>
+                                            <li>Safe Haven Currencies: USD, JPY, CHF</li>
+                                            <li>Currency Futures and Options Trading</li>
+                                            <li>Impact of Political Events on Currency Market</li>
+                                            <li>Emerging Market Currencies and Volatility</li>
+                                            <li>Currency Intervention by Governments and Central Banks</li>
+                                            <li>Effect of Inflation and Deflation on Currencies</li>
+                                            <li>Hedging Against Currency Risk</li>
                                         </ol>
                                         <div> <img src={AboutFour} alt="Metta share market" loading="lazy" className='w-100' /></div>
 
@@ -1004,7 +1025,7 @@ const Modules = () => {
                             <h6 className='fw-normal'>Live Session</h6>
                         </div>
                     </div>
-                     <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+                    <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
                         <div className="card text-center msm-bg-color">
                             <FontAwesomeIcon icon={faWhatsapp} className="msm-text-dark fs-3 m-auto mb-3" />
                             <h6 className='fw-normal'>What's App group</h6>
@@ -1025,7 +1046,7 @@ const Modules = () => {
                         </div>
                     </div>
                     {/*  */}
-                   
+
                     {/*  */}
                     <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
                         <div className="card text-center msm-bg-color">

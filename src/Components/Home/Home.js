@@ -50,13 +50,13 @@ const Home = () => {
       <MettaHero />
 
       {/* <SmoothCursor /> */}
-      {/* About */}
+      
       <HomeAbout />
-      {/* /About */}
+      
       {/* <div className='msm-bg-cover-image'> */}
-      {/* Why choose section */}
+    
       <HomeWhyChoose />
-      {/* /Why choose section */}
+     
 
       {/* Certification */}
       <Certification />

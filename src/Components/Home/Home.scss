@@ -1,6 +1,7 @@
 // video hero section --------------------------------
 .hero-section-logo {
     width: 130px;
+    margin-bottom: 11px;
 }
 
 .video-hero {
@@ -53,6 +54,7 @@
         font-size: 1.1rem;
         opacity: 0.9;
         font-weight: 500;
+        margin-bottom: 20px;
     }
 
     h1 {
@@ -62,18 +64,25 @@
             position: relative;
             color: #ffd277;
             font-size: 40px;
+            top: 7px;
 
-            .highlight {
-                text-shadow: 0 0 15px rgba(255, 210, 9, 0.296);
+            @media (max-width: 768px) {
+                font-size: 33px;
+                top: 15px;
             }
         }
 
-        span {
-            display: block;
-            width: 100%;
+        .highlight {
+            text-shadow: 0 0 15px rgba(255, 210, 9, 0.296);
         }
     }
+
+    span {
+        display: block;
+        width: 100%;
+    }
 }
+
 
 @media (max-width: 768px) {
     .hero-content h1 {
@@ -99,6 +108,7 @@
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: inset 0 4px 4px 454px rgb(0 0 0 / 83%);
+    background-attachment: fixed;
 
     @media (max-width: 768px) {
         padding: 8rem 0;
@@ -222,6 +232,225 @@
 }
 
 // typing animation  -------------------------------
+
+// why choose section 
+.msm-why-choose-section {
+    padding: 5rem 16px;
+    background-color: black;
+
+    .msm-notification {
+        display: flex;
+        flex-direction: column;
+        isolation: isolate;
+        position: relative;
+        width: 100%;
+        height: auto;
+        background: #29292c;
+        border-radius: 1rem;
+        overflow: hidden;
+        font-size: 16px;
+        --gradient: linear-gradient(90deg, #FFCF49 31.25%, #FFCF49 31.26%, #FFFFFF 100%);
+        color: #e3cd00;
+    }
+
+    .msm-notification:before {
+        position: absolute;
+        content: "";
+        inset: 0.0625rem;
+        border-radius: 0.9375rem;
+        background: #18181b;
+        z-index: 2
+    }
+
+    .msm-notification:after {
+        position: absolute;
+        content: "";
+        width: 0.25rem;
+        inset: 0.65rem auto 0.65rem 0.5rem;
+        border-radius: 0.125rem;
+        background: var(--gradient);
+        transition: transform 300ms ease;
+        z-index: 4;
+    }
+
+    .msm-notification:hover:after {
+        transform: translateX(0.15rem);
+    }
+
+    .notititle {
+        color: #e3cd00;
+        padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+        font-weight: 500;
+        font-size: 1.1rem;
+        transition: transform 300ms ease;
+        z-index: 5;
+    }
+
+    .msm-notification:hover .notititle {
+        transform: translateX(0.15rem)
+    }
+
+    .notibody {
+        color: #99999d;
+        padding: 2px 7px 12px 21px;
+        transition: transform 300ms ease;
+        z-index: 5;
+    }
+
+    .msm-notification:hover .notibody {
+        transform: translateX(0.25rem)
+    }
+
+    .notiglow,
+    .notiborderglow {
+        position: absolute;
+        width: 20rem;
+        height: 20rem;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(circle closest-side at center, white, transparent);
+        opacity: 0;
+        transition: opacity 300ms ease;
+    }
+
+    .notiglow {
+        z-index: 3;
+    }
+
+    .notiborderglow {
+        z-index: 1;
+    }
+
+    .msm-notification:hover .notiglow {
+        opacity: 0.1
+    }
+
+    .msm-notification:hover .notiborderglow {
+        opacity: 0.1
+    }
+
+    .msm-content {
+        padding-left: 50px;
+
+        h1 {
+            font-weight: 700;
+            font-size: 40px;
+            color: #e3cd00;
+        }
+
+        p {
+            color: #99999d;
+        }
+
+        @media (max-width: 992px) {
+            padding-left: 7px;
+
+            p {
+                margin-bottom: 30px !important;
+                margin-top: 13px !important;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        .msm-flex-wrap {
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+    }
+}
+
+// /why choose section ---------------------------------------------
+
+// about us
+
+.msm-about-section {
+    padding: 7rem 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    background-image: url("/assets/img/7xm694528a26255a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 4px 4px 654px rgb(0 0 0 / 83%);
+
+    h6 {
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 19px;
+        letter-spacing: .47em;
+        color: rgb(204, 204, 204);
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+        color: #e3cd00;
+    }
+
+    p {
+        color: #dbdbdb;
+        background-color: #00000070;
+        backdrop-filter: blur(9px);
+        padding: 8px;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .text-highlight {
+        display: inline-block;
+        position: relative;
+
+        &::before {
+            background-color: #e3cd00;
+            content: "";
+            height: 0.2em;
+            left: 0px;
+            position: absolute;
+            right: 0;
+            transform: rotate(0deg);
+            z-index: 1;
+            bottom: -7px;
+            width: 86%;
+            margin: auto;
+        }
+    }
+
+    .img-fluid-about-image {
+        width: 85%;
+        height: 30rem;
+        object-fit: cover;
+        filter: drop-shadow(4px 4px 0px #e3cd00);
+        border-radius: 10px;
+    }
+}
+
+// about us ---------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // photo gallery
 
 .msm-hero {
@@ -375,58 +604,6 @@
 }
 
 // /photo gallery ---------------------------------------
-
-// about us
-
-.msm-about-section {
-    padding: 4rem 16px;
-
-    .msm-lead-description {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 25px;
-    }
-
-    .image-container {
-        position: relative;
-        width: 500px;
-        height: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .image-container img {
-        position: absolute;
-        width: 100%;
-        transition: opacity 0.3s ease-in-out;
-    }
-
-    .image-container .hover {
-        opacity: 0;
-    }
-
-    .image-container:hover .hover {
-        opacity: 1;
-    }
-
-    .image-container:hover .default {
-        opacity: 0;
-    }
-
-    @media (max-width: 992px) {
-        .msm-text-align {
-            text-align: center;
-        }
-
-        .mt--2 {
-            margin-top: 4rem;
-        }
-    }
-}
-
-// about us ---------------------------------------------
-
 // testimonial slider
 .msm-testimonial-slider-block {
     padding: 4rem 16px;
@@ -575,88 +752,8 @@ textarea {
 
 // /Brochure form and contact form ---------------------------------------------
 
-// Faq section
-.msm-faq-section {
-    padding: 8rem 0rem;
 
-    .msm-accordion {
-        background-color: white;
-        color: black;
-        border-radius: 5px;
-        box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.25);
-        margin: 15px 0;
 
-        .question {
-            font-size: 16px;
-            padding: 7px 15px;
-            position: relative;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-
-            &::after {
-                content: "\002B";
-                font-size: 2.2rem;
-                position: absolute;
-                right: 20px;
-                transition: 0.2s;
-            }
-        }
-    }
-
-    .question.active::after {
-        transform: rotate(45deg);
-    }
-
-    .answercont {
-        max-height: 0;
-        overflow: hidden;
-        transition: 0.3s;
-
-        .answer {
-            padding: 0 20px 20px;
-            line-height: 1.5rem;
-        }
-    }
-}
-
-// /Faq section ---------------------------------------------
-
-// why choose section 
-.msm-why-choose-section {
-    padding: 5rem 16px;
-
-    .card {
-        padding: 40px 25px;
-        border-radius: 15px;
-        border: 1px solid #ff0a0a;
-        background-color: #ffffff36;
-        text-align: left;
-    }
-
-    .msm-content {
-        padding-left: 50px;
-
-        @media (max-width: 992px) {
-            padding-left: 7px;
-
-            p {
-                margin-bottom: 30px !important;
-                margin-top: 13px !important;
-            }
-        }
-    }
-
-    @media (max-width: 992px) {
-        .msm-flex-wrap {
-            display: flex;
-            flex-wrap: wrap-reverse;
-        }
-    }
-}
-
-// /why choose section ---------------------------------------------
 
 // nagpur best classes section
 .msm-nagpur-best-classes-section {

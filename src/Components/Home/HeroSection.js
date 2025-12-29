@@ -42,7 +42,7 @@ const VideoHero = () => {
 
         <img
           src={mettaLogo}
-          className="img-fluid hero-section-logo mb-2"
+          className="img-fluid hero-section-logo"
           alt="MeTta Financial Investment & Trading Training Institute"
           loading="lazy"
         />
