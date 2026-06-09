@@ -1,0 +1,101 @@
+.registration-container {
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    color-scheme: light;
+
+    @media (max-width: 992px) {
+        width: 100%;
+    }
+}
+
+.back-cover-image {
+    background: linear-gradient(to right, #3b82f6, #a855f7);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); */
+    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); */
+    background-color: white;
+    color: #000000;
+
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+button {
+    background: #1e90ff;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #006ad1;
+}
+
+.payment-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment-box img {
+    width: 300px;
+    margin: 10px 0;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.input-group>.form-control {
+    width: 100%;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 64%;
+    margin: auto;
+}
+
+.registration-image-metta {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.registration-text {
+    background-color: #3b82f6;
+    border-radius: 13px;
+    text-transform: uppercase;
+    color: yellow;
+    width: fit-content;
+    margin: auto;
+    padding: 6px 23px;
+    font-weight: 800;
+    font-size: 27px;
+}

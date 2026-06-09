@@ -45,7 +45,7 @@ class EnrollmentPage extends Component {
           <div className="auth-card">
             <p><img src={AboutOne} alt="metta share market free demo clases" loading="lazy" className='w-50 m-auto d-flex' /></p>
 
-          <h3 className='text-center fw-normal mb-4'>Enrolment Form</h3>
+          <h3 className='text-center fw-normal mb-4'>Enquire Now</h3>
 
             <div className="form-slider">
               {formSubmitted && (
@@ -53,7 +53,6 @@ class EnrollmentPage extends Component {
                   ✅ Your form has been submitted successfully!
                 </div>
               )}
-
               <form className="form" onSubmit={this.handleFormSubmit}>
                 <input type="hidden" name="access_key" value="ce4f0829-83e2-43ff-9e0e-1662f17955d1" />
                 <input type="text" name="full_name" placeholder="Full Name" required />

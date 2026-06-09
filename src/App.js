@@ -15,9 +15,12 @@ import Modules from './Components/Modules/Modules';
 import Resources from './Components/Resources/Resources';
 import ScrollToTop from './ScrollToTop';
 import RefundPolicy from './Components/RefundPolicy';
-import EnrollmentPage from './Components/Home/EnrollmentPage';
+import RegistrationForm from './Components/Home/RegistrationForm';
+import EnquireNow from './Components/Home/EnquireNow';
 import Calculator from './Components/Calculator/Calculator';
 import CAGRCalculator from './Components/CAGRCalculator/CAGRCalculator';
+
+
 import './App.scss';
 import { HelmetProvider} from 'react-helmet-async';
 const LanguageSelector = () => {
@@ -48,10 +51,13 @@ const App = () => {
               <Route path="/testimonial" element={<Testimonial />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/refund-policy" element={<RefundPolicy />} />
-              <Route path="/enrollment-form" element={<EnrollmentPage />} />
+              <Route path="/admission-form" element={<RegistrationForm />} />
+              <Route path="/enquire-now" element={<EnquireNow />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/sip-calculator" element={<Calculator />} />
               <Route path="/cagr-calculator" element={<CAGRCalculator />} />
+              {/* <Route path="/seminar-register" element={<AISeminar />} /> */}
+
               <Route path="*" element={<Error />} />
             </Routes>
             <ScrollToTop />

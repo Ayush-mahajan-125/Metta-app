@@ -678,9 +678,9 @@ select {
 input:focus,
 select:focus,
 textarea:focus {
-    border-color: #007bff;
-    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
-    transform: scale(1.05);
+    border: none;
+    // box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+    // transform: scale(1.05);
 }
 
 textarea {
@@ -1255,4 +1255,13 @@ summary::-webkit-details-marker {
         width: 100%;
 
     }
+}
+
+.module-text {
+    color: #0052d4;
+    font-weight: 700 !important;
+    font-size: 19px;
+}
+.msm-w-25{
+    width: 10%;
 }

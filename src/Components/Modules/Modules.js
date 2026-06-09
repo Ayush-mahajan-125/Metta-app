@@ -44,7 +44,7 @@ const Modules = () => {
 
                         <button type="button" class="btn-toggle-collapse msm-font-size-16px" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                             <b className='text-center msm-text-color-text'>Chapter 1</b> <br />
-                            Fundamental Analysis 
+                            Fundamental Analysis
                         </button>
 
                         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -52,7 +52,7 @@ const Modules = () => {
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel"> Basic To Advanced Technical Analysis</h1>
-                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                                        <button type="button" class="ms-auto btn msm-w-25" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
                                         <h4 class='mb-4 mt-3 text-green'>Core Concepts</h4>
@@ -187,7 +187,7 @@ const Modules = () => {
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Forex Market and Cryptocurrency Market</h1>
-                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                                        <button type="button" class="ms-auto btn msm-w-25" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
                                         <h4 className='mb-3 mt-3 text-green'>Forex Market</h4>
@@ -279,7 +279,7 @@ const Modules = () => {
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Derivative And Future & Option’s</h1>
-                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                                        <button type="button" class="ms-auto btn msm-w-25" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
                                         <ol>
@@ -362,25 +362,6 @@ const Modules = () => {
                                                             <li>Strike vs Market Price</li>
                                                         </ul>
                                                     </li>
-                                                    <li>Basic Greeks:
-                                                        <ul>
-                                                            <li>Delta</li>
-                                                            <li>Gamma</li>
-                                                            <li>Theta</li>
-                                                            <li>Vega</li>
-                                                            <li>Rho</li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li><strong>Reading Option Chain</strong>
-                                                <ul>
-                                                    <li>Open Interest</li>
-                                                    <li>Volume</li>
-                                                    <li>Change in OI</li>
-                                                    <li>PCR (Put-Call Ratio)</li>
-                                                    <li>Max Pain</li>
                                                 </ul>
                                             </li>
                                         </ol>
@@ -449,7 +430,7 @@ const Modules = () => {
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel"> Basic To Advanced and Advanced Pro </h1>
-                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                                        <button type="button" class="ms-auto btn msm-w-25" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
                                         <h4 className='mb-4 mt-3 text-green'>Core Concepts</h4>
@@ -641,7 +622,7 @@ const Modules = () => {
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Derivative And Future & Option’s</h1>
-                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                                        <button type="button" class="ms-auto btn msm-w-25" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
                                         <ol>
@@ -768,7 +749,7 @@ const Modules = () => {
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Currency ,Commodity, and Cryptocurrency Markets</h1>
-                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                                        <button type="button" class="ms-auto btn msm-w-25" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
                                         <h4 className='mb-3 mt-3 text-green'>Forex Market</h4>
@@ -874,131 +855,158 @@ const Modules = () => {
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5 text-orange" id="exampleModalLabel">Fundamental Analysis</h1>
-                                        <button type="button" class="ms-auto btn" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
+                                        <h1 class="modal-title fs-4 text-orange" id="exampleModalLabel">Fundamental Analysis</h1>
+                                        <button type="button" class="ms-auto btn msm-w-25" data-bs-dismiss="modal" aria-label="Close"><span>❌</span></button>
                                     </div>
                                     <div class="modal-body text-dark">
-                                        <h5 className='mb-3 text-dark fw-bold'>1. Business & Industry Evaluation</h5>
-                                        <ol>
-                                            <li><strong>Business Analysis</strong> – Understand the company’s model, revenue streams, and core operations.</li>
-                                            <li><strong>Sectoral Analysis</strong> – Examine industry dynamics, growth trends, and regulatory environment.</li>
-                                            <li><strong>Economic Moat & Competitive Advantage</strong> – Identify long-term edge over competitors.</li>
-                                            <li><strong>SWOT Analysis</strong> – Evaluate internal strengths/weaknesses and external opportunities/threats.</li>
-                                            <li><strong>Top-Down vs. Bottom-Up Approach</strong> – Macro-to-micro vs. micro-to-macro analysis methodologies.</li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>2. Management & Governance</h5>
-                                        <ol start="6">
-                                            <li><strong>Management & Corporate Governance</strong> – Assess leadership credibility, board practices, and transparency.</li>
-                                            <li><strong>Assessing Management Effectiveness</strong> – Use ROA, ROE, and strategic decisions as evaluation tools.</li>
-                                            <li><strong>Influence of Corporate Governance on Valuation</strong> – Understand how governance impacts investor confidence.</li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>3. Financial Health & Performance</h5>
-                                        <ol start="9">
-                                            <li><strong>Financial Statement Analysis</strong> – Deep dive into P&amp;L, balance sheet, and cash flow statements.</li>
-                                            <li><strong>Key Financial Ratios</strong> – Metrics like P/E, P/B, ROE, ROCE, D/E ratio to judge performance.</li>
-                                            <li><strong>Balance Sheet Analysis</strong> – Understand asset quality, debt load, and equity health.</li>
-                                            <li><strong>Profit &amp; Loss (P&amp;L) Statement</strong> – Assess operational efficiency and profitability.</li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>4. Valuation Techniques</h5>
-                                        <ol start="13">
-                                            <li><strong>Company Valuation Analysis</strong> – Overall approach to determining fair stock value.</li>
-                                            <li><strong>Discounted Cash Flow (DCF) Model</strong> – Estimate intrinsic value using FCF and discounting future cash flows.</li>
-                                            <li><strong>Comparable Company Analysis (CCA)</strong> – Relative valuation using peer multiples.</li>
-                                            <li><strong>Dividend Discount Model (DDM)</strong> – Valuation of dividend-paying stocks.</li>
-                                            <li><strong>Free Cash Flow Valuation</strong> – Use FCF as a key indicator of intrinsic worth.</li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>5. Stock-Specific Factors</h5>
-                                        <ol start="18">
-                                            <li><strong>Stock Analysis</strong> – Evaluate price trends, volume, financials, and fundamentals.</li>
-                                            <li><strong>Earnings Reports Analysis</strong> – Interpret quarterly/annual reports for revenue, EPS, margins.</li>
-                                            <li><strong>Dividend &amp; Return Analysis</strong> – Study historical and expected dividends and total return potential.</li>
-                                            <li><strong>Shareholding Pattern Analysis</strong> – Analyze promoter, FII, DII, and retail investor trends.</li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>6. Broader Influencing Factors</h5>
-                                        <ol start="22">
-                                            <li><strong>Macroeconomic Impact</strong> – Understand how GDP, inflation, interest rates, and unemployment affect stock prices.</li>
-                                            <li><strong>ESG Analysis</strong> – Assess environmental, social, and governance criteria for sustainable investing.</li>
-                                            <li><strong>Industry Position &amp; Competitive Landscape</strong> – Examine market share, disruption risks, and peer strength.</li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>7. Strategy Comparison</h5>
-                                        <ol start="25">
-                                            <li><strong>Growth vs. Value Investing</strong> – Contrast two major stock-picking philosophies through a fundamental lens.</li>
-                                            <li><strong>Fundamental vs. Technical Analysis</strong> – Understand how they differ and when to apply each.</li>
-                                        </ol>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>8. AI in Fundamental Analysis – Simplified</h5>
-                                        <ul>
-                                            <li><strong>Data Extraction:</strong> AI can quickly read and extract financial data from reports, websites, and PDFs, saving hours of manual work.</li>
-                                            <li><strong>Sentiment Analysis:</strong> It analyzes news, CEO interviews, and earnings calls to understand market mood (positive or negative).</li>
-                                            <li><strong>Financial Forecasting:</strong> AI predicts future revenue, profit, and growth using past trends and market conditions.</li>
-                                            <li><strong>Stock Valuation:</strong> AI helps calculate the fair value of a stock using models like DCF or peer comparison—automatically updating with new data.</li>
-                                            <li><strong>Red Flag Detection:</strong> AI can catch signs of fraud or risk in financial statements, like unusual income or rising debt.</li>
-                                            <li><strong>Portfolio Building:</strong> It helps create balanced investment portfolios based on risk, return, and sector exposure.</li>
-                                            <li><strong>ESG Scoring:</strong> AI scores companies on environmental and social responsibility using reports and public data.</li>
-                                        </ul>
-                                        <hr></hr>
-                                        <h5 className='mt-4 mb-3 text-dark fw-bold'>Other Financial Topics</h5>
+                                        <ol className='p-0'>
 
-                                        <h6> <strong className='text-dark'>Primary & Secondary Market Instruments</strong> </h6>
-                                        <ul>
-                                            <li>IPO (Initial Public Offering)</li>
-                                            <li>FPO (Follow-on Public Offering)</li>
-                                            <li>Rights Issue</li>
-                                            <li>Offer for Sale (OFS)</li>
-                                            <li>Buyback of Shares</li>
-                                        </ul>
+                                            <strong className='module-text'>1. Business & Industry Evaluation</strong><br />
+                                            <b className=''>
+                                                Business & industry evaluation focuses on growth potential, competition,
+                                                market position, and industry trends.
+                                            </b>
+                                            <ol className='mt-3'>
+                                                <li> <b>Business Analysis </b> – Understand the company’s model, revenue streams, and core operations.</li>
+                                                <li><b>Sectoral Analysis </b> – Examine industry dynamics, growth trends, and regulatory environment.</li>
+                                                <li><b>Economic Moat & Competitive Advantage</b> – Identify long-term edge over competitors.</li>
+                                                <li><b>SWOT Analysis </b> – Evaluate internal strengths/weaknesses and external opportunities/threats.</li>
+                                                <li><b>Top-Down vs. Bottom-Up Approach</b> – Macro-to-micro vs. micro-to-macro analysis methodologies.</li>
+                                                <li>
+                                                    Market share & demand /
+                                                    Customer base & diversification /
+                                                    Cost structure & pricing power /
+                                                    Technology & innovation impact
+                                                </li>
+                                            </ol>
 
-                                        <h6><strong className='text-dark'> Corporate Actions & Restructuring</strong></h6>
-                                        <ul>
-                                            <li>Mergers, Acquisitions & Takeovers</li>
-                                            <li>Demergers & Spin-offs</li>
-                                            <li>Stock Split & Bonus Shares</li>
-                                            <li>Dividends (Interim & Final)</li>
-                                        </ul>
+                                            <hr />
+                                            <strong className='module-text'>2. Management & Governance</strong>
+                                            <ol className=''>
+                                                <li><b>Management & Corporate Governance</b> – Assess leadership credibility, board practices, and transparency.</li>
+                                                <li><b>Management quality & experience</b></li>
+                                                <li><b>Leadership vision and strategy</b></li>
+                                                <li><b>Decision-making & execution ability</b></li>
+                                                <li><b>Capital allocation discipline</b></li>
+                                                <li><b>Transparency in communication</b></li>
+                                                <li><b>Shareholder protection</b></li>
+                                                <li><b>Risk management & internal controls</b></li>
+                                                <li><b>Board independence, Ethical practices and Regulatory compliance</b></li>
+                                            </ol>
+                                            <hr />
 
-                                        <h6><strong className='text-dark'> Macroeconomics & Economic Indicators</strong></h6>
-                                        <ul>
-                                            <li>How to Read GDP (Gross Domestic Product)</li>
-                                            <li>Inflation & Deflation</li>
-                                            <li>Fiscal Policy (Government Spending & Taxation)</li>
-                                            <li>Monetary Policy (Repo Rate, CRR, SLR, etc.)</li>
-                                            <li>Union Budget & Economic Survey</li>
-                                        </ul>
 
-                                        <h6><strong className='text-dark'> Financial Literacy & Investment Instruments</strong></h6>
-                                        <ul>
-                                            <li>Financial Planning & Goal Setting</li>
-                                            <li>Understanding Risk vs Return</li>
-                                            <li>Asset Allocation & Diversification</li>
-                                            <li>Bonds (Government, Corporate, Tax-free)</li>
-                                            <li>Gold (Physical, Digital, Sovereign Gold Bonds)</li>
-                                            <li>Fixed Deposits (FD) & Recurring Deposits (RD)</li>
-                                            <li>Public Provident Fund (PPF), NPS, SCSS</li>
-                                        </ul>
+                                            <strong className='module-text'>3. Financial Health & Performance</strong>
+                                            <ol className=''>
+                                                <li><b>Financial Statement Analysis</b> – Deep dive into P&amp;L, balance sheet, and cash flow statements.</li>
+                                                <li><b>Key Financial Ratios</b> – Metrics like P/E, P/B, ROE, ROCE, D/E ratio to judge performance.</li>
+                                                <li><b>Balance Sheet Analysis</b> – Understand asset quality, debt load, and equity health.</li>
+                                                <li><b>Profit &amp; Loss (P&amp;L) Statement</b> – Assess operational efficiency and profitability.</li>
+                                            </ol>
+                                            <hr />
 
-                                        <h6><strong className='text-dark'> Mutual Funds & Other Market Instruments</strong></h6>
-                                        <ul>
-                                            <li>Mutual Funds (Types: Equity, Debt, Hybrid)</li>
-                                            <li>SIP (Systematic Investment Plan) & SWP (Systematic Withdrawal Plan)</li>
-                                            <li>Exchange-Traded Funds (ETFs)</li>
-                                            <li>Real Estate Investment Trusts (REITs)</li>
-                                            <li>Asset Management Companies (AMCs)</li>
-                                        </ul>
+                                            <strong className='module-text'>4. Valuation Techniques</strong>
+                                            <ol className=''>
+                                                <li><b>Company Valuation Analysis </b>– Overall approach to determining fair stock value.</li>
+                                                <li><b>Price-to-Earnings (P/E) Ratio</b></li>
+                                                <li><b>Earnings-Based Valuation</b></li>
+                                                <li><b>Market Capitalization Method</b></li>
+                                                <li><b>Asset-Based Valuation</b></li>
+                                                <li><b>Discounted Cash Flow (DCF) Model</b> – Estimate intrinsic value using FCF and discounting future cash flows.</li>
+                                            </ol>
+                                            <hr />
 
-                                        <h6><strong className='text-dark'>Modern Financial Concepts</strong></h6>
-                                        <ul>
-                                            <li>Credit Score & Credit Reports (CIBIL, Experian, etc.)</li>
-                                            <li>Insurance (Life, Health, Term, ULIP)</li>
-                                            <li>Cryptocurrency & Blockchain Basics</li>
-                                            <li>ESG Investing (Environmental, Social, Governance)</li>
-                                            <li>Robo-Advisory & FinTech Trends</li>
-                                        </ul>
+                                            <strong className='module-text'>5. Stock-Specific Factors</strong>
+                                            <ol>
+                                                <li><b>Stock Analysis</b> – Evaluate price trends, volume, financials, and fundamentals.</li>
+                                                <li><b>Earnings Reports Analysis</b> – Interpret quarterly/annual reports for revenue, EPS, margins.</li>
+                                                <li><b>Dividend &amp; Return Analysis</b> – Study historical and expected dividends and total return potential.</li>
+                                                <li><b>Shareholding Pattern Analysis </b>– Analyse promoter, FII, DII, and retail investor trends.</li>
+                                            </ol>
+                                            <hr />
+
+                                            <strong className='module-text'>6. Broader Influencing Factors</strong>
+                                            <ol>
+                                                <li><b>Macro and Micro Economic Impact</b> – Understand how GDP, inflation, interest rates, and unemployment affect stock prices.</li>
+                                                <li><b>ESG (Environmental, Social and Governance) Analysis </b>– Assess environmental, social, and governance criteria for sustainable investing.</li>
+                                            </ol>
+                                            <hr />
+                                            <strong className='module-text'> 7. Strategy Comparison</strong>
+                                            <ol>
+                                                <li><b>Growth vs. Value Investing </b>– Contrast two major stock-picking philosophies through a fundamental lens.</li>
+                                                <li><b>Fundamental vs. Technical Analysis</b> – Understand how they differ and when to apply each.</li>
+                                            </ol>
+                                            <hr />
+
+                                            <strong className='module-text'>AI in Fundamental Analysis – Simplified</strong>
+                                            <ol>
+                                                <li><b>Data Extraction</b> – AI reads financial data from reports, websites, and PDFs.</li>
+                                                <li><b>Sentiment Analysis</b> – Analyses news, CEO interviews, and earnings calls.</li>
+                                                <li><b>Financial Forecasting</b> – Predicts future revenue, profit, and growth.</li>
+                                                <li><b>Stock Valuation</b> – Calculates fair value using DCF or peer comparison.</li>
+                                                <li><b>Red Flag Detection</b> – Identifies fraud or financial risks.</li>
+                                                <li><b>Portfolio Building</b> – Creates balanced portfolios.</li>
+                                                <li><b>ESG Scoring</b> – Scores companies on sustainability metrics.</li>
+                                            </ol>
+                                            <hr />
+                                        </ol>
+
+                                        <div className="ps-2">
+                                            <p><strong>Recorded videos are available on other financial topics.</strong></p>
+
+                                            <h6 className='text-dark '>Primary &amp; Secondary Market Instruments</h6>
+                                            <ul>
+                                                <li>IPO (Initial Public Offering)</li>
+                                                <li>FPO (Follow-on Public Offering)</li>
+                                                <li>Rights Issue</li>
+                                                <li>Offer for Sale (OFS)</li>
+                                                <li>Buyback of Shares</li>
+                                            </ul>
+
+                                            <h6 className='text-dark'>Corporate Actions &amp; Restructuring</h6>
+                                            <ul>
+                                                <li>Mergers, Acquisitions &amp; Takeovers</li>
+                                                <li>Demergers &amp; Spin-offs</li>
+                                                <li>Stock Split &amp; Bonus Shares</li>
+                                                <li>Dividends (Interim &amp; Final)</li>
+                                            </ul>
+
+                                            <h6 className='text-dark'>Macro Economics &amp; Micro Economic Effect</h6>
+                                            <ul>
+                                                <li>How to Read GDP (Gross Domestic Product)</li>
+                                                <li>Inflation &amp; Deflation</li>
+                                                <li>Fiscal Policy (Government Spending &amp; Taxation)</li>
+                                                <li>Monetary Policy (Repo Rate, CRR, SLR, etc.)</li>
+                                                <li>Union Budget &amp; Economic Survey</li>
+                                            </ul>
+
+                                            <h6 className='text-dark'>Financial Literacy &amp; Investment Instruments</h6>
+                                            <ul>
+                                                <li>Financial Planning &amp; Goal Setting</li>
+                                                <li>Understanding Risk vs Return</li>
+                                                <li>Asset Allocation &amp; Diversification</li>
+                                                <li>Bonds (Government, Corporate, Tax-free)</li>
+                                                <li>Gold (Physical, Digital, Sovereign Gold Bonds)</li>
+                                                <li>Fixed Deposits (FD) &amp; Recurring Deposits (RD)</li>
+                                                <li>Public Provident Fund (PPF), NPS, SCSS</li>
+                                            </ul>
+
+                                            <h6 className='text-dark'>Mutual Funds &amp; Other Market Instruments</h6>
+                                            <ul>
+                                                <li>Mutual Funds (Equity, Debt, Hybrid)</li>
+                                                <li>SIP &amp; SWP</li>
+                                                <li>Exchange-Traded Funds (ETFs)</li>
+                                                <li>Real Estate Investment Trusts (REITs)</li>
+                                                <li>Asset Management Companies (AMCs)</li>
+                                            </ul>
+
+                                            <h6 className='text-dark'>Modern Financial Concepts</h6>
+                                            <ul>
+                                                <li>Insurance (Life, Health, Term)</li>
+                                                <li>Cryptocurrency &amp; Blockchain Basics</li>
+                                                <li>ESG Investing</li>
+                                            </ul>
+                                        </div>
 
 
                                         <hr></hr>

@@ -283,12 +283,12 @@ const Navbar = () => {
           <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
 
             <li><a href="/">Home</a></li>
-            <li><a href="/enrollment-form">Join Now</a></li>
+            <li><a href="/enquire-now" className='text-info'>Enquire Now</a></li>
+            <li><a href="/admission-form" className='text-info'>Admission Form</a></li>
             <li><a href="https://classplusapp.com/w/metta-share-market-fhxiz/courses" className='nav-color'>Online Courses</a></li>
             <li><a href="/share-market-courses" className='nav-color'>Classroom Courses</a></li>
             <li><a href="/sip-calculator">SIP Calculator</a></li>
-            <li><a href="/cagr-calculator">CAGR Calculator</a></li>
-
+            
             <li className="dropdown-parent">
               <a href="#">About us</a>
               <ul className="dropdown-menu">
@@ -296,6 +296,9 @@ const Navbar = () => {
                 <li><a href="/gallery">Gallery</a></li>
                 <li><a href="/testimonial">Testimonial</a></li>
                 <li><a href="/resources">Resources</a></li>
+                <li><a href="/cagr-calculator">CAGR Calculator</a></li>
+                <li><a href="/seminar-register">AI Seminar</a></li>
+
               </ul>
             </li>
             <li><a href="/contact-us">Contact US</a></li>

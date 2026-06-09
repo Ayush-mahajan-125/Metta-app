@@ -8,13 +8,13 @@ import MettaHero from './MettaHero';
 import SmoothCursor from './SmoothCursor';
 import HeroGallery from './HeroGallery';
 import TestimonialSlider from './TestimonialSlider';
-import BrochureDownloadForm from './BrochureDownloadForm';
-import HomeBrochureDownloadForm from './HomeBrochureDownloadForm';
+// import BrochureDownloadForm from './BrochureDownloadForm';
+// import HomeBrochureDownloadForm from './HomeBrochureDownloadForm';
 import HomeAbout from './HomeAbout';
 import HomeWhyChoose from './HomeWhyChoose';
 import NagpurBestClasses from './NagpurBestClasses';
 import CallToAction from './CallToAction';
-import EmailSubscriptionForm from './EmailSubscriptionForm';
+// import EmailSubscriptionForm from './EmailSubscriptionForm';
 import Certification from './Certification';
 import poterImage from "../../assets/img/trading with AI.png";
 
@@ -76,7 +76,7 @@ const Home = () => {
 
       {/* Brochure Form */}
       <div className="msm-home-form">
-        <HomeBrochureDownloadForm />
+        {/* <HomeBrochureDownloadForm /> */}
       </div>
       {/* /Brochure Form */}
 
@@ -85,7 +85,6 @@ const Home = () => {
         <div className="modal-dialog modal-xl modal-dialog-centered">
           <div className="modal-content">
             <div className="modal-header text-white">
-              <h5 className="modal-title ms-auto">Upcomming Batch</h5>
               <p className='text-secondary'></p>
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
@@ -107,7 +106,7 @@ const Home = () => {
       {/* /call to action */}
 
       {/* email form */}
-      <EmailSubscriptionForm />
+      {/* <EmailSubscriptionForm /> */}
       {/* /email form */}
     </div>
   );

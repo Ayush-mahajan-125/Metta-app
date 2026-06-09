@@ -27,7 +27,7 @@ const MettaHero = () => {
         <>
             {/* hero section */}
             <Helmet>
-                <title>Metta Share Market | Learn Share Trading</title>
+                <title>Metta Share Market | Best Share Market Training Institute in Nagpur</title>
                 <meta name="description" content="Join Metta Share Market to learn stock trading. Live classes, beginner friendly, English , Marathi & Hindi available." />
             </Helmet>
             <div className="msm-masthead-header">
