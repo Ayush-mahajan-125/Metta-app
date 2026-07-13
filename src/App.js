@@ -19,6 +19,8 @@ import RegistrationForm from './Components/Home/RegistrationForm';
 import EnquireNow from './Components/Home/EnquireNow';
 import Calculator from './Components/Calculator/Calculator';
 import CAGRCalculator from './Components/CAGRCalculator/CAGRCalculator';
+import AIPrompt from './Components/AI-Prompt/AIPrompt';
+
 
 
 import './App.scss';
@@ -55,7 +57,8 @@ const App = () => {
               <Route path="/enquire-now" element={<EnquireNow />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/sip-calculator" element={<Calculator />} />
-              <Route path="/cagr-calculator" element={<CAGRCalculator />} />
+              <Route path="/cagr-calculator" element={<CAGRCalculator />} />  
+              <Route path="/ai-prompt" element={<AIPrompt />} />
               {/* <Route path="/seminar-register" element={<AISeminar />} /> */}
 
               <Route path="*" element={<Error />} />

@@ -13,10 +13,10 @@ import TestimonialSlider from './TestimonialSlider';
 import HomeAbout from './HomeAbout';
 import HomeWhyChoose from './HomeWhyChoose';
 import NagpurBestClasses from './NagpurBestClasses';
-import CallToAction from './CallToAction';
+// import CallToAction from './CallToAction';
 // import EmailSubscriptionForm from './EmailSubscriptionForm';
 import Certification from './Certification';
-import poterImage from "../../assets/img/trading with AI.png";
+import poterImage from "../../assets/img/trading with AI (2).png";
 
 
 // Import Bootstrap's Modal
@@ -102,7 +102,7 @@ const Home = () => {
       {/* Bootstrap Modal */}
 
       {/* call to action */}
-      <CallToAction />
+      {/* <CallToAction /> */}
       {/* /call to action */}
 
       {/* email form */}

@@ -43,7 +43,7 @@
     color: white;
 
     h1 {
-        font-size: 40px;
+        font-size: 50px;
         font-weight: 700;
         max-width: 900px;
         margin-top: 0;
@@ -51,7 +51,7 @@
 
     p {
 
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         opacity: 0.9;
         font-weight: 500;
         margin-bottom: 20px;
@@ -422,34 +422,16 @@
     }
 
     .img-fluid-about-image {
-        width: 85%;
-        height: 30rem;
+        width: 80%;
+        height: auto;
         object-fit: cover;
         filter: drop-shadow(4px 4px 0px #e3cd00);
         border-radius: 10px;
+
     }
 }
 
 // about us ---------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // photo gallery
 
@@ -1262,6 +1244,7 @@ summary::-webkit-details-marker {
     font-weight: 700 !important;
     font-size: 19px;
 }
-.msm-w-25{
+
+.msm-w-25 {
     width: 10%;
 }

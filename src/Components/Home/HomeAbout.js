@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.scss";
-import HeroAbout from '../../assets/img/about.png';;
+import HeroAbout from '../../assets/img/about.png';
 
 const HomeAbout = () => {
     return (
@@ -8,7 +8,7 @@ const HomeAbout = () => {
             <div className="container">
                 <div className="text-center mb-5">
                     <h6>About us</h6>
-                    <h1><span className="text-white">Best Stock Market Institute in India</span> <span className="text-highlight">– Metta Share Market</span></h1>
+                    <h1><span className="text-white">Best Stock Market Institute in Nagpur</span> <span className="text-highlight">– Metta Share Market</span></h1>
                 </div>
                 <div className="row align-items-center">
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -17,21 +17,18 @@ const HomeAbout = () => {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <p><b className="text-white">Metta Share Market </b>is a professional Stock Market Training Institute dedicated to providing practical, structured, and real-market education for traders and investors across India. We focus on building strong market understanding through modern trading techniques, live market analysis, and disciplined risk management, helping learners gain confidence in financial markets
+                        <p>
+                            <li>We provide practical stock market education through <b>live market sessions</b> , real trade examples, and hands-on chart analysis.</li>
 
-                            <li className="mt-2">We offer comprehensive training in stock market trading, long-term investing, technical analysis, fundamental analysis, Futures & Options (F&O), Smart Money Concepts (SMC), Forex, currency, commodity, and cryptocurrency markets.</li>
+                            <li>Our structured learning approach helps both beginners and experienced traders develop strong market understanding and trading confidence.</li>
 
-                            <li>Our learning approach is practical and market-oriented, using live charts, real trade examples, and price action strategies instead of theory-based teaching.</li>
+                            <li>Students receive guidance from experienced mentors with a strong focus on risk management, trading psychology, and disciplined decision-making.</li>
 
-                            <li>Metta Share Market provides guidance for both beginners and experienced traders through step-by-step learning and structured course modules.</li>
+                            <li>We offer comprehensive training in Stock Market, <b>Technical Analysis, F&O, Smart Money Concepts (SMC), Forex, Commodities, and Cryptocurrency markets.</b></li>
 
-                            <li>Our expert mentors bring years of real trading and teaching experience, helping students understand market behavior, trends, volatility, and trading psychology.</li>
+                            <li>With flexible online and offline programs, we make professional stock market education accessible to learners across Nagpur and India.</li>
 
-                            <li>We emphasize risk management, capital protection, and disciplined decision-making to support long-term trading success.</li>
-
-                            <li>We offer flexible online and offline training programs, making professional stock market education accessible to learners across India.</li>
-
-                            <li>Our goal is to create confident, skilled, and independent traders by delivering transparent, practical, and professional stock market training.</li>
+                            <li>Our mission is to create skilled, confident, and independent traders through transparent, practical, and market-oriented training</li>
                         </p>
                     </div>
                 </div>

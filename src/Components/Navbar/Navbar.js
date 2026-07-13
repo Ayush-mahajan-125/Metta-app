@@ -283,12 +283,13 @@ const Navbar = () => {
           <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
 
             <li><a href="/">Home</a></li>
-            <li><a href="/enquire-now" className='text-info'>Enquire Now</a></li>
-            <li><a href="/admission-form" className='text-info'>Admission Form</a></li>
+            <li><a href="https://www.nseindia.com/" className='text-orange-color'>NSE india</a></li>
+            <li><a href="https://www.screener.in/" className='text-green-color'>Screener</a></li>
+            <li><a href="/enquire-now" className=''>Enquire Now</a></li>
+            {/* <li><a href="/admission-form" className='text-info'>Admission Form</a></li> */}
             <li><a href="https://classplusapp.com/w/metta-share-market-fhxiz/courses" className='nav-color'>Online Courses</a></li>
             <li><a href="/share-market-courses" className='nav-color'>Classroom Courses</a></li>
-            <li><a href="/sip-calculator">SIP Calculator</a></li>
-            
+
             <li className="dropdown-parent">
               <a href="#">About us</a>
               <ul className="dropdown-menu">
@@ -298,6 +299,8 @@ const Navbar = () => {
                 <li><a href="/resources">Resources</a></li>
                 <li><a href="/cagr-calculator">CAGR Calculator</a></li>
                 <li><a href="/seminar-register">AI Seminar</a></li>
+                <li><a href="/sip-calculator">SIP Calculator</a></li>
+                <li><a href="/ai-prompt">AI Prompt</a></li>
 
               </ul>
             </li>

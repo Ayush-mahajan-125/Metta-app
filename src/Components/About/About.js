@@ -189,10 +189,10 @@ const About = () => {
       </div>
       {/* /content section  */}
 
-      <div className="container"><hr /></div>
+      <div className="container d-none"><hr /></div>
 
       {/* call to action */}
-      <div className="msm-about-section">
+      <div className="msm-about-section d-none">
         <div className="container text-center">
           <h1 className="display-6 fw-normal text-orange mb-4">Join the Metta Share Market Community!</h1>
 

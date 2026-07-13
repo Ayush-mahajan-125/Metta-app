@@ -1,0 +1,168 @@
+.prompt-section {
+    min-height: 100vh;
+    background: #0b1120;
+    background-image:
+        radial-gradient(circle at top right, #1d4ed822, transparent 35%),
+        radial-gradient(circle at bottom left, #7c3aed22, transparent 35%);
+}
+
+.prompt-heading {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.prompt-subtitle {
+    color: #94a3b8;
+    font-size: 1rem;
+}
+
+.prompt-card {
+
+    background: #111827;
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    border-radius: 20px;
+
+    padding: 22px;
+
+    height: 100%;
+
+    transition: .35s;
+
+    box-shadow:
+        0 10px 35px rgba(0, 0, 0, .35);
+
+}
+
+.prompt-card:hover {
+
+    transform: translateY(-8px);
+
+    border-color: #e3cd00;
+
+    box-shadow:
+        0 20px 45px rgba(255, 242, 1, 0.25);
+
+}
+
+.card-header-custom {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 18px;
+
+}
+
+.prompt-number {
+
+    width: 45px;
+
+    height: 45px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(135deg, #e3cd00, #e3cd00);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #000000;
+
+    font-weight: 700;
+
+    flex-shrink: 0;
+
+}
+
+.card-header-custom h5 {
+
+    color: #fff;
+
+    margin: 0;
+
+    font-weight: 600;
+
+}
+
+.prompt-textarea {
+
+    background: #0f172a !important;
+
+    border: 1px solid #334155 !important;
+
+    color: #d1d5db !important;
+
+    resize: none;
+
+    border-radius: 14px;
+
+    font-size: .92rem;
+
+    padding: 15px;
+    width: 100%;
+}
+
+.prompt-textarea:focus {
+
+    box-shadow: none;
+
+    border-color: #e3cd00 !important;
+
+}
+
+.copy-btn {
+
+    margin-top: 20px;
+
+    width: 100%;
+
+    border: none;
+
+    border-radius: 14px;
+
+    padding: 14px;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    color: #000000;
+
+    background: linear-gradient(135deg, #e3cd00, #d78400);
+
+    transition: .3s;
+
+}
+
+.copy-btn:hover {
+
+    transform: scale(1.02);
+
+    background: linear-gradient(135deg, #e3cd00, #d78400);
+
+}
+
+.copy-btn.copied {
+
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+
+}
+
+@media(max-width:768px) {
+
+    .prompt-heading {
+
+        font-size: 2rem;
+
+    }
+
+}
