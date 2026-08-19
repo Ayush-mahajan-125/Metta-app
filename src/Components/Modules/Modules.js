@@ -11,7 +11,7 @@ import Option from '../../assets/img/Option.png';
 
 const Modules = () => {
     return (
-        <section>
+        <section className='metta-bg-image'>
             <div className="msm-module-page-block">
                 <div className="msm-mt-5 container pb-5 ">
 
@@ -391,7 +391,7 @@ const Modules = () => {
                                 </button> */}
 
                                         <button type="button" class="btn-toggle-collapse msm-pointer">
-                                            <b className='text-center msm-text-color-text'>Chapter 1</b> <br /> Advanced Analysis Tracker
+                                            <b className='text-center msm-text-color-text'>Chapter 1</b> <br /> Chart Analysis Tracker
                                         </button>
                                     </div>
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js'; // Import Typed.js
 import './Home.scss';
-import profileImage from '../../assets/img/IMG_1359.png';
+import profileImage from '../../assets/img/Swapnil sir.png';
 import { Helmet } from 'react-helmet-async';
 
 
@@ -45,7 +45,7 @@ const MettaHero = () => {
 
                         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <div class="msm-card">
-                                <div class="msm-bg-container">
+                                <div class="msm-bg-container d-flex justify-content-center">
                                     <img src={profileImage} className="img-fluid msm-hero-image " alt="Swapnil-khaire" loading="lazy" />
                                 </div>
                                 <div class="blob"></div>
